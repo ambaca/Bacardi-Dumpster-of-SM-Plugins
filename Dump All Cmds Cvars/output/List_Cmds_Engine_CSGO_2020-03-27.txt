@@ -1,0 +1,3500 @@
+"npc_select"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Select or deselects the given NPC(s) for later manipulation.  Selected NPC's are shown surrounded by a red translucent box
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
+
+"adsp_reset_nodes"
+FCVAR_NONE
+
+"_restart"
+FCVAR_NONE
+- Shutdown and restart the engine.
+
+"unbind"
+FCVAR_NONE
+- Unbind a key.
+
+"-showbudget_texture_global"
+FCVAR_CHEAT 
+
+"mat_showmaterialsverbose"
+FCVAR_NONE
+- Show materials (verbose version).
+
+"ime_info"
+FCVAR_DONTRECORD 
+- Spew IME info.
+
+"_resetgamestats"
+FCVAR_GAMEDLL 
+- Erases current game stats and writes out a blank stats file
+
+"nav_place_set"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Sets the Place of all selected areas to the current Place.
+
+"removeid"
+FCVAR_NONE
+- Remove a user ID from the ban list.
+
+"gameui_hide"
+FCVAR_NONE
+- Hides the game UI
+
+"sm_reload_translations"
+FCVAR_NONE
+- Reparses all loaded translation files
+
+"cl_view"
+FCVAR_CHEAT 
+- Set the view entity index.
+
+"npc_relationships"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the relationships between this NPC and all others.
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at
+
+"timeout_ct_start"
+FCVAR_GAMEDLL 
+
+"dbghist_addline"
+FCVAR_GAMEDLL 
+- Add a line to the debug history. Format: <category id> <line>
+
+"sv_findsoundname"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL 
+- Find sound names which reference the specified wave files.
+
+"workshop_start_map"
+FCVAR_GAMEDLL 
+- Sets the first map to load once a workshop collection been hosted. Takes the file id of desired start map as a parameter.
+
+"wipe_nav_attributes"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Clear all nav attributes of selected area.
+
+"ai_show_graph_connect"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles graph connection display for the node that the player is looking at.  Nodes that are connected to the selected node by the net graph will be drawn in red with magenta lines connecting to the selected node.  Nodes that are not connected via the net
+
+"ent_messages"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles input/output message display for the selected entity(ies).  The name of the entity will be displayed as well as any messages that it sends or receives.
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at
+
+"setpos_player"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Move specified player to specified origin (must have sv_cheats).
+
+"host_runofftime"
+FCVAR_NONE
+- Run off some time without rendering/updating sounds
+
+
+"benchframe"
+FCVAR_NONE
+- Takes a snapshot of a particular frame in a time demo.
+
+"flush"
+FCVAR_CHEAT 
+- Flush unlocked cache memory.
+
+"skip_next_map"
+FCVAR_GAMEDLL 
+- Skips the next map in the map rotation for the server.
+
+"wc_destroy_undo"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- When in WC edit mode restores the last deleted node
+
+"bot_pistols_only"
+FCVAR_GAMEDLL 
+- Restricts the bots to only using pistols
+
+"nav_connect"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- To connect two Areas, mark the first Area, highlight the second Area, then invoke the connect command. Note that this creates a ONE-WAY connection from the first to the second Area. To make a two-way connection, also connect the second area to the first.
+
+"snd_stereo_speaker_pan_exponent"
+FCVAR_NONE
+- Specifies the exponent for the pan xfade from speaker to speaker if the "exp" pan law is being used.
+
+"snd_setmixer"
+FCVAR_CHEAT 
+- Set named Mixgroup of current mixer to mix vol, mute, solo.
+
+"disconnect"
+FCVAR_SERVER_CAN_EXECUTE 
+- Disconnect game from server.
+
+"fs_fios_prefetch_file"
+FCVAR_NONE
+- Prefetches a file: </PS3_GAME/USRDIR/filename.bin>.
+The preftech is medium priority and persistent.
+
+"snd_surround_speaker_pan_exponent"
+FCVAR_NONE
+- Specifies the exponent for the pan xfade from speaker to speaker if the "exp" pan law is being used.
+
+"vprof_remote_stop"
+FCVAR_NONE
+- Stop an existing remote VProf data request
+
+"editdemo"
+FCVAR_NONE
+- Edit a recorded demo file (.dem ).
+
+"sv_pure_listfiles"
+FCVAR_NONE
+- ListPureServerFiles
+
+"vprof_off"
+FCVAR_NONE
+- Turn off VProf profiler
+
+"ainet_generate_report"
+FCVAR_GAMEDLL 
+- Generate a report to the console.
+
+"nav_select_half_space"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Selects any areas that intersect the given half-space.
+
+"screenshot"
+FCVAR_CLIENTCMD_CAN_EXECUTE 
+- Take a screenshot.
+
+"spike"
+FCVAR_CHEAT 
+- generates a fake spike
+
+"voice_reset_mutelist"
+FCVAR_NONE
+- Reset all mute information for all players who were ever muted.
+
+"create_flashlight"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"version"
+FCVAR_NONE
+- Print version info string.
+
+"mat_custommaterialusage"
+FCVAR_CLIENTDLL 
+- Show memory usage for custom weapon materials.
+
+"script_reload_code"
+FCVAR_GAMEDLL 
+- Execute a vscript file, replacing existing functions with the functions in the run script
+
+"mat_savechanges"
+FCVAR_NONE
+- saves current video configuration to the registry
+
+"stuffcmds"
+FCVAR_NONE
+- Parses and stuffs command line + commands to command buffer.
+
+"exit"
+FCVAR_NONE
+- Exit the engine.
+
+"snd_soundmixer_list_mix_groups"
+FCVAR_NONE
+- List all mix groups to dev console.
+
+"demo_gototick"
+FCVAR_NONE
+- Skips to a tick in demo.
+
+"mod_DumpWeaponWiewModelCache"
+FCVAR_NONE
+- Dumps the weapon view model cache contents
+
+"ent_step"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- When 'ent_pause' is set this will step through one waiting input / output message at a time.
+
+"nav_check_floor"
+FCVAR_GAMEDLL 
+- Updates the blocked/unblocked status for every nav area.
+
+"log_flags"
+FCVAR_DONTRECORD 
+- Set the flags on a logging channel.
+
+"vprof_cachemiss_off"
+FCVAR_NONE
+- Turn off VProf cache miss checking
+
+"particle_test_start"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Dispatches the test particle system with the parameters specified in particle_test_file,
+ particle_test_attach_mode and particle_test_attach_param on the entity the player is looking at.
+	Arguments:   	{entity_name} / {class_name} / no argument picks what
+
+"host_workshop_map"
+FCVAR_GAMEDLL 
+- Get the latest version of the map and host it on this server.
+
+"ent_list_report"
+FCVAR_GAMEDLL 
+- Reports all list of all entities in a map, one by one
+
+"vprof_playback_step"
+FCVAR_NONE
+- While playing back a .vprof file, step to the next tick.
+
+"npc_kill"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Kills the given NPC(s)
+Arguments:   	{npc_name} / {npc_class_name} / no argument picks what player is looking at
+
+"sv_soundemitter_filecheck"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL 
+- Report missing wave files for sounds and game_sounds files.
+
+"writeip"
+FCVAR_NONE
+- Save the ban list to banned_ip.cfg.
+
+"writeid"
+FCVAR_NONE
+- Writes a list of permanently-banned user IDs to banned_user.cfg.
+
+"explodevector"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- Kills a player applying an explosive force. Usage: explodevector <player> <x value> <y value> <z value>
+
+"gods"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggle. All players become invulnerable.
+
+"report_entities"
+FCVAR_GAMEDLL 
+- Lists all entities
+
+"cmd"
+FCVAR_NONE
+- Forward command to server.
+
+"exojump"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- equips or removes exojump
+
+"nav_corner_lower"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Lower the selected corner of the currently marked Area.
+
+"snd_soundmixer_list_mix_layers"
+FCVAR_NONE
+- List all mix layers to dev console.
+
+"reload"
+FCVAR_NONE
+- Reload the most recent saved game (add setpos to jump to current view position on reload).
+
+"mat_showtextures"
+FCVAR_NONE
+- Show used textures.
+
+"sm_dump_classes"
+FCVAR_NONE
+- Dumps the class list as a text file
+
+"ent_script_dump"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Dumps the names and values of this entity's script scope to the console
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
+
+"ent_autoaim"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the entity's autoaim radius.
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at
+
+"buyrandom"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- Buy random primary and secondary. Primarily for deathmatch where cost is not an issue.
+
+"snd_dumpclientsounds"
+FCVAR_CHEAT 
+- Dump sounds to console
+
+"blackbox_dump"
+FCVAR_DEVELOPMENTONLY FCVAR_CHEAT FCVAR_DONTRECORD 
+- Dump the contents of the blackbox
+
+"kickid"
+FCVAR_NONE
+- Kick a player by userid or uniqueid, with a message.
+
+"mp_debug_timeouts"
+FCVAR_GAMEDLL 
+- Prints time outs to the console for debugging
+
+"vox_reload"
+FCVAR_CHEAT 
+- Reload sentences.txt file
+
+"askconnect_accept"
+FCVAR_DONTRECORD 
+- Accept a redirect request by the server.
+
+"vprof_generate_report_AI"
+FCVAR_NONE
+- Generate a report to the console.
+
+"ai_nodes"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles node display.  First call displays the nodes for the given network as green objects.  Second call  displays the nodes and their IDs.  Nodes are color coded as follows:
+	Green		- ground node
+	Cyan		- air node
+	Magenta	- climb node
+	Grey		- node not
+
+"kill"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- Kills the player with generic damage
+
+"mem_dump"
+FCVAR_NONE
+- Dump memory stats to text file.
+
+"memory"
+FCVAR_NONE
+- Print memory stats.
+
+"wc_air_edit_nearer"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- When in WC edit mode and editing air nodes,  moves position of air node crosshair and placement location nearer to from player
+
+"playvol"
+FCVAR_NONE
+- Play a sound at a specified volume.
+
+"vprof_generate_report_map_load"
+FCVAR_NONE
+- Generate a report to the console.
+
+"god"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggle. Player becomes invulnerable.
+
+"voxeltree_playerview"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- View entities in the voxel-tree at the player position.
+
+"nav_compress_id"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Re-orders area and ladder ID's so they are continuous.
+
+"sv_shutdown"
+FCVAR_RELEASE 
+- Sets the server to shutdown when all games have completed
+
+"npc_task_text"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Outputs text debugging information to the console about the all the tasks + break conditions of the selected NPC current schedule
+	Arguments:   	{npc_name} / {npc class_name} / no argument picks what player is looking at 
+
+"dumpentityfactories"
+FCVAR_GAMEDLL 
+- Lists all entity factory names.
+
+"xsave"
+FCVAR_DONTRECORD 
+- Saves current game to a console storage device.
+
+"ai_show_visibility"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles visibility display for the node that the player is looking at.  Nodes that are visible from the selected node will be drawn in red with yellow lines connecting to the selected node.  Nodes that are not visible from the selected node will be drawn 
+
+"voice_unmute"
+FCVAR_NONE
+- Unmute a specific Steam user, or `all` to unmute all connected players.
+
+"snd_print_channel_by_guid"
+FCVAR_CHEAT 
+- Prints the content of a channel from its guid. snd_print_channel_by_guid <guid>.
+
+"demo_listimportantticks"
+FCVAR_NONE
+- List all important ticks in the demo.
+
+"buddha"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggle.  Player takes damage but won't die. (Shows red cross when health is zero)
+
+"nav_mark_walkable"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Mark the current location as a walkable position. These positions are used as seed locations when sampling the map to generate a Navigation Mesh.
+
+"plugin_print"
+FCVAR_NONE
+- Prints details about loaded plugins
+
+"soundfade"
+FCVAR_SERVER_CAN_EXECUTE 
+- Fade client volume.
+
+"perfui"
+FCVAR_CHEAT 
+- Show/hide the level performance tools UI.
+
+"meta"
+FCVAR_NONE
+- Metamod:Source control options
+
+"shake"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Shake the screen.
+
+"endround"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- End the current round.
+
+"host_writeconfig_ss"
+FCVAR_NONE
+- Store current settings to config.cfg (or specified .cfg file) with first param as splitscreen index.
+
+"cache_print_summary"
+FCVAR_NONE
+- cache_print_summary [section]
+Print out a summary contents of cache memory.
+
+"net_steamcnx_status"
+FCVAR_NONE
+- Print status of steam connection sockets.
+
+"ai_show_hull"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the allowed hulls between each node for the currently selected hull type.  Hulls are color code as follows:
+	Green		- ground movement 
+	Blue		- jumping movement
+	Cyan		- flying movement
+	
+	Yellow		- crawling movement
+	Magenta	- climbing movement
+
+
+"setang_exact"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Snap player eyes and orientation to specified pitch yaw <roll:optional> (must have sv_cheats).
+
+"dump_globals"
+FCVAR_GAMEDLL 
+- Dump all global entities/states
+
+"snd_sos_flush_operators"
+FCVAR_CHEAT 
+- Flush and re-parse the sound operator system
+
+"clear_anim_cache"
+FCVAR_NONE
+- Clears the animation cache, freeing the memory (until the next time a streaming animblock is requested).
+
+"mp_warmup_end"
+FCVAR_GAMEDLL 
+- End warmup immediately.
+
+"nav_begin_drag_selecting"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Start dragging a selection area.
+
+"nav_walk"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles the 'traverse this area by walking' flag used by the AI system.
+
+"bench_end"
+FCVAR_CHEAT 
+- Ends gathering of info.
+
+"stats"
+FCVAR_NONE
+- Prints server performance variables
+
+"mem_eat"
+FCVAR_NONE
+
+"listmodels"
+FCVAR_NONE
+- List loaded models.
+
+"vprof_collapse_all"
+FCVAR_NONE
+- Collapse the whole vprof tree
+
+"reset_gameconvars"
+FCVAR_CHEAT 
+- Reset a bunch of game convars to default values
+
+"mp_disable_autokick"
+FCVAR_GAMEDLL 
+- Prevents a userid from being auto-kicked
+
+"nav_world_center"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Centers the nav mesh in the world
+
+"nav_ladder_flip"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Flips the selected ladder's direction.
+
+"ent_rbox"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the total bounding box for the given entity(s) in green.  Some entites will also display entity specific overlays.
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
+
+"nav_flood_select"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Selects the current Area and all Areas connected to it, recursively. To clear a selection, use this command again.
+
+"nav_end_drag_selecting"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Stop dragging a selection area.
+
+"snd_rear_stereo_speaker_position"
+FCVAR_NONE
+- Specifies the position (in degrees) of the virtual rear left/right speakers.
+
+"+mat_texture_list"
+FCVAR_NONE
+
+"mat_showmaterials"
+FCVAR_NONE
+- Show materials.
+
+"global_set"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- global_set <globalname> <state>: Sets the state of the given env_global (0 = OFF, 1 = ON, 2 = DEAD).
+
+"timeout_terrorist_start"
+FCVAR_GAMEDLL 
+
+"replay_start"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Start GOTV replay: replay_start <delay> [<player name or index>]
+
+"ping"
+FCVAR_NONE
+- Display ping to server.
+
+"stringtabledictionary"
+FCVAR_NONE
+- Create dictionary for current strings.
+
+"ent_setang"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Set entity angles
+
+"snd_print_channel_by_index"
+FCVAR_CHEAT 
+- Prints the content of a channel from its index. snd_print_channel_by_index <index>.
+
+"+showbudget_texture_global"
+FCVAR_CHEAT 
+
+"mat_reloadallcustommaterials"
+FCVAR_CLIENTDLL FCVAR_CHEAT 
+- Reloads all custom materials
+
+"host_workshop_collection"
+FCVAR_GAMEDLL 
+- Get the latest version of maps in a workshop collection and host them as a maplist.
+
+"async_resume"
+FCVAR_NONE
+
+"cl_csm_server_status"
+FCVAR_GAMEDLL 
+- Usage:
+ cl_csm_server_status
+
+
+"nav_lower_drag_volume_max"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Lower the top of the drag select volume.
+
+"log_color"
+FCVAR_DONTRECORD 
+- Set the color of a logging channel.
+
+"execwithwhitelist"
+FCVAR_NONE
+- Execute script file, only execing convars on a whitelist.
+
+"-showvprof"
+FCVAR_NONE
+
+"sm_internal"
+FCVAR_NONE
+
+"nav_no_hostages"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles the 'hostages cannot use this area' flag used by the AI system.
+
+"ss_disconnect"
+FCVAR_DEVELOPMENTONLY 
+- If connected with available split screen slots, connects a split screen player to this machine.
+
+"vprof"
+FCVAR_NONE
+- Toggle VProf profiler
+
+"nav_update_lighting"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Recomputes lighting values
+
+"nav_toggle_place_mode"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggle the editor into and out of Place mode. Place mode allows labelling of Area with Place names.
+
+"demo_pause"
+FCVAR_NONE
+- Pauses demo playback.
+
+"logaddress_list"
+FCVAR_NONE
+- List all addresses currently being used by logaddress.
+
+"sv_load_random_client_names_file"
+FCVAR_GAMEDLL FCVAR_RELEASE 
+- Loads a file containing random name words for clients
+
+"nav_shift"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Shifts the selected areas by the specified amount
+
+"flush_locked"
+FCVAR_CHEAT 
+- Flush unlocked and locked cache memory.
+
+"unbindalljoystick"
+FCVAR_NONE
+- Unbind all joystick keys.
+
+"nav_end_selecting"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Stop continuously adding to the selected set.
+
+"nav_use_place"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- If used without arguments, all available Places will be listed. If a Place argument is given, the current Place is set.
+
+"timerefresh"
+FCVAR_CHEAT 
+- Profile the renderer.
+
+"cache_print_lru"
+FCVAR_NONE
+- cache_print_lru [section]
+Print out contents of cache memory.
+
+"gameui_activate"
+FCVAR_NONE
+- Shows the game UI
+
+"test_entity_blocker"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Test command that drops an entity blocker out in front of the player.
+
+"snd_setmixlayer"
+FCVAR_CHEAT 
+- Set named Mixgroup of named mix layer to mix vol, mute, solo.
+
+"snd_soundmixer_list_mixers"
+FCVAR_NONE
+- List all mixers to dev console.
+
+"mat_setvideomode"
+FCVAR_NONE
+- sets the width, height, windowed state of the material system
+
+"disp_list_all_collideable"
+FCVAR_NONE
+- List all collideable displacements
+
+"ai_next_hull"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Cycles through the various hull sizes.  Currently selected hull size is written to the screen.  Controls which connections are shown when ai_show_hull or ai_show_connect commands are used
+	Arguments:	-none-
+
+"snd_front_stereo_speaker_position"
+FCVAR_NONE
+- Specifies the position (in degrees) of the virtual front left/right speakers.
+
+"recompute_speed"
+FCVAR_CHEAT 
+- Recomputes clock speed (for debugging purposes).
+
+"key_updatelayout"
+FCVAR_NONE
+- Updates game keyboard layout to current windows keyboard setting.
+
+"ent_viewoffset"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the eye position for the given entity(ies) in red.
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
+
+"bot_goto_mark"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Sends a bot to the marked nav area (useful for testing navigation meshes)
+
+"vprof_cachemiss"
+FCVAR_NONE
+- Toggle VProf cache miss checking
+
+"ent_dump"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Usage:
+   ent_dump <entity name>
+
+
+"nextdemo"
+FCVAR_NONE
+- Play next demo in sequence.
+
+"vprof_child"
+FCVAR_NONE
+
+"nav_generate"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Generate a Navigation Mesh for the current map and save it to disk.
+
+"cache_print"
+FCVAR_NONE
+- cache_print [section]
+Print out contents of cache memory.
+
+"listdemo"
+FCVAR_NONE
+- List demo file contents.
+
+"mp_backup_restore_load_file"
+FCVAR_GAMEDLL FCVAR_RELEASE 
+- Loads player cash, KDA, scores and team scores; resets to the next round after the backup
+
+"thread_test_tsqueue"
+FCVAR_NONE
+
+"kickid_ex"
+FCVAR_NONE
+- Kick a player by userid or uniqueid, provide a force-the-kick flag and also assign a message.
+
+"npc_reset"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Reloads schedules for all NPC's from their script files
+	Arguments:	-none-
+
+"mp_forcerespawnplayers"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Force all players to respawn.
+
+"ds_get_newest_subscribed_files"
+FCVAR_GAMEDLL FCVAR_RELEASE 
+- Re-reads web api auth key and subscribed file lists from disk and downloads the latest updates of those files from steam
+
+"nav_split"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- To split an Area into two, align the split line using your cursor and invoke the split command.
+
+"net_dumpeventstats"
+FCVAR_NONE
+- Dumps out a report of game event network usage
+
+"nav_mark_attribute"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Set nav attribute for all areas in the selected set.
+
+"dti_flush"
+FCVAR_NONE
+- Write out the datatable instrumentation files (you must run with -dti for this to work).
+
+"+showbudget"
+FCVAR_CHEAT 
+
+"commentary_finishnode"
+FCVAR_GAMEDLL 
+
+"nav_toggle_deselecting"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Start or stop continuously removing from the selected set.
+
+"speak"
+FCVAR_NONE
+- Play a constructed sentence.
+
+"vprof_expand_group"
+FCVAR_NONE
+- Expand a budget group in the vprof tree by name
+
+"maxplayers"
+FCVAR_NONE
+- Change the maximum number of players allowed on this server.
+
+"sv_dump_class_info"
+FCVAR_NONE
+- Dump server class infos.
+
+"killserver"
+FCVAR_NONE
+- Shutdown the server.
+
+"xload"
+FCVAR_NONE
+- Load a saved game from a console storage device.
+
+"wc_air_edit_further"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- When in WC edit mode and editing air nodes,  moves position of air node crosshair and placement location further away from player
+
+"demo_togglepause"
+FCVAR_NONE
+- Toggles demo playback.
+
+"mat_crosshair_reloadmaterial"
+FCVAR_CHEAT 
+- reload the material under the crosshair
+
+"vprof_parent"
+FCVAR_NONE
+
+"host_timer_report"
+FCVAR_NONE
+- Spew CPU timer jitter for the last 128 frames in microseconds (dedicated only)
+
+"vprof_generate_report"
+FCVAR_NONE
+- Generate a report to the console.
+
+"listissues"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- List all the issues that can be voted on.
+
+"sv_dump_class_table"
+FCVAR_NONE
+- Dump server class table matching the pattern (substr).
+
+"tv_relay"
+FCVAR_NONE
+- Connect to GOTV server and relay broadcast.
+
+"changelevel2"
+FCVAR_DONTRECORD 
+- Transition to the specified map in single player
+
+"ipc_console_disable_all"
+FCVAR_DONTRECORD FCVAR_CLIENTCMD_CAN_EXECUTE 
+- Disable all IPC consoles
+
+"snd_surround_speaker_pan_radial_weight"
+FCVAR_NONE
+- Apply cos(angle) * weight before pan law
+
+"connect_splitscreen"
+FCVAR_HIDDEN FCVAR_DONTRECORD FCVAR_RELEASE 
+- Connect to specified server. With multiple players.
+
+"vx_model_list"
+FCVAR_NONE
+- Dump models to VXConsole
+
+"plugin_unpause"
+FCVAR_NONE
+- plugin_unpause <index> : unpauses a disabled plugin
+
+"mat_reloadtextures"
+FCVAR_CHEAT 
+- Reloads all textures
+
+"nav_no_jump"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles the 'dont jump in this area' flag used by the AI system.
+
+"r_lightcache_invalidate"
+FCVAR_CHEAT 
+
+"sm_conhook_stop"
+FCVAR_NONE
+
+"showtriggers_toggle"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggle show triggers
+
+"ent_keyvalue"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Applies the comma delimited key=value pairs to the entity with the given Hammer ID.
+	Format: ent_keyvalue <entity id> <key1>=<value1>,<key2>=<value2>,...,<keyN>=<valueN>
+
+
+"crash"
+FCVAR_CHEAT 
+- Cause the engine to crash (Debug!!)
+
+"ai_clear_bad_links"
+FCVAR_GAMEDLL 
+- Clears bits set on nav links indicating link is unusable 
+
+"use"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- Use a particular weapon	
+Arguments: <weapon_name>
+
+"demo_resume"
+FCVAR_NONE
+- Resumes demo playback.
+
+"mod_combiner_info"
+FCVAR_NONE
+- debug spew for Combiner Info
+
+"autosave"
+FCVAR_NONE
+- Autosave
+
+"nav_dont_hide"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles the 'area is not suitable for hiding spots' flag used by the AI system.
+
+"r_printdecalinfo"
+FCVAR_NONE
+
+"tv_stop"
+FCVAR_NONE
+- Stops the GOTV broadcast [-instance <inst> ]
+
+"ent_attachments"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the attachment points on an entity.
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
+
+"nav_place_pick"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Sets the current Place to the Place of the Area under the cursor.
+
+"cmd1"
+FCVAR_NONE
+- sets userinfo string for split screen player in slot 1
+
+"nav_begin_deselecting"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Start continuously removing from the selected set.
+
+"bug"
+FCVAR_DONTRECORD 
+- Show the bug reporting UI.
+
+"press_x360_button"
+FCVAR_NONE
+- Press the specified Xbox 360 controller button (lt, rt, st[art], ba[ck], lb, rb, a, b, x, y, l[eft], r[right], u[p], d[own])
+
+"sv_send_stats"
+FCVAR_NONE
+- show stats of running parallel send
+
+"Test_LoopCount"
+FCVAR_CHEAT 
+- Test_LoopCount <loop name> <count> - loop back to the specified loop start point the specified # of times.
+
+"groundlist"
+FCVAR_GAMEDLL 
+- Display ground entity list <index>
+
+"player_ping"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- Creates a ping notification where the player is looking.
+
+"sv_soundscape_printdebuginfo"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- print soundscapes
+
+"playcast"
+FCVAR_NONE
+- Play a broadcast
+
+"mat_suppress"
+FCVAR_DEVELOPMENTONLY FCVAR_CHEAT 
+- Suppress a material from drawing
+
+"changelevel"
+FCVAR_DONTRECORD 
+- Change server to the specified map
+
+"vprof_generate_report_AI_only"
+FCVAR_NONE
+- Generate a report to the console.
+
+"vprof_playback_start"
+FCVAR_NONE
+- Start playing back a recorded .vprof file.
+
+"mat_hdr_enabled"
+FCVAR_NONE
+- Report if HDR is enabled for debugging
+
+"ent_bbox"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the movement bounding box for the given entity(ies) in orange.  Some entites will also display entity specific overlays.
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
+
+"mat_texture_list_txlod_sync"
+FCVAR_DONTRECORD 
+- 'reset' - resets all run-time changes to LOD overrides, 'save' - saves all changes to material content files
+
+"mp_swapteams"
+FCVAR_GAMEDLL 
+- Swap the teams and restart the game
+
+"nav_delete"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Deletes the currently highlighted Area.
+
+"addip"
+FCVAR_NONE
+- Add an IP address to the ban list.
+
+"mat_reporthwmorphmemory"
+FCVAR_CHEAT 
+- Reports the amount of size in bytes taken up by hardware morph textures.
+
+"drawcross"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Draws a cross at the given location
+	Arguments: x y z
+
+"nav_select_obstructed_areas"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Adds all obstructed areas to the selected set
+
+"plugin_pause"
+FCVAR_NONE
+- plugin_pause <index> : pauses a loaded plugin
+
+"-voicerecord"
+FCVAR_NONE
+
+"nav_stand"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles the 'stand while hiding' flag used by the AI system.
+
+"-showbudget_texture"
+FCVAR_CHEAT 
+
+"dumpgamestringtable"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Dump the contents of the game string table to the console.
+
+"replay_death"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- start hltv replay of last death
+
+"map_setbombradius"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Sets the bomb radius for the map.
+
+"logaddress_delall"
+FCVAR_NONE
+- Remove all udp addresses being logged to
+
+"cmd3"
+FCVAR_NONE
+- sets userinfo string for split screen player in slot 3
+
+"host_filtered_time_report"
+FCVAR_NONE
+- Dumps time spent idle in previous frames in ms(dedicated only).
+
+"script_reload_think"
+FCVAR_GAMEDLL 
+- Execute an activation script, replacing existing functions with the functions in the run script
+
+"nav_make_sniper_spots"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Chops the marked area into disconnected sub-areas suitable for sniper spots.
+
+"occlusion_stats"
+FCVAR_RELEASE 
+- Occlusion statistics; [-jitter] [-reset]
+
+"ai_show_grid"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Draw a grid on the floor where looking.
+
+"nav_load"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Loads the Navigation Mesh for the current map.
+
+"nav_corner_raise"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Raise the selected corner of the currently marked Area.
+
+"nav_clear_walkable_marks"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Erase any previously placed walkable positions.
+
+"snd_print_dsp_effect"
+FCVAR_NONE
+- Prints the content of a dsp effect.
+
+"playdemo"
+FCVAR_NONE
+- Play a recorded demo file (.dem ).
+
+"clear"
+FCVAR_DONTRECORD 
+- Clear all console output.
+
+"Test_StartScript"
+FCVAR_CHEAT 
+- Start a test script running..
+
+"commentary_cvarsnotchanging"
+FCVAR_GAMEDLL 
+
+"fs_fios_flush_cache"
+FCVAR_NONE
+- Flushes the FIOS HDD cache.
+
+"sm_print_telist"
+FCVAR_NONE
+- Prints the temp entity list
+
+"dz_shuffle_teams"
+FCVAR_GAMEDLL 
+- Shuffle all teams for Danger Zone
+
+"sv_pure_checkvpk"
+FCVAR_NONE
+- CheckPureServerVPKFiles
+
+"user"
+FCVAR_NONE
+- Show user data.
+
+"users"
+FCVAR_NONE
+- Show user info for players on server.
+
+"tv_broadcast_status"
+FCVAR_NONE
+- Print out broadcast status
+
+"map_commentary"
+FCVAR_DONTRECORD 
+- Start playing, with commentary, on a specified map.
+
+"ent_pause"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles pausing of input/output message processing for entities.  When turned on processing of all message will stop.  Any messages displayed with 'ent_messages' will stop fading and be displayed indefinitely. To step through the messages one by one use '
+
+"particle_test_stop"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Stops all particle systems on the selected entities.
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
+
+"script_help"
+FCVAR_GAMEDLL 
+- Output help for script functions, optionally with a search string
+
+"nav_remove_from_selected_set"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Remove current area from the selected set.
+
+"nav_toggle_place_painting"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles Place Painting mode. When Place Painting, pointing at an Area will 'paint' it with the current Place.
+
+"differences"
+FCVAR_NONE
+- Show all convars which are not at their default values.
+
+"tv_msg"
+FCVAR_NONE
+- Send a screen message to all clients [-instance <inst> ]
+
+"listRecentNPCSpeech"
+FCVAR_GAMEDLL FCVAR_DONTRECORD 
+- Displays a list of the last 5 lines of speech from NPCs.
+
+"devshots_screenshot"
+FCVAR_DONTRECORD 
+- Used by the -makedevshots system to take a screenshot. For taking your own screenshots, use the 'screenshot' command instead.
+
+"hideconsole"
+FCVAR_DONTRECORD 
+- Hide the console.
+
+"mat_crosshair_printmaterial"
+FCVAR_CHEAT 
+- print the material under the crosshair
+
+"listid"
+FCVAR_NONE
+- Lists banned users.
+
+"kdtree_test"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Tests spatial partition for entities queries.
+
+"sm"
+FCVAR_NONE
+- SourceMod Menu
+
+"npc_go"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Selected NPC(s) will go to the location that the player is looking (shown with a purple box)
+	Arguments:	-none-
+
+"npc_squads"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Obsolete.  Replaced by npc_combat
+
+"foundry_engine_get_mouse_control"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Give the engine control of the mouse.
+
+"plugin_pause_all"
+FCVAR_NONE
+- pauses all loaded plugins
+
+"cast_hull"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Tests hull collision detection
+
+"dbghist_dump"
+FCVAR_GAMEDLL 
+- Dump the debug history to the console. Format: <category id>
+    Categories:
+     0: Entity I/O
+     1: AI Decisions
+     2: Scene Print
+     3: Alyx Blind
+     4: Log of damage done to player
+
+"voice_enable_toggle"
+FCVAR_NONE
+- Toggles voice_enable convar.
+
+"find_ent_index"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Display data for entity matching specified index.
+Format: find_ent_index <index>
+
+
+"Test_ProxyToggle_EnableProxy"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_recall_selected_set"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Re-selects the stored selected set.
+
+"light_crosshair"
+FCVAR_CHEAT 
+- Show texture color at crosshair
+
+"npc_heal"
+FCVAR_GAMEDLL 
+- Heals the target back to full health
+
+"sv_rethrow_last_grenade"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Emit the last grenade thrown on the server.
+
+"_record"
+FCVAR_DONTRECORD 
+- Record a demo incrementally.
+
+"unbindallmousekeyboard"
+FCVAR_NONE
+- Unbind all mouse / keyboard keys.
+
+"+showbudget_texture"
+FCVAR_CHEAT 
+
+"bot_add"
+FCVAR_GAMEDLL 
+- bot_add <t|ct> <type> <difficulty> <name> - Adds a bot matching the given criteria.
+
+"nav_begin_shift_xy"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Begin shifting the Selected Set.
+
+"map_background"
+FCVAR_DONTRECORD 
+- Runs a map as the background to the main menu.
+
+"dz_spawnselect_choose_hex"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+
+"rr_forceconcept"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- fire a response concept directly at a given character.
+USAGE: rr_forceconcept <target> <concept> "criteria1:value1,criteria2:value2,..."
+criteria values are optional.
+
+
+"nav_check_stairs"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Update the nav mesh STAIRS attribute
+
+"sv_getinfo"
+FCVAR_NONE
+- Show user info of a connected client
+
+"dump_entity_sizes"
+FCVAR_GAMEDLL 
+- Print sizeof(entclass)
+
+"nav_select_radius"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Adds all areas in a radius to the selection set
+
+"nav_place_floodfill"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Sets the Place of the Area under the cursor to the curent Place, and 'flood-fills' the Place to all adjacent Areas. Flood-filling stops when it hits an Area with the same Place, or a different Place than that of the initial Area.
+
+"mp_guardian_add_bounds_pt"
+FCVAR_GAMEDLL 
+- mp_guardian_add_bounds_pt
+
+"replay_stop"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- stop hltv replay
+
+"bot_place"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- bot_place - Places a bot from the map at where the local player is pointing.
+
+"snd_restart"
+FCVAR_NONE
+- Restart sound system.
+
+"map"
+FCVAR_DONTRECORD 
+- Start playing on specified map.
+
+"prop_debug"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggle prop debug mode. If on, props will show colorcoded bounding boxes. Red means ignore all damage. White means respond physically to damage but never break. Green maps health in the range of 100 down to 1.
+
+"wc_air_node_edit"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- When in WC edit mode, toggles laying down or air nodes instead of ground nodes
+
+"nav_store_selected_set"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Stores the current selected set for later retrieval.
+
+"nav_place_list"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Lists all place names used in the map.
+
+"blackbox_record"
+FCVAR_DONTRECORD 
+- Record an entry into the blackbox
+
+"vprof_record_start"
+FCVAR_NONE
+- Start recording vprof data for playback later.
+
+"ainet_generate_report_only"
+FCVAR_GAMEDLL 
+- Generate a report to the console.
+
+"say_team"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- Display player message to team
+
+"wc_link_edit"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"find_ent"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Find and list all entities with classnames or targetnames that contain the specified substring.
+Format: find_ent <substring>
+
+
+"explode"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- Kills the player with explosive damage
+
+"logaddress_add_ex"
+FCVAR_NONE
+- Set address and port for remote host <ip:port> and supplies a unique token in the UDP packets.
+
+"reset_expo"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Reset player scores, player controls, team scores, and end the round
+
+"nav_begin_area"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Defines a corner of a new Area or Ladder. To complete the Area or Ladder, drag the opposite corner to the desired location and issue a 'nav_end_area' command.
+
+"voice_show_mute"
+FCVAR_NONE
+- Show whether current players are muted.
+
+"snd_getmixer"
+FCVAR_NONE
+- Get data related to mix group matching string
+
+"exec"
+FCVAR_NONE
+- Execute script file.
+
+"server_game_time"
+FCVAR_GAMEDLL 
+- Gives the game time in seconds (server's curtime)
+
+"steam_controller_status"
+FCVAR_NONE
+- Spew report of steam controller status
+
+"setpos"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Move player to specified origin (must have sv_cheats).
+
+"snd_async_showmem"
+FCVAR_NONE
+- Show async memory stats
+
+"voice_player_volume"
+FCVAR_NONE
+
+"fogui"
+FCVAR_DONTRECORD 
+- Show/hide fog control UI.
+
+"path"
+FCVAR_NONE
+- Show the engine filesystem path.
+
+"ent_rotate"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Rotates an entity by a specified # of degrees
+
+"Test_RandomizeInPVS"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"npc_destroy_unselected"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Removes all NPCs from the universe that aren't currently selected
+
+"retry"
+FCVAR_DONTRECORD FCVAR_SERVER_CAN_EXECUTE FCVAR_CLIENTCMD_CAN_EXECUTE 
+- Retry connection to last server.
+
+"startdemos"
+FCVAR_NONE
+- Play demos in demo sequence.
+
+"nav_select_invalid_areas"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Adds all invalid areas to the Selected Set.
+
+"nav_merge"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- To merge two Areas into one, mark the first Area, highlight the second by pointing your cursor at it, and invoke the merge command.
+
+"bench_upload"
+FCVAR_CHEAT 
+- Uploads most recent benchmark stats to the Valve servers.
+
+"cmd2"
+FCVAR_NONE
+- sets userinfo string for split screen player in slot 2
+
+"multvar"
+FCVAR_DONTRECORD 
+- Multiply specified convar value.
+
+"Test_Loop"
+FCVAR_CHEAT 
+- Test_Loop <loop name> - loop back to the specified loop start point unconditionally.
+
+"nav_transient"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles the 'area is transient and may become blocked' flag used by the AI system.
+
+"display_elapsedtime"
+FCVAR_CHEAT 
+- Displays how much time has elapsed since the game started
+
+"key_listboundkeys"
+FCVAR_NONE
+- List bound keys with bindings.
+
+"ent_info"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Usage:
+   ent_info <class name>
+
+
+"test_outtro_stats"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"script_dump_all"
+FCVAR_GAMEDLL 
+- Dump the state of the VM to the console
+
+"play"
+FCVAR_SERVER_CAN_EXECUTE 
+- Play a sound.
+
+"logaddress_del"
+FCVAR_NONE
+- Remove address and port for remote host <ip:port>.
+
+"key_findbinding"
+FCVAR_NONE
+- Find key bound to specified command string.
+
+"npc_thinknow"
+FCVAR_GAMEDLL 
+- Trigger NPC to think
+
+"observer_use"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+
+"buildmodelforworld"
+FCVAR_NONE
+- buildmodelforworld
+
+"npc_bipass"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the local movement attempts by the given NPC(s) (triangulation detours).  Failed bypass routes are displayed in red, successful bypasses are shown in green.
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at
+
+"sv_pure"
+FCVAR_NONE
+- Show user data.
+
+"map_edit"
+FCVAR_NONE
+
+"nav_add_to_selected_set"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Add current area to the selected set.
+
+"nav_toggle_in_selected_set"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Remove current area from the selected set.
+
+"r_cleardecals"
+FCVAR_CLIENTCMD_CAN_EXECUTE 
+- Usage r_cleardecals <permanent>.
+
+"plugin_unpause_all"
+FCVAR_NONE
+- unpauses all disabled plugins
+
+"plugin_load"
+FCVAR_NONE
+- plugin_load <filename> : loads a plugin
+
+"threadpool_cycle_reserve"
+FCVAR_NONE
+- Cycles threadpool reservation by powers of 2
+
+"audit_save_in_memory"
+FCVAR_NONE
+- Audit the memory usage and files in the save-to-memory system
+
+"vprof_playback_average"
+FCVAR_NONE
+- Average the next N frames.
+
+"startupmenu"
+FCVAR_NONE
+- Opens initial menu screen and loads the background bsp, but only if no other level is being loaded, and we're not in developer mode.
+
+"Test_Wait"
+FCVAR_CHEAT 
+
+"log_dumpchannels"
+FCVAR_DONTRECORD 
+- Dumps information about all logging channels.
+
+"Test_RandomChance"
+FCVAR_CHEAT 
+- Test_RandomChance <percent chance, 0-100> <token1> <token2...> - Roll the dice and maybe run the command following the percentage chance.
+
+"npc_steering"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the steering obstructions of the NPC (used to perform local avoidance)
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at
+
+"mat_info"
+FCVAR_NONE
+- Shows material system info
+
+"host_writeconfig"
+FCVAR_NONE
+- Store current settings to config.cfg (or specified .cfg file).
+
+"sv_dz_reset_danger_zone"
+FCVAR_GAMEDLL 
+
+"setpause"
+FCVAR_NONE
+- Set the pause state of the server.
+
+"fs_fios_prefetch_file_in_pack"
+FCVAR_NONE
+- Prefetches a file in a pack: <portal2/models/container_ride/fineDebris_part5.ani>.
+The preftech is medium priority and non-persistent.
+
+"npc_tasks"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays detailed text debugging information about the all the tasks of the selected NPC current schedule (See Overlay Text)
+	Arguments:   	{npc_name} / {npc class_name} / no argument picks what player is looking at 
+
+"nav_update_blocked"
+FCVAR_GAMEDLL 
+- Updates the blocked/unblocked status for every nav area.
+
+"spincycle"
+FCVAR_CHEAT 
+- Cause the engine to spincycle (Debug!!)
+
+"mp_bot_ai_bt_clear_cache"
+FCVAR_GAMEDLL FCVAR_RELEASE 
+- Clears the cache for behavior tree files.
+
+"nav_end_drag_deselecting"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Stop dragging a selection area.
+
+"render_blanks"
+FCVAR_NONE
+- render N blank frames
+
+"cast_ray"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Tests collision detection
+
+"report_soundpatch"
+FCVAR_GAMEDLL 
+- reports sound patch count
+
+"nav_stop"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles the 'must stop when entering this area' flag used by the AI system.
+
+"rcon"
+FCVAR_DONTRECORD 
+- Issue an rcon command.
+
+"vprof_prevsibling"
+FCVAR_NONE
+
+"npc_ammo_deplete"
+FCVAR_GAMEDLL 
+- Subtracts half of the target's ammo
+
+"fs_fios_print_prefetches"
+FCVAR_NONE
+- Displays all the prefetches currently in progress.
+
+"ai_drop_hint"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Drop an ai_hint at the player's current eye position.
+
+"ent_remove"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Removes the given entity(s)
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
+
+"drawline"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Draws line between two 3D Points.
+	Green if no collision
+	Red is collides with something
+	Arguments: x1 y1 z1 x2 y2 z2
+
+"snd_async_showmem_music"
+FCVAR_NONE
+- Show async memory stats for just non-streamed music
+
+"npc_set_freeze"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Selected NPC(s) will freeze in place (or unfreeze). If there are no selected NPCs, uses the NPC under the crosshair.
+	Arguments:	-none-
+
+"fadein"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- fadein {time r g b}: Fades the screen in from black or from the specified color over the given number of seconds.
+
+"logaddress_add_http_delayed"
+FCVAR_GAMEDLL FCVAR_UNLOGGED FCVAR_RELEASE 
+- Set a delay and URI of a listener to receive logs via http post. Wrap URI in double quotes.
+
+"print_mapgroup_sv"
+FCVAR_GAMEDLL FCVAR_RELEASE 
+- Prints the current mapgroup and the contained maps
+
+"forcebind"
+FCVAR_NONE
+- Bind a command to an available key. (forcebind command opt:suggestedKey)
+
+"nav_save_selected"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Writes the selected set to disk for merging into another mesh via nav_merge_mesh.
+
+"snd_async_showmem_summary"
+FCVAR_NONE
+- Show brief async memory stats
+
+"bot_add_ct"
+FCVAR_GAMEDLL 
+- bot_add_ct <type> <difficulty> <name> - Adds a Counter-Terrorist bot matching the given criteria.
+
+"nav_avoid"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles the 'avoid this area when possible' flag used by the AI system.
+
+"nav_strip"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Strips all Hiding Spots, Approach Points, and Encounter Spots from the current Area.
+
+"net_status"
+FCVAR_NONE
+- Shows current network status
+
+"mat_reloadvmtcache"
+FCVAR_DEVELOPMENTONLY FCVAR_CLIENTDLL FCVAR_CHEAT 
+- Reload vmts from vmtcache.txt.
+
+"ai_debug_node_connect"
+FCVAR_GAMEDLL 
+- Debug the attempted connection between two nodes
+
+"script_reload_entity_code"
+FCVAR_GAMEDLL 
+- Execute all of this entity's VScripts, replacing existing functions with the functions in the run scripts
+
+"wc_create"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- When in WC edit mode, creates a node where the player is looking if a node is allowed at that location for the currently selected hull size (see ai_next_hull)
+
+"map_showspawnpoints"
+FCVAR_GAMEDLL 
+- Shows player spawn points (red=invalid). Optionally pass in the duration.
+
+"cs_make_vip"
+FCVAR_GAMEDLL 
+- Marks a player as the VIP
+
+"snd_writemanifest"
+FCVAR_NONE
+- If running a game, outputs the precache manifest for the current level
+
+
+"unbindall"
+FCVAR_NONE
+- Unbind all keys.
+
+"vprof_record_stop"
+FCVAR_NONE
+- Stop recording vprof data
+
+"setang"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Snap player eyes to specified pitch yaw <roll:optional> (must have sv_cheats).
+
+"snd_dump_filepaths"
+FCVAR_NONE
+
+"buildcubemaps"
+FCVAR_NONE
+- Rebuild cubemaps.
+
+"ent_text"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays text debugging information about the given entity(ies) on top of the entity (See Overlay Text)
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
+
+"timeleft"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- prints the time remaining in the match
+
+"nav_remove_jump_areas"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Removes legacy jump areas, replacing them with connections.
+
+"record"
+FCVAR_DONTRECORD 
+- Record a demo.
+
+"BindToggle"
+FCVAR_NONE
+- Performs a bind <key> "increment var <cvar> 0 1 1"
+
+"sm_dump_netprops_xml"
+FCVAR_NONE
+- Dumps the networkable property table as an XML file
+
+"whitelistcmd"
+FCVAR_NONE
+- Runs a whitelisted command.
+
+"fs_fios_cancel_prefetches"
+FCVAR_NONE
+- Cancels all the prefetches in progress.
+
+"npc_route"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the current route of the given NPC as a line on the screen.  Waypoints along the route are drawn as small cyan rectangles.  Line is color coded in the following manner:
+	Blue	- path to a node
+	Cyan	- detour around an object (triangulation)
+	Red	-
+
+"lightprobe"
+FCVAR_NONE
+- Samples the lighting environment.
+Creates a cubemap and a file indicating the local lighting in a subdirectory called 'materials/lightprobes'
+.The lightprobe command requires you specify a base file name.
+
+
+"vprof_to_csv"
+FCVAR_NONE
+- Convert a recorded .vprof file to .csv.
+
+"cmd4"
+FCVAR_NONE
+- sets userinfo string for split screen player in slot 4
+
+"npc_nearest"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Draw's a while box around the NPC(s) nearest node
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at  
+
+"npc_steering_all"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the steering obstructions of all NPCs (used to perform local avoidance)
+
+
+"nav_select_blocked_areas"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Adds all blocked areas to the selected set
+
+"npc_teleport"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Selected NPC will teleport to the location that the player is looking (shown with a purple box)
+	Arguments:	-none-
+
+"endmovie"
+FCVAR_DONTRECORD 
+- Stop recording movie frames.
+
+"help"
+FCVAR_NONE
+- Find help about a convar/concommand.
+
+"minisave"
+FCVAR_DONTRECORD 
+- Saves game (for current level only!)
+
+"editor_toggle"
+FCVAR_CHEAT 
+- Disables the simulation and returns focus to the editor
+
+"+showvprof"
+FCVAR_NONE
+
+"ent_setpos"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Move entity to position
+
+"nav_clear_attribute"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Remove given nav attribute from all areas in the selected set.
+
+"demo_info"
+FCVAR_NONE
+- Print information about currently playing demo.
+
+"mp_backup_restore_list_files"
+FCVAR_GAMEDLL FCVAR_RELEASE 
+- Lists recent backup round files matching the prefix, most recent files first, accepts a numeric parameter to limit the number of files displayed
+
+"showconsole"
+FCVAR_DONTRECORD 
+- Show the console.
+
+"npc_enemies"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Shows memory of NPC.  Draws an X on top of each memory.
+	Eluded entities drawn in blue (don't know where it went)
+	Unreachable entities drawn in green (can't get to it)
+	Current enemy drawn in red
+	Current target entity drawn in magenta
+	All other entitie
+
+"ent_name"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"dz_clearteams"
+FCVAR_GAMEDLL 
+- Clear all DZ teams
+
+"nav_select_damaging_areas"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Adds all damaging areas to the selected set
+
+"snd_async_flush"
+FCVAR_NONE
+- Flush all unlocked async audio data
+
+"jpeg"
+FCVAR_NONE
+- Take a jpeg screenshot:  jpeg <filename> <quality 1-100>.
+
+"give"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- Give item to player.
+	Arguments: <item_name>
+
+"Test_RemoveAllRandomEntities"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"snd_sos_print_operators"
+FCVAR_CHEAT 
+- Prints a list of currently available operators
+
+"startmovie"
+FCVAR_DONTRECORD 
+- Start recording movie frames.
+
+"vprof_generate_report_hierarchy"
+FCVAR_NONE
+- Generate a report to the console.
+
+"Test_StartLoop"
+FCVAR_CHEAT 
+- Test_StartLoop <loop name> - Denote the start of a loop. Really just defines a named point you can jump to.
+
+"rr_reloadresponsesystems"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Reload all response system scripts.
+
+"nav_corner_select"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Select a corner of the currently marked Area. Use multiple times to access all four corners.
+
+"listip"
+FCVAR_NONE
+- List IP addresses on the ban list.
+
+"star_memory"
+FCVAR_NONE
+- Dump memory stats
+
+"sndplaydelay"
+FCVAR_NONE
+
+"removeip"
+FCVAR_NONE
+- Remove an IP address from the ban list.
+
+"-showbudget"
+FCVAR_CHEAT 
+
+"voxeltree_sphere"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- View entities in the voxel-tree inside sphere <Vector(center), float(radius)>.
+
+"vprof_playback_stop"
+FCVAR_NONE
+- Stop playing back a recorded .vprof file.
+
+"vgui_dump_panels"
+FCVAR_NONE
+- vgui_dump_panels [visible]
+
+"npc_create_aimed"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Creates an NPC aimed away from the player of the given type where the player is looking (if the given NPC can actually stand at that location).  Note that this only works for npc classes that are already in the world.  You can not create an entity that do
+
+"mp_forcewin"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Forces team to win
+
+"nav_subdivide"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Subdivides all selected areas.
+
+"playoverwatchevidence"
+FCVAR_HIDDEN 
+- Play evidence for an overwatch case.
+
+"asw_engine_finished_building_map"
+FCVAR_NONE
+- Notify engine that we've finished building a map
+
+"save_finish_async"
+FCVAR_NONE
+
+"net_connections_stats"
+FCVAR_NONE
+- Print detailed network statistics for each network connection
+
+"npc_set_freeze_unselected"
+FCVAR_GAMEDLL 
+- Freeze all NPCs not selected
+
+"ent_show_response_criteria"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Print, to the console, an entity's current criteria set used to select responses.
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
+
+"report_touchlinks"
+FCVAR_GAMEDLL 
+- Lists all touchlinks
+
+"-mat_texture_list"
+FCVAR_NONE
+
+"status"
+FCVAR_NONE
+- Display map and connection status.
+
+"ai_test_los"
+FCVAR_GAMEDLL 
+- Test AI LOS from the player's POV
+
+"physics_constraints"
+FCVAR_GAMEDLL 
+- Highlights constraint system graph for an entity
+
+"mp_unpause_match"
+FCVAR_GAMEDLL 
+- Resume the match
+
+"bot_kick"
+FCVAR_GAMEDLL 
+- bot_kick <all> <t|ct> <type> <difficulty> <name> - Kicks a specific bot, or all bots, matching the given criteria.
+
+"nav_corner_place_on_ground"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Places the selected corner of the currently marked Area on the ground.
+
+"vprof_adddebuggroup1"
+FCVAR_NONE
+- add a new budget group dynamically for debugging
+
+"sv_soundemitter_spew"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL 
+- Print details about a sound.
+
+"load_master_item_schema"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_HIDDEN FCVAR_CHEAT 
+- Reloads the item master schema.
+
+"-vgui_drawtree"
+FCVAR_NONE
+
+"hammer_update_entity"
+FCVAR_GAMEDLL 
+- Updates the entity's position/angles when in edit mode
+
+"nav_check_file_consistency"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Scans the maps directory and reports any missing/out-of-date navigation files.
+
+"nav_toggle_selecting"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Start or stop continuously adding to the selected set.
+
+"snd_setmixlayer_amount"
+FCVAR_CHEAT 
+- Set named mix layer mix amount.
+
+"tv_stoprecord"
+FCVAR_NONE
+- Stops GOTV demo recording [-instance <inst> ]
+
+"npc_combat"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays text debugging information about the squad and enemy of the selected NPC  (See Overlay Text)
+	Arguments:   	{npc_name} / {npc class_name} / no argument picks what player is looking at
+
+"ent_cancelpendingentfires"
+FCVAR_GAMEDLL 
+- Cancels all ent_fire created outputs that are currently waiting for their delay to expire.
+
+"setpos_exact"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Move player to an exact specified origin (must have sv_cheats).
+
+"fadeout"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- fadeout {time r g b}: Fades the screen to black or to the specified color over the given number of seconds.
+
+"sv_soundemitter_flush"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL 
+- Flushes the sounds.txt system (server only)
+
+"mod_dynamicmodeldebug"
+FCVAR_HIDDEN FCVAR_DONTRECORD 
+- debug spew for dynamic model loading
+
+"ent_pivot"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the pivot for the given entity(ies).
+	(y=up=green, z=forward=blue, x=left=red). 
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
+
+"nav_merge_mesh"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Merges a saved selected set into the current mesh.
+
+"dsp_reload"
+FCVAR_CHEAT 
+
+"mat_showaspectratioinfo"
+FCVAR_DEVELOPMENTONLY 
+- Spew info about the hardware aspect ratio
+
+"itemtimedata_dump_active"
+FCVAR_GAMEDLL 
+
+"_bugreporter_restart"
+FCVAR_NONE
+- Restarts bug reporter .dll
+
+"incrementvar"
+FCVAR_DONTRECORD 
+- Increment specified convar value.
+
+"bind_osx"
+FCVAR_NONE
+- Bind a key for OSX only.
+
+"sm_dump_handles"
+FCVAR_NONE
+- Dumps Handle usage to a file for finding Handle leaks
+
+"vprof_playback_stepback"
+FCVAR_NONE
+- While playing back a .vprof file, step to the previous tick.
+
+"log_level"
+FCVAR_DONTRECORD 
+- Set the spew level of a logging channel.
+
+"mat_debug"
+FCVAR_DEVELOPMENTONLY FCVAR_CHEAT 
+- Activates debugging spew for a specific material.
+
+"mem_incremental_compact"
+FCVAR_NONE
+
+"ai_show_connect"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the allowed connections between each node for the currently selected hull type.  Hulls are color code as follows:
+	Green		- ground movement 
+	Blue		- jumping movement
+	Cyan		- flying movement
+	
+	Yellow		- crawling movement
+	Magenta	- climbing mov
+
+"scene_flush"
+FCVAR_GAMEDLL 
+- Flush all .vcds from the cache and reload from disk.
+
+"ipc_console_show"
+FCVAR_DONTRECORD FCVAR_CLIENTCMD_CAN_EXECUTE 
+- Show status of IPC consoles
+
+"nav_chop_selected"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Chops all selected areas into their component 1x1 areas
+
+"demo_listhighlights"
+FCVAR_NONE
+- List all highlights data for the demo.
+
+"sm_conhook_start"
+FCVAR_NONE
+
+"mat_crosshair_edit"
+FCVAR_CHEAT 
+- open the material under the crosshair in the editor defined by mat_crosshair_edit_editor
+
+"mat_updateconvars"
+FCVAR_NONE
+- updates the video config convars
+
+"physics_report_active"
+FCVAR_GAMEDLL 
+- Lists all active physics objects
+
+"dumpeventqueue"
+FCVAR_GAMEDLL 
+- Dump the contents of the Entity I/O event queue to the console.
+
+"soundlist"
+FCVAR_NONE
+- List all known sounds.
+
+"fs_printopenfiles"
+FCVAR_NONE
+- Show all files currently opened by the engine.
+
+"mat_rendered_faces_spew"
+FCVAR_NONE
+- 'mat_rendered_faces_spew <n>' Spew the number of faces rendered for the top N models used this frame (mat_rendered_faces_count must be set to use this)
+
+"mat_texture_list_exclude"
+FCVAR_DONTRECORD 
+- 'load' - loads the exclude list file, 'reset' - resets all loaded exclude information, 'save' - saves exclude list file
+
+"say"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- Display player message
+
+"nav_analyze"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Re-analyze the current Navigation Mesh and save it to disk.
+
+"sv_clearhinthistory"
+FCVAR_GAMEDLL 
+- Clear memory of server side hints displayed to the player.
+
+"debug_drawdisp_boundbox"
+FCVAR_CHEAT 
+- Create debug boxes for invalid displacements
+
+"prop_physics_create"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Creates a physics prop with a specific .mdl aimed away from where the player is looking.
+	Arguments: {.mdl name}
+
+"nav_analyze_scripted"
+FCVAR_GAMEDLL FCVAR_HIDDEN FCVAR_CHEAT 
+- commandline hook to run a nav_analyze and then quit.
+
+"logaddress_add_ts"
+FCVAR_NONE
+- Set address and port for remote host <ip:port> and uses a unique checksum from logaddress_token_secret in the UDP packets.
+
+"vprof_nextsibling"
+FCVAR_NONE
+
+"npc_destroy"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Removes the given NPC(s) from the universe
+Arguments:   	{npc_name} / {npc_class_name} / no argument picks what player is looking at
+
+"bot_kill"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- bot_kill <all> <t|ct> <type> <difficulty> <name> - Kills a specific bot, or all bots, matching the given criteria.
+
+"banip"
+FCVAR_NONE
+- Add an IP address to the ban list.
+
+"banid"
+FCVAR_NONE
+- Add a user ID to the ban list.
+
+"debug_drawbox"
+FCVAR_CHEAT 
+- Create debug box
+
+"npc_go_random"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Sends all selected NPC(s) to a random node.
+	Arguments:   	-none-
+
+"ent_teleport"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Teleport the specified entity to where the player is looking.
+	Format: ent_teleport <entity name>
+
+"voicerecord_toggle"
+FCVAR_NONE
+
+"Test_WaitForCheckPoint"
+FCVAR_CHEAT 
+
+"ch_createjeep"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Spawn jeep in front of the player.
+
+"nav_mark"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Marks the Area or Ladder under the cursor for manipulation by subsequent editing commands.
+
+"mem_vcollide"
+FCVAR_NONE
+- Dumps the memory used by vcollides
+
+"gameui_allowescape"
+FCVAR_NONE
+- Escape key allowed to hide game UI
+
+"itemtimedata_print_and_reset"
+FCVAR_GAMEDLL 
+- Outputs item time data to server log and clears data.
+
+"nav_unmark"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Clears the marked Area or Ladder.
+
+"snd_soundmixer_flush"
+FCVAR_CHEAT 
+- Reload soundmixers.txt file.
+
+"+voicerecord"
+FCVAR_NONE
+
+"+vgui_drawtree"
+FCVAR_NONE
+
+"find"
+FCVAR_NONE
+- Find concommands with the specified string in their name/help text.
+
+"mp_tournament_restart"
+FCVAR_GAMEDLL 
+- Restart Tournament Mode on the current level.
+
+"mp_warmup_start"
+FCVAR_GAMEDLL 
+- Start warmup.
+
+"nav_build_ladder"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Attempts to build a nav ladder on the climbable surface under the cursor.
+
+"bench_start"
+FCVAR_CHEAT 
+- Starts gathering of info. Arguments: filename to write results into
+
+"connect"
+FCVAR_DONTRECORD 
+- Connect to specified server.
+
+"ai_resume"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- If NPC is stepping through tasks (see ai_step ) will resume normal processing.
+
+"script_execute"
+FCVAR_GAMEDLL 
+- Run a vscript file
+
+"voxeltree_view"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- View entities in the voxel-tree.
+
+"nav_save"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Saves the current Navigation Mesh to disk.
+
+"sound_device_list"
+FCVAR_NONE
+- Lists all available audio devices.
+
+"mat_configcurrent"
+FCVAR_NONE
+- show the current video control panel config for the material system
+
+"sm_reload_databases"
+FCVAR_NONE
+- Reparse database configurations file
+
+"mapgroup"
+FCVAR_DONTRECORD 
+- Specify a map group
+
+"vprof_generate_report_budget"
+FCVAR_NONE
+- Generate a report to the console based on budget group.
+
+"nav_gen_cliffs_approx"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Mark cliff areas, post-processing approximation
+
+"nav_run"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles the 'traverse this area by running' flag used by the AI system.
+
+"foundry_update_entity"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Updates the entity's position/angles when in edit mode
+
+"sv_game_mode_convars"
+FCVAR_GAMEDLL 
+- Display the values of the convars for the current game_mode.
+
+"vprof_reset_peaks"
+FCVAR_NONE
+- Reset just the peak time in VProf profiler
+
+"wc_destroy"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- When in WC edit mode, destroys the node that the player is nearest to looking at.  (The node will be highlighted by a red box).
+
+"nav_end_shift_xy"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Finish shifting the Selected Set.
+
+"pause"
+FCVAR_NONE
+- Toggle the server pause state.
+
+"mp_guardian_shoot_point"
+FCVAR_GAMEDLL 
+- mp_guardian_shoot_point
+
+"vtune"
+FCVAR_NONE
+- Controls VTune's sampling.
+
+"tv_clients"
+FCVAR_NONE
+- Shows list of connected GOTV clients [-instance <inst> ]
+
+"unpause"
+FCVAR_NONE
+- Unpause the game.
+
+"quit"
+FCVAR_NONE
+- Exit the engine.
+
+"vprof_expand_all"
+FCVAR_NONE
+- Expand the whole vprof tree
+
+"npc_conditions"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays all the current AI conditions that an NPC has in the overlay text.
+	Arguments:   	{npc_name} / {npc class_name} / no argument picks what player is looking at
+
+"sv_load_forced_client_names_file"
+FCVAR_GAMEDLL FCVAR_RELEASE 
+- Loads a file containing SteamID64 names for clients
+
+"mp_guardian_clear_all_bounds"
+FCVAR_GAMEDLL 
+- mp_guardian_clear_all_bounds
+
+"autosavedangerousissafe"
+FCVAR_NONE
+
+"vprof_on"
+FCVAR_NONE
+- Turn on VProf profiler
+
+"vgui_drawtree_clear"
+FCVAR_NONE
+
+"sm_dump_teprops"
+FCVAR_NONE
+- Dumps tempentity props to a file
+
+"plugin_unload"
+FCVAR_NONE
+- plugin_unload <index> : unloads a plugin
+
+"dumpstringtables"
+FCVAR_NONE
+- Print string tables to console.
+
+"notarget"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggle. Player becomes hidden to NPCs.
+
+"tv_time_remaining"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY FCVAR_RELEASE 
+- Print remaining tv broadcast time
+
+"nav_raise_drag_volume_min"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Raise the bottom of the drag select volume.
+
+"scandemo"
+FCVAR_NONE
+- Scan a recorded demo file (.dem ) for specific game events and dump data.
+
+"sv_pure_finduserfiles"
+FCVAR_NONE
+- ListPureServerFiles
+
+"ai_dump_hints"
+FCVAR_GAMEDLL 
+
+"sv_pure_listuserfiles"
+FCVAR_NONE
+- ListPureServerFiles
+
+"test_dispatcheffect"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Test a clientside dispatch effect.
+	Usage: test_dispatcheffect <effect name> <distance away> <flags> <magnitude> <scale>
+	Defaults are: <distance 1024> <flags 0> <magnitude 0> <scale 0>
+
+
+"con_min_severity"
+FCVAR_CLIENTCMD_CAN_EXECUTE 
+- Minimum severity level for messages sent to any logging channel: LS_MESSAGE=0, LS_WARNING=1, LS_ASSERT=2, LS_ERROR=3.
+
+"panorama_dump_deny_input"
+FCVAR_DEVELOPMENTONLY 
+- Dumps panels currently denying all input to the game
+
+"toolload"
+FCVAR_NONE
+- Load a tool.
+
+"nav_crouch"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles the 'must crouch in this area' flag used by the AI system.
+
+"demoui"
+FCVAR_DONTRECORD 
+- Show/hide the demo player UI.
+
+"colorcorrectionui"
+FCVAR_CHEAT 
+- Show/hide the color correction tools UI.
+
+"TransmitEvents"
+FCVAR_DEVELOPMENTONLY 
+- Transmits Game Events to <address:port>
+
+"tv_retry"
+FCVAR_NONE
+- Reconnects the GOTV relay proxy 
+
+"thread_test_tslist"
+FCVAR_NONE
+
+"Test_SendKey"
+FCVAR_CHEAT 
+
+"creditsdone"
+FCVAR_GAMEDLL 
+
+"cvarlist"
+FCVAR_NONE
+- Show the list of convars/concommands.
+
+"tv_mem"
+FCVAR_NONE
+- hltv memory statistics
+
+"sv_soundemitter_reload"
+FCVAR_GAMEDLL 
+- Flushes the sounds.txt system
+
+"nav_jump"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles the 'traverse this area by jumping' flag used by the AI system.
+
+"bot_add_t"
+FCVAR_GAMEDLL 
+- bot_add_t <type> <difficulty> <name> - Adds a terrorist bot matching the given criteria.
+
+"nav_lower_drag_volume_min"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Lower the bottom of the drag select volume.
+
+"snd_soundmixer_set_trigger_factor"
+FCVAR_CHEAT 
+- Set named mix layer / mix group, trigger amount.
+
+"linefile"
+FCVAR_CHEAT 
+- Parses map leak data from .lin file
+
+"mod_DumpWeaponWorldModelCache"
+FCVAR_NONE
+- Dumps the weapon world model cache contents
+
+"hltv_replay_status"
+FCVAR_NONE
+- Show Killer Replay status and some statistics, works on listen or dedicated server.
+
+"ai_hull"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Controls which connections are shown when ai_show_hull or ai_show_connect commands are used
+	Arguments:	NPC name or classname, <none>=NPC under crosshair
+
+"scene_playvcd"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Play the given VCD as an instanced scripted scene.
+
+"tweak_ammo_impulses"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Allow real-time tweaking of the ammo impulse values.
+
+"snd_set_master_volume"
+FCVAR_CHEAT 
+- Sets the master volume for a channel. snd_set_master_volume <guid> <mastervolume>.
+
+"movie_fixwave"
+FCVAR_NONE
+- Fixup corrupted .wav file if engine crashed during startmovie/endmovie, etc.
+
+"cl_precacheinfo"
+FCVAR_NONE
+- Show precache info (client).
+
+"vprof_dump_groupnames"
+FCVAR_NONE
+- Write the names of all of the vprof groups to the console.
+
+"stop"
+FCVAR_NONE
+- Finish recording demo.
+
+"save"
+FCVAR_DONTRECORD 
+- Saves current game.
+
+"logaddress_add_http"
+FCVAR_GAMEDLL FCVAR_UNLOGGED FCVAR_RELEASE 
+- Set URI of a listener to receive logs via http post. Wrap URI in double quotes.
+
+"nav_test_stairs"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Test the selected set for being on stairs
+
+"fs_dump_open_duplicate_times"
+FCVAR_NONE
+- Set fs_report_long_reads 1 before loading to use this. Prints a list of files that were opened more than once and ~how long was spent reading from them.
+
+"logaddress_list_http"
+FCVAR_GAMEDLL FCVAR_UNLOGGED FCVAR_RELEASE 
+- List all URIs currently receiving server logs
+
+"nav_begin_selecting"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Start continuously adding to the selected set.
+
+"ai_step"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- NPCs will freeze after completing their current task.  To complete the next task, use 'ai_step' again.  To resume processing normally use 'ai_resume'
+
+"snd_print_channels"
+FCVAR_CHEAT 
+- Prints all the active channel.
+
+"echo"
+FCVAR_SERVER_CAN_EXECUTE 
+- Echo text to console.
+
+"mem_test"
+FCVAR_NONE
+
+"Test_RunFrame"
+FCVAR_CHEAT 
+
+"gameui_preventescapetoshow"
+FCVAR_NONE
+- Escape key doesn't show game UI
+
+"sm_dump_admcache"
+FCVAR_NONE
+- Dumps the admin cache for debugging
+
+"report_simthinklist"
+FCVAR_GAMEDLL 
+- Lists all simulating/thinking entities
+
+"clear_debug_overlays"
+FCVAR_GAMEDLL 
+- clears debug overlays
+
+"box"
+FCVAR_CHEAT 
+- Draw a debug box.
+
+"nav_delete_marked"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Deletes the currently marked Area (if any).
+
+"timedemoquit"
+FCVAR_NONE
+- Play a demo, report performance info, and then exit
+
+"sm_dump_datamaps"
+FCVAR_NONE
+- Dumps the data map list as a text file
+
+"npc_create"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Creates an NPC of the given type where the player is looking (if the given NPC can actually stand at that location).  
+	Arguments:	[npc_class_name] [name of npc (optional) ] [addon type (optional) ] [name of addon (optional) ]
+
+"hammer_update_safe_entities"
+FCVAR_GAMEDLL 
+- Updates entities in the map that can safely be updated (don't have parents or are affected by constraints). Also excludes entities mentioned in any hammer_updateignorelist objects in this map.
+
+"voice_mute"
+FCVAR_NONE
+- Mute a specific Steam user
+
+"load"
+FCVAR_NONE
+- Load a saved game.
+
+"sm_dump_netprops"
+FCVAR_NONE
+- Dumps the networkable property table as a text file
+
+"ai_show_hints"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays all hints as small boxes
+	Blue		- hint is available for use
+	Red		- hint is currently being used by an NPC
+	Orange		- hint not being used by timed out
+	Grey		- hint has been disabled
+
+"nav_set_place_mode"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Sets the editor into or out of Place mode. Place mode allows labelling of Area with Place names.
+
+"snd_headphone_pan_radial_weight"
+FCVAR_NONE
+- Apply cos(angle) * weight before pan law
+
+"threadpool_run_tests"
+FCVAR_NONE
+
+"ai_disable"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Bi-passes all AI logic routines and puts all NPCs into their idle animations.  Can be used to get NPCs out of your way and to test effect of AI logic routines on frame rate
+
+"ent_create"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Creates an entity of the given type where the player is looking.
+
+"sv_dump_serialized_entities_mem"
+FCVAR_NONE
+- Dump serialized entity allocations stats.
+
+"demolist"
+FCVAR_NONE
+- Print demo sequence list.
+
+"fs_clear_open_duplicate_times"
+FCVAR_NONE
+- Clear the list of files that have been opened.
+
+"Test_SpawnRandomEntities"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"envmap"
+FCVAR_NONE
+
+"cl_fullupdate"
+FCVAR_CHEAT 
+- Forces the server to send a full update packet
+
+"prop_crosshair"
+FCVAR_CHEAT 
+- Shows name for prop looking at
+
+"mp_guardian_new_bounds"
+FCVAR_GAMEDLL 
+- mp_guardian_new_bounds
+
+"devshots_nextmap"
+FCVAR_NONE
+- Used by the devshots system to go to the next map in the devshots maplist.
+
+"vprof_vtune_group"
+FCVAR_NONE
+- enable vtune for a particular vprof group ("disable" to disable)
+
+"npc_freeze_unselected"
+FCVAR_GAMEDLL 
+- Freeze all NPCs not selected
+
+"mat_texture_list_txlod"
+FCVAR_DONTRECORD 
+- Adjust LOD of the last viewed texture +1 to inc resolution, -1 to dec resolution
+
+"ai_set_move_height_epsilon"
+FCVAR_GAMEDLL 
+- Set how high AI bumps up ground walkers when checking steps
+
+"ent_fire"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Usage:
+   ent_fire <target> [action] [value] [delay]
+
+
+"respawn_entities"
+FCVAR_GAMEDLL FCVAR_SPONLY FCVAR_CHEAT 
+- Respawn all the entities in the map.
+
+"script_debug"
+FCVAR_GAMEDLL 
+- Connect the vscript VM to the script debugger
+
+"map_showbombradius"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Shows bomb radius from the center of each bomb site and planted bomb.
+
+"kick"
+FCVAR_NONE
+- Kick a player by name.
+
+"ss_connect"
+FCVAR_DEVELOPMENTONLY 
+- If connected with available split screen slots, connects a split screen player to this machine.
+
+"ent_orient"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Orient the specified entity to match the player's angles. By default, only orients target entity's YAW. Use the 'allangles' option to orient on all axis.
+	Format: ent_orient <entity name> <optional: allangles>
+
+"sv_dz_paradrop"
+FCVAR_GAMEDLL 
+
+"survival_check_num_possible_final_zone"
+FCVAR_GAMEDLL 
+- print out a number of all possible final zone
+
+"bot_snipers_only"
+FCVAR_GAMEDLL 
+- Restricts the bots to only using sniper rifles
+
+"vprof_cachemiss_on"
+FCVAR_NONE
+- Turn on VProf cache miss checking
+
+"ai_show_connect_jump"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the allowed connections between each node for the currently selected hull type.  Hulls are color code as follows:
+	Green		- ground movement 
+	Blue		- jumping movement
+	Cyan		- flying movement
+	
+	Yellow		- crawling movement
+	Magenta	- climbing mov
+
+"Test_EHandle"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"stopdemo"
+FCVAR_DONTRECORD 
+- Stop playing back a demo.
+
+"traceattack"
+FCVAR_GAMEDLL 
+- traceattack damage hitgroup
+
+"nav_disconnect"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- To disconnect two Areas, mark an Area, highlight a second Area, then invoke the disconnect command. This will remove all connections between the two Areas.
+
+"nav_generate_incremental"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Generate a Navigation Mesh for the current map and save it to disk.
+
+"log"
+FCVAR_NONE
+- Enables logging to file, console, and udp < on | off >.
+
+"execifexists"
+FCVAR_NONE
+- Execute script file if file exists.
+
+"vgui_togglepanel"
+FCVAR_NONE
+- show/hide vgui panel by name.
+
+"physics_select"
+FCVAR_GAMEDLL 
+- Dumps debug info for an entity
+
+"logaddress_delall_http"
+FCVAR_GAMEDLL FCVAR_UNLOGGED FCVAR_RELEASE 
+- Remove all http listeners from the dispatch list.
+
+"dm_reset_spawns"
+FCVAR_GAMEDLL 
+
+"nav_precise"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles the 'dont avoid obstacles' flag used by the AI system.
+
+"demo_goto"
+FCVAR_NONE
+- Skips to location in demo.
+
+"demo_timescale"
+FCVAR_NONE
+- Sets demo replay speed.
+
+"nav_place_replace"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Replaces all instances of the first place with the second place.
+
+"snd_rear_headphone_position"
+FCVAR_NONE
+- Specifies the position  (in degrees) of the virtual rear left/right headphones.
+
+"host_reset_config"
+FCVAR_NONE
+- reset config (for testing) with param as splitscreen index.
+
+"net_channels"
+FCVAR_NONE
+- Shows net channel info
+
+"voxeltree_box"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- View entities in the voxel-tree inside box <Vector(min), Vector(max)>.
+
+"vprof_remote_start"
+FCVAR_NONE
+- Request a VProf data stream from the remote server (requires authentication)
+
+"reload_vjobs"
+FCVAR_NONE
+- reload vjobs module
+
+"nav_check_connectivity"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Checks to be sure every (or just the marked) nav area can get to every goal area for the map (hostages or bomb site).
+
+"tv_record"
+FCVAR_NONE
+- Starts GOTV demo recording [-instance <inst> ]
+
+"sv_querycache_stats"
+FCVAR_GAMEDLL 
+- Display status of the query cache (client only)
+
+"itemtimedata_dump_total"
+FCVAR_GAMEDLL 
+
+"autosavedangerous"
+FCVAR_NONE
+- AutoSaveDangerous
+
+"sv_benchmark_force_start"
+FCVAR_GAMEDLL 
+- Force start the benchmark. This is only for debugging. It's better to set sv_benchmark to 1 and restart the level.
+
+"soundscape_flush"
+FCVAR_GAMEDLL 
+- Flushes the server & client side soundscapes
+
+"sv_cs_dump_econ_item_stringtable"
+FCVAR_GAMEDLL 
+- sv_cs_dump_econ_item_stringtable
+
+"vgui_spew_fonts"
+FCVAR_NONE
+
+"mat_crosshair_explorer"
+FCVAR_CHEAT 
+- open the material under the crosshair in explorer and highlight the vmt file
+
+"escape"
+FCVAR_CLIENTCMD_CAN_EXECUTE 
+- Escape key pressed.
+
+"mdlcache_dump_dictionary_state"
+FCVAR_NONE
+- Dump the state of the MDLCache Dictionary.
+
+"nav_splice"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- To splice, mark an area, highlight a second area, then invoke the splice command to create a new, connected area between them.
+
+"removeallids"
+FCVAR_NONE
+- Remove all user IDs from the ban list.
+
+"restart"
+FCVAR_NONE
+- Restart the game on the same level (add setpos to jump to current view position on restart).
+
+"Test_ProxyToggle_SetValue"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"r_flushlod"
+FCVAR_CHEAT 
+- Flush and reload LODs.
+
+"progress_enable"
+FCVAR_NONE
+
+"physics_debug_entity"
+FCVAR_GAMEDLL 
+- Dumps debug info for an entity
+
+"stopsound"
+FCVAR_CHEAT 
+
+"timedemo_vprofrecord"
+FCVAR_NONE
+- Play a demo and report performance info.  Also record vprof data for the span of the demo
+
+"npc_viewcone"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the viewcone of the NPC (where they are currently looking and what the extents of there vision is)
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at
+
+"ent_absbox"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the total bounding box for the given entity(s) in green.  Some entites will also display entity specific overlays.
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
+
+"dz_jointeam"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- dz_jointeam team# [userid#|name] - Join DZ team N (0 to leave your team).  Server admins can assign other players to teams.
+
+"toggle"
+FCVAR_NONE
+- Toggles a convar on or off, or cycles through a set of values.
+
+"gameui_preventescape"
+FCVAR_NONE
+- Escape key doesn't hide game UI
+
+"ai_show_connect_crawl"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the allowed connections between each node for the currently selected hull type.  Hulls are color code as follows:
+	Green		- ground movement 
+	Blue		- jumping movement
+	Cyan		- flying movement
+	Yellow		- crawling movement
+	Magenta	- climbing movem
+
+"sv_setsteamaccount"
+FCVAR_NONE
+- token
+Set game server account token to use for logging in to a persistent game server account
+
+"vprof_generate_report_hierarchy_per_frame_and_count_only"
+FCVAR_NONE
+- Generate a minimal hiearchical report to the console.
+
+"ch_createairboat"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Spawn airboat in front of the player.
+
+"collision_test"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Tests collision system
+
+"nav_begin_drag_deselecting"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Start dragging a selection area.
+
+"sv_precacheinfo"
+FCVAR_NONE
+- Show precache info.
+
+"vprof_dump_counters"
+FCVAR_NONE
+- Dump vprof counters to the console
+
+"gameui_allowescapetoshow"
+FCVAR_NONE
+- Escape key allowed to show game UI
+
+"parachute"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- equips parachute
+
+"vehicle_flushscript"
+FCVAR_GAMEDLL 
+- Flush and reload all vehicle scripts
+
+"killvector"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- Kills a player applying force. Usage: killvector <player> <x value> <y value> <z value>
+
+"mat_edit"
+FCVAR_CHEAT 
+- Bring up the material under the crosshair in the editor
+
+"logaddress_add"
+FCVAR_NONE
+- Set address and port for remote host <ip:port>.
+
+"maps"
+FCVAR_NONE
+- Displays list of maps.
+
+"physics_budget"
+FCVAR_GAMEDLL 
+- Times the cost of each active object
+
+"mp_guardian_emit_bounds_config"
+FCVAR_GAMEDLL 
+- mp_guardian_emit_bounds_config
+
+"bot_knives_only"
+FCVAR_GAMEDLL 
+- Restricts the bots to only using knives
+
+"mm_datacenter_debugprint"
+FCVAR_NONE
+- Shows information retrieved from data center
+
+"fs_syncdvddevcache"
+FCVAR_NONE
+- Force the 360 to get updated files that are in your p4 changelist(s) from the host PC when running with -dvddev.
+
+"ipc_console_enable"
+FCVAR_CHEAT FCVAR_DONTRECORD FCVAR_CLIENTCMD_CAN_EXECUTE 
+- Enable IPC console
+
+"foundry_select_entity"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Select the entity under the crosshair or select entities with the specified name.
+
+"Test_InitRandomEntitySpawner"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"send_round_backup_file_list"
+FCVAR_GAMEDLL FCVAR_HIDDEN FCVAR_PRINTABLEONLY FCVAR_RELEASE 
+
+"snd_headphone_pan_exponent"
+FCVAR_NONE
+- Specifies the exponent for the pan xfade from phone to phone if the "exp" pan law is being used.
+
+"play_hrtf"
+FCVAR_SERVER_CAN_EXECUTE 
+- Play a sound with HRTF spatialization.
+
+"alias"
+FCVAR_NONE
+- Alias a command.
+
+"bot_control_next_all_teams"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_CHEAT FCVAR_CLIENTCMD_CAN_EXECUTE 
+- Take control of the next bot regardless of team (development only).
+
+"print_colorcorrection"
+FCVAR_CHEAT 
+- Display the color correction layer information.
+
+"findflags"
+FCVAR_NONE
+- Find concommands by flags.
+
+"nav_add_to_selected_set_by_id"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Add specified area id to the selected set.
+
+"npc_focus"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays red line to NPC's enemy (if has one) and blue line to NPC's target entity (if has one)
+	Arguments:   	{npc_name} / {npc class_name} / no argument picks what player is looking at
+
+"firetarget"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"setinfo"
+FCVAR_CLIENTCMD_CAN_EXECUTE 
+- Adds a new user info value
+
+"tv_status"
+FCVAR_NONE
+- Show GOTV server status.
+
+"ai_show_connect_fly"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Displays the allowed connections between each node for the currently selected hull type.  Hulls are color code as follows:
+	Green		- ground movement 
+	Blue		- jumping movement
+	Cyan		- flying movement
+	
+	Yellow		- crawling movement
+	Magenta	- climbing mov
+
+"foundry_sync_hammer_view"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Move Hammer's 3D view to the same position as the engine's 3D view.
+
+"mp_switchteams"
+FCVAR_GAMEDLL 
+- Switch teams and restart the game
+
+"snd_stereo_speaker_pan_radial_weight"
+FCVAR_NONE
+- Apply cos(angle) * weight before pan law
+
+"vphys_sleep_timeout"
+FCVAR_NONE
+- set sleep timeout: large values mean stuff won't ever sleep
+
+"hurtme"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Hurts the player.
+	Arguments: <health to lose>
+
+"ent_remove_all"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Removes all entities of the specified type
+	Arguments:   	{entity_name} / {class_name} 
+
+"callvote"
+FCVAR_GAMEDLL FCVAR_PRINTABLEONLY 
+- Start a vote on an issue.
+
+"bot_goto_selected"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Sends a bot to the selected nav area (useful for testing navigation meshes)
+
+"nav_end_area"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Defines the second corner of a new Area or Ladder and creates it.
+
+"nav_simplify_selected"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Chops all selected areas into their component 1x1 areas and re-merges them together into larger areas
+
+"sv_showtags"
+FCVAR_NONE
+- Describe current gametags.
+
+"nav_select_overlapping"
+FCVAR_GAMEDLL 
+- Selects nav areas that are overlapping others.
+
+"nav_clear_selected_set"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Clear the selected set.
+
+"fs_warning_level"
+FCVAR_NONE
+- Set the filesystem warning level.
+
+"budget_toggle_group"
+FCVAR_NONE
+- Turn a budget group on/off
+
+"foundry_engine_release_mouse_control"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Give the control of the mouse back to Hammer.
+
+"air_density"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Changes the density of air for drag computations.
+
+"nav_toggle_selected_set"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles all areas into/out of the selected set.
+
+"prop_dynamic_create"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Creates a dynamic prop with a specific .mdl aimed away from where the player is looking.
+	Arguments: {.mdl name}
+
+"script"
+FCVAR_GAMEDLL 
+- Run the text as a script
+
+"playflush"
+FCVAR_NONE
+- Play a sound, reloading from disk in case of changes.
+
+"bind"
+FCVAR_NONE
+- Bind a key.
+
+"toolunload"
+FCVAR_NONE
+- Unload a tool.
+
+"picker"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggles 'picker' mode.  When picker is on, the bounding box, pivot and debugging text is displayed for whatever entity the player is looking at.
+	Arguments:	full - enables all debug information
+
+"bot_all_weapons"
+FCVAR_GAMEDLL 
+- Allows the bots to use all weapons
+
+"snd_front_surround_speaker_position"
+FCVAR_NONE
+- Specifies the position (in degrees) of the virtual front left/right speakers.
+
+"ss_map"
+FCVAR_DONTRECORD 
+- Start playing on specified map with max allowed splitscreen players.
+
+"surfaceprop"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Reports the surface properties at the cursor
+
+"mp_scrambleteams"
+FCVAR_GAMEDLL 
+- Scramble the teams and restart the game
+
+"snd_rear_surround_speaker_position"
+FCVAR_NONE
+- Specifies the position (in degrees) of the virtual rear left/right speakers.
+
+"ai_setenabled"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Like ai_disable but you manually specify the state (with a 0 or 1) instead of toggling it.
+
+"physics_highlight_active"
+FCVAR_GAMEDLL 
+- Turns on the absbox for all active physics objects
+
+"CreatePredictionError"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Create a prediction error
+
+"cl_showents"
+FCVAR_CHEAT 
+- Dump entity list to console.
+
+"Test_LoopForNumSeconds"
+FCVAR_CHEAT 
+- Test_LoopForNumSeconds <loop name> <time> - loop back to the specified start point for the specified # of seconds.
+
+"npc_freeze"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Selected NPC(s) will freeze in place (or unfreeze). If there are no selected NPCs, uses the NPC under the crosshair.
+	Arguments:	-none-
+
+"mem_verify"
+FCVAR_NONE
+- Verify the validity of the heap
+
+"ipc_console_disable"
+FCVAR_DONTRECORD FCVAR_CLIENTCMD_CAN_EXECUTE 
+- Disable IPC console(s)
+
+"mat_reloadallmaterials"
+FCVAR_CHEAT 
+- Reloads all materials
+
+"mm_dlc_debugprint"
+FCVAR_NONE
+- Shows information about dlc
+
+"demos"
+FCVAR_NONE
+- Demo demo file sequence.
+
+"net_start"
+FCVAR_NONE
+- Inits multiplayer network sockets
+
+"mat_reloadmaterial"
+FCVAR_CHEAT 
+- Reloads a single material
+
+"nav_end_deselecting"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Stop continuously removing from the selected set.
+
+"ent_setname"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Sets the targetname of the given entity(s)
+	Arguments:   	{new entity name} {entity_name} / {class_name} / no argument picks what player is looking at 
+
+"setmodel"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Changes's player's model
+
+"givecurrentammo"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Give a supply of ammo for current weapon..
+
+
+"mp_dump_timers"
+FCVAR_GAMEDLL 
+- Prints round timers to the console for debugging
+
+"nav_mark_unnamed"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Mark an Area with no Place name. Useful for finding stray areas missed when Place Painting.
+
+"snd_front_headphone_position"
+FCVAR_NONE
+- Specifies the position (in degrees) of the virtual front left/right headphones.
+
+"toggleconsole"
+FCVAR_DONTRECORD 
+- Show/hide the console.
+
+"mem_compact"
+FCVAR_NONE
+
+"sm_dump_cmdscvars"
+FCVAR_NONE
+- Will dump all commands and cvars in txt files, /addons/sourcemod/data/ folder
+
+"noclip"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Toggle. Player becomes non-solid and flies.  Optional argument of 0 or 1 to force enable/disable
+
+"nav_select_stairs"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Adds all stairway areas to the selected set
+
+"clear_bombs"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"mp_pause_match"
+FCVAR_GAMEDLL 
+- Pause the match in the next freeze time
+
+"timedemo"
+FCVAR_NONE
+- Play a demo and report performance info.
+
+"vprof_reset"
+FCVAR_NONE
+- Reset the stats in VProf profiler
+
+"mat_crosshair"
+FCVAR_CHEAT 
+- Display the name of the material under the crosshair
+
+"_autosave"
+FCVAR_NONE
+- Autosave
+
+"_autosavedangerous"
+FCVAR_NONE
+- AutoSaveDangerous
+
+"ai_show_node"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Highlight the specified node
+
+"heartbeat"
+FCVAR_NONE
+- Force heartbeat of master servers
+
+"tv_broadcast_resend"
+FCVAR_NONE
+- resend broadcast data to broadcast relay
+
+"nav_raise_drag_volume_max"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Raise the top of the drag select volume.
+
+"nav_warp_to_mark"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Warps the player to the marked area.
+
+"soundinfo"
+FCVAR_NONE
+- Describe the current sound device.
+
+"async_suspend"
+FCVAR_NONE
+
