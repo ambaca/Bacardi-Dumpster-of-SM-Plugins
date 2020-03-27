@@ -10,7 +10,7 @@ addons/sourcemod/data folder.
 Installation:
 Place "Dump All Cmds Cvars.smx" into addons/sourcemod/plugins folder. Change map or start server.
 Use server console command: sm_dump_cmdscvars
-
+```
 
 
 **Note!
@@ -22,7 +22,7 @@ Don't leave this plugin active in public server.**
 
 
 
-
+```
 SourcePawn Compiler 1.10.0.6478
 Copyright (c) 1997-2006 ITB CompuPhase
 Copyright (c) 2004-2018 AlliedModders LLC
