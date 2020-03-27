@@ -13,7 +13,10 @@ Use server console command: sm_dump_cmdscvars
 
 
 
-
+**Note!
+This plugin create lot of ConVar Handles, taking some memory and those cannot close.
+So, it is recommend to use this plugin few times for testing purpose, remove it from server and restart server.
+Don't leave this plugin active in public server.**
 
 
 
