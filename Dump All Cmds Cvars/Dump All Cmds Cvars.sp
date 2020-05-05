@@ -1,6 +1,11 @@
 
 
 /*
+5.5.2020
+	+ TXT file name now include mod folder name.
+	example: List_Cmds_hl2_Engine_SDK2013_2020-05-05.txt, List_ConVars_hl2_Engine_SDK2013_2020-05-05.txt
+
+
 27.03.2020
 	+ TXT files name now include engine version and date.
 	for example: List_ConVars_Engine_CSGO_2020-03-27.txt, List_Cmds_Engine_CSGO_2020-03-27.txt
@@ -60,17 +65,19 @@ public Action dump(int args)
 
 	char path[PLATFORM_MAX_PATH];
 	char date[MAX_NAME_LENGTH];
+	char gamefolder[MAX_NAME_LENGTH];
 	
 	FormatTime(date, sizeof(date), "%F");
 	
 	EngineVersion engine = GetEngineVersion();
+	GetGameFolderName(gamefolder, sizeof(gamefolder))
 
-	BuildPath(Path_SM, path, sizeof(path), "data/List_ConVars_%s_%s.txt", s_engines[engine], date);
+	BuildPath(Path_SM, path, sizeof(path), "data/List_ConVars_%s_%s_%s.txt", gamefolder, s_engines[engine], date);
 	File MyFileCvars = OpenFile(path, "w", false, NULL_STRING);
 
 	if(MyFileCvars == null) SetFailState("Failed to open file");
 
-	BuildPath(Path_SM, path, sizeof(path), "data/List_Cmds_%s_%s.txt", s_engines[engine], date);
+	BuildPath(Path_SM, path, sizeof(path), "data/List_Cmds_%s_%s_%s.txt", gamefolder, s_engines[engine], date);
 	File MyFileCmds = OpenFile(path, "w", false, NULL_STRING);
 
 	if(MyFileCmds == null) SetFailState("Failed to open file");

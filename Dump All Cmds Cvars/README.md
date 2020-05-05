@@ -23,14 +23,14 @@ Don't leave this plugin active in public server.**
 
 
 ```
-SourcePawn Compiler 1.10.0.6478
+SourcePawn Compiler 1.10.0.6488
 Copyright (c) 1997-2006 ITB CompuPhase
 Copyright (c) 2004-2018 AlliedModders LLC
 
-Code size:             5712 bytes
-Data size:             4000 bytes
+Code size:             5792 bytes
+Data size:             4004 bytes
 Stack/heap size:      16384 bytes
-Total requirements:   26096 bytes
+Total requirements:   26180 bytes
 
 
 ```
