@@ -22,7 +22,11 @@ Change map.
 
 
 **Note!\
+
 https://wiki.alliedmods.net/Adding_Groups_(SourceMod)
+
+https://forums.alliedmods.net/showthread.php?t=327427
+
 **
 
 

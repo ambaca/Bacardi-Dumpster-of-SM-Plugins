@@ -35,7 +35,7 @@ public Plugin myinfo = {
 	author = "Bacardi",
 	description = "Automatically grant public players to admin",
 	version = "18.9.2020",
-	url = "http://"
+	url = "https://forums.alliedmods.net/showthread.php?t=327427"
 };
 
 
