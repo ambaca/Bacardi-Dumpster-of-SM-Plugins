@@ -1,0 +1,41 @@
+"Games"
+{
+	"#default"
+	{
+		"Functions"
+		{
+			"DHook_SetHibernating"
+			{
+				"signature"		"SetHibernating"
+				"callconv"		"thiscall"
+				"return"		"void"
+				"this"			"ignore"
+				
+				"arguments"
+				{
+					"bHibernating"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+		}
+
+		"Signatures"
+		{
+			// void CGameServer::SetHibernating( bool bHibernating )
+			"SetHibernating"
+			{
+				"library"	"engine"
+				"windows"	"\x55\x8B\xEC\xA1\x2A\x2A\x2A\x2A\x53\x8B\xD9\xA8\x01"
+				"linux"		"@_ZN11CGameServer14SetHibernatingEb"
+			}
+		}
+		
+		"Offsets"
+		{
+
+		}
+	}
+}
+
