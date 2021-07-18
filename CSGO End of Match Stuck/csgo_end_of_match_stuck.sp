@@ -28,6 +28,7 @@ Server event "server_spawn", Tick 65:
 
 
 
+	* 18.07.2021 -This version 1.1 will load de_dust2 map when next workshop map fail.
 	* 12.04.2020 -Plugin added in GitHub
 
 	(CS:GO) End of Match - Stuck!
@@ -57,8 +58,8 @@ public Plugin myinfo =
 {
 	name = "[CSGO] End of Match - Stuck!",
 	author = "Bacardi",
-	description = "Match have ended, but server would not load next map. You are stuck. I help you to load same map again.",
-	version = "1.0",
+	description = "Match have ended, but server would not load next map. You are stuck. I help you to load de_dust2.",
+	version = "1.1",
 	url = "http://www.sourcemod.net/"
 };
 
@@ -92,7 +93,7 @@ public void nextlevel_changed(Event event, const char[] name, bool dontBroadcast
 	pack.WriteString(buffer);
 	pack.Reset();
 	
-	PrintToChatAll("[SM] If you manage read this message to the end. '%s' may not start load... We are going to load same map. Sorry.", buffer);
+	PrintToChatAll("[SM] If you manage read this message to the end. '%s' may not start load... We are going to load de_dust2 map. Sorry.", buffer);
 }
 
 public Action delay(Handle timer, DataPack pack)
@@ -103,13 +104,13 @@ public Action delay(Handle timer, DataPack pack)
 	pack.ReadString(buffer, siz);
 
 
-	char samemap[100];
-	GetCurrentMap(samemap, sizeof(samemap));
+	//char samemap[100];
+	//GetCurrentMap(samemap, sizeof(samemap));
 
 
-	LogError(" End Of Match - Stuck! Error %s. Next map not load! I will changelevel same map %s", buffer, samemap);
+	LogError(" End Of Match - Stuck! Error %s. Next map not load! I will changelevel de_dust2 map", buffer);
 
-	ServerCommand("changelevel %s", samemap);
+	ServerCommand("changelevel de_dust2");
 
 	return Plugin_Continue;
 }
