@@ -1,0 +1,5209 @@
+
+
+
+// File generated with
+// https://github.com/ambaca/Bacardi-Dumpster-of-SM-Plugins/tree/master/DumpAllCmdsCvars
+// addons\sourcemod\data\List_ConVars_pvkii_Engine_SDK2013_SRCDS_2022-07-28.txt
+
+
+
+"achievement_debug" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+- Turn on achievement debug msgs.
+
+"adsp_alley_min" = "122"
+FCVAR_NONE
+
+"adsp_courtyard_min" = "126"
+FCVAR_NONE
+
+"adsp_debug" = "0"
+FCVAR_ARCHIVE 
+
+"adsp_door_height" = "112"
+FCVAR_NONE
+
+"adsp_duct_min" = "106"
+FCVAR_NONE
+
+"adsp_hall_min" = "110"
+FCVAR_NONE
+
+"adsp_low_ceiling" = "108"
+FCVAR_NONE
+
+"adsp_opencourtyard_min" = "126"
+FCVAR_NONE
+
+"adsp_openspace_min" = "130"
+FCVAR_NONE
+
+"adsp_openstreet_min" = "118"
+FCVAR_NONE
+
+"adsp_openwall_min" = "130"
+FCVAR_NONE
+
+"adsp_room_min" = "102"
+FCVAR_NONE
+
+"adsp_street_min" = "118"
+FCVAR_NONE
+
+"adsp_tunnel_min" = "114"
+FCVAR_NONE
+
+"adsp_wall_height" = "128"
+FCVAR_NONE
+
+"ai_LOS_mode" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+
+"ai_auto_contact_solver" = "1"
+FCVAR_GAMEDLL 
+
+"ai_block_damage" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debug_assault" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debug_avoidancebounds" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debug_directnavprobe" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debug_doors" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debug_dyninteractions" = "0"
+FCVAR_GAMEDLL 
+- Debug the NPC dynamic interaction system.
+
+"ai_debug_efficiency" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debug_enemies" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debug_expressions" = "0"
+FCVAR_GAMEDLL 
+- Show random expression decisions for NPCs.
+
+"ai_debug_follow" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debug_loners" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debug_looktargets" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debug_los" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- NPC Line-Of-Sight debug mode. If 1, solid entities that block NPC LOC will be highlighted with white bounding boxes. If 2, it'll show non-solid entities that would do it if they were solid.
+
+"ai_debug_nav" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debug_ragdoll_magnets" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debug_shoot_positions" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"ai_debug_speech" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debug_squads" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debug_think_ticks" = "0"
+FCVAR_GAMEDLL 
+
+"ai_debugscriptconditions" = "0"
+FCVAR_GAMEDLL 
+
+"ai_default_efficient" = "0"
+FCVAR_GAMEDLL 
+
+"ai_drawbattlelines" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"ai_efficiency_override" = "0"
+FCVAR_GAMEDLL 
+
+"ai_enable_fear_behavior" = "1"
+FCVAR_GAMEDLL 
+
+"ai_expression_frametime" = "0.05"
+FCVAR_GAMEDLL 
+- Maximum frametime to still play background expressions.
+
+"ai_expression_optimization" = "0"
+FCVAR_GAMEDLL 
+- Disable npc background expressions when you can't see them.
+
+"ai_fear_player_dist" = "720"
+FCVAR_GAMEDLL 
+
+"ai_find_lateral_cover" = "1"
+FCVAR_GAMEDLL 
+
+"ai_find_lateral_los" = "1"
+FCVAR_GAMEDLL 
+
+"ai_follow_use_points" = "1"
+FCVAR_GAMEDLL 
+
+"ai_follow_use_points_when_moving" = "1"
+FCVAR_GAMEDLL 
+
+"ai_force_serverside_ragdoll" = "0"
+FCVAR_GAMEDLL 
+
+"ai_frametime_limit" = "50"
+FCVAR_GAMEDLL 
+- frametime limit for min efficiency AIE_NORMAL (in sec's).
+
+"ai_inhibit_spawners" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"ai_lead_time" = "0.0"
+FCVAR_GAMEDLL 
+
+"ai_moveprobe_debug" = "0"
+FCVAR_GAMEDLL 
+
+"ai_moveprobe_jump_debug" = "0"
+FCVAR_GAMEDLL 
+
+"ai_moveprobe_usetracelist" = "0"
+FCVAR_GAMEDLL 
+
+"ai_navigator_generate_spikes" = "0"
+FCVAR_GAMEDLL 
+
+"ai_navigator_generate_spikes_strength" = "8"
+FCVAR_GAMEDLL 
+
+"ai_no_local_paths" = "0"
+FCVAR_GAMEDLL 
+
+"ai_no_node_cache" = "0"
+FCVAR_GAMEDLL 
+
+"ai_no_select_box" = "0"
+FCVAR_GAMEDLL 
+
+"ai_no_steer" = "0"
+FCVAR_GAMEDLL 
+
+"ai_no_talk_delay" = "0"
+FCVAR_GAMEDLL 
+
+"ai_norebuildgraph" = "0"
+FCVAR_GAMEDLL 
+
+"ai_path_adjust_speed_on_immediate_turns" = "1"
+FCVAR_GAMEDLL 
+
+"ai_path_insert_pause_at_est_end" = "1"
+FCVAR_GAMEDLL 
+
+"ai_path_insert_pause_at_obstruction" = "1"
+FCVAR_GAMEDLL 
+
+"ai_post_frame_navigation" = "0"
+FCVAR_GAMEDLL 
+
+"ai_radial_max_link_dist" = "512"
+FCVAR_GAMEDLL 
+
+"ai_reaction_delay_alert" = "0.1"
+FCVAR_GAMEDLL 
+
+"ai_reaction_delay_idle" = "0.3"
+FCVAR_GAMEDLL 
+
+"ai_rebalance_thinks" = "1"
+FCVAR_GAMEDLL 
+
+"ai_report_task_timings_on_limit" = "0"
+FCVAR_GAMEDLL FCVAR_ARCHIVE 
+
+"ai_sequence_debug" = "0"
+FCVAR_GAMEDLL 
+
+"ai_setupbones_debug" = "0"
+FCVAR_GAMEDLL 
+- Shows that bones that are setup every think
+
+"ai_shot_bias" = "1.0"
+FCVAR_GAMEDLL 
+
+"ai_shot_bias_max" = "1.0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+
+"ai_shot_bias_min" = "-1.0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+
+"ai_shot_stats" = "0"
+FCVAR_GAMEDLL 
+
+"ai_shot_stats_term" = "1000"
+FCVAR_GAMEDLL 
+
+"ai_show_hull_attacks" = "0"
+FCVAR_GAMEDLL 
+
+"ai_show_think_tolerance" = "0"
+FCVAR_GAMEDLL 
+
+"ai_simulate_task_overtime" = "0"
+FCVAR_GAMEDLL 
+
+"ai_spread_cone_focus_time" = "0.6"
+FCVAR_GAMEDLL 
+
+"ai_spread_defocused_cone_multiplier" = "3.0"
+FCVAR_GAMEDLL 
+
+"ai_spread_pattern_focus_time" = "0.8"
+FCVAR_GAMEDLL 
+
+"ai_strong_optimizations" = "0"
+FCVAR_GAMEDLL 
+
+"ai_strong_optimizations_no_checkstand" = "0"
+FCVAR_GAMEDLL 
+
+"ai_task_pre_script" = "0"
+FCVAR_GAMEDLL 
+
+"ai_test_moveprobe_ignoresmall" = "0"
+FCVAR_GAMEDLL 
+
+"ai_think_limit_label" = "0"
+FCVAR_GAMEDLL FCVAR_ARCHIVE 
+
+"ai_use_clipped_paths" = "1"
+FCVAR_GAMEDLL 
+
+"ai_use_efficiency" = "1"
+FCVAR_GAMEDLL 
+
+"ai_use_frame_think_limits" = "1"
+FCVAR_GAMEDLL 
+
+"ai_use_think_optimizations" = "1"
+FCVAR_GAMEDLL 
+
+"ai_use_visibility_cache" = "1"
+FCVAR_GAMEDLL 
+
+"ai_vehicle_avoidance" = "1"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"anim_3wayblend" = "1"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Toggle the 3-way animation blending code.
+
+"async_allow_held_files" = "1"
+FCVAR_NONE
+- Allow AsyncBegin/EndRead()
+
+"async_mode" = "0"
+FCVAR_NONE
+- Set the async filesystem mode (0 = async, 1 = synchronous)
+
+"async_serialize" = "0"
+FCVAR_NONE
+- Force async reads to serialize for profiling
+
+"async_simulate_delay" = "0"
+FCVAR_NONE
+- Simulate a delay of up to a set msec per file operation
+
+"autoaim_max_deflect" = "0.99"
+FCVAR_GAMEDLL 
+
+"autoaim_max_dist" = "2160"
+FCVAR_GAMEDLL 
+
+"birds_debug" = "0"
+FCVAR_GAMEDLL 
+
+"bot_aim_drop_factor" = "0.5"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_aim_easy_multiplier" = "1.3"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_aim_extreme_multiplier" = "0.0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_aim_hard_multiplier" = "0.7"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_aim_medium_multiplier" = "1.2"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_aim_ranged_spread" = "2.0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_aim_skill_roll_max" = "200"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_aim_spread" = "1.8"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_attack_ignoreblock" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_auto_nav_generate" = "1"
+FCVAR_GAMEDLL 
+- Automatically generate navigation mesh if it doesn't exist.
+
+"bot_blast_radius" = "128"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_chatter" = "0"
+FCVAR_GAMEDLL 
+- Enable/Disable bot chatter.
+
+"bot_chatter_humanize" = "1"
+FCVAR_GAMEDLL 
+- Humanize bot chatter by e.g. simulating typos.
+
+"bot_chatter_idle_freq_max" = "240.0"
+FCVAR_GAMEDLL 
+- Idle chatter max frequency in seconds.
+
+"bot_chatter_idle_freq_min" = "120.0"
+FCVAR_GAMEDLL 
+- Idle chatter min frequency in seconds.
+
+"bot_chatter_respond_chance" = "0.25" min. 0.000000 max. 1.000000
+FCVAR_GAMEDLL 
+- Percent chance bot will respond at players.
+
+"bot_chatter_taunt_chance" = "0.10" min. 0.000000 max. 1.000000
+FCVAR_GAMEDLL 
+- Percent chance bot will taunt at victim.
+
+"bot_chatter_whine_chance" = "0.10" min. 0.000000 max. 1.000000
+FCVAR_GAMEDLL 
+- Percent chance bot will whine at attacker.
+
+"bot_cycle" = "1"
+FCVAR_GAMEDLL 
+- Enable/Disable bot cycling through the server.
+
+"bot_debug" = "0"
+FCVAR_GAMEDLL 
+- Display the debug information panel for bots
+
+"bot_debug_invalid_schedule" = ""
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_debug_ladders" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_debug_projectile_drop" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_debug_stuck" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_debug_think_we_fell" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_defend_complete_time" = "5.0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_difficulty" = "1" min. 0.000000 max. 3.000000
+FCVAR_GAMEDLL 
+- Bot difficulty. 0 = Easy, 1 = Medium, 2 = Hard, 3 = Extreme
+
+"bot_enemy_chase_giveup_distance" = "128"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_enemy_danger_close_distance" = "250"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_enemy_max_chase_time" = "8.0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_enemy_min_chase_time" = "4.0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_enemy_near_distance" = "1024"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_fair_fight" = "1"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_feeler_trail_time" = "0.0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_max_attack_cancel_chance" = "60"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_max_desired_playtime" = "2000"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_mimic" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Bot uses usercmd of player by index.
+
+"bot_mimic_yaw_offset" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Offsets the bot yaw.
+
+"bot_min_desired_playtime" = "700"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_nearby_pickup_distance" = "256"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_obj_drop_mag" = "35"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_obj_ignore_time" = "10.0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_profile_dir" = "scripts/botprofiles"
+FCVAR_GAMEDLL 
+- Look up bot profiles from this directory.
+
+"bot_push_away_force" = "4"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_pushaway_force" = "15000"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_pushaway_max_force" = "10000"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_pushaway_movement_multiplier_max" = "1.5"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_quota" = "0"
+FCVAR_GAMEDLL 
+- Total number of bots
+
+"bot_step_height_modifier" = "9.0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_te_capture_dist" = "130"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"bot_vacate_player_slot" = "1"
+FCVAR_GAMEDLL 
+- Should bots automatically vacate a slot for players to join?
+
+"bot_voicecmd_proximity" = "1024"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"breakable_disable_gib_limit" = "0"
+FCVAR_GAMEDLL 
+
+"breakable_multiplayer" = "1"
+FCVAR_GAMEDLL 
+
+"budget_averages_window" = "30"
+FCVAR_ARCHIVE 
+- number of frames to look at when figuring out average frametimes
+
+"budget_background_alpha" = "128"
+FCVAR_ARCHIVE 
+- how translucent the budget panel is
+
+"budget_bargraph_background_alpha" = "128"
+FCVAR_ARCHIVE 
+- how translucent the budget panel is
+
+"budget_bargraph_range_ms" = "16.6666666667"
+FCVAR_ARCHIVE 
+- budget bargraph range in milliseconds
+
+"budget_history_numsamplesvisible" = "100"
+FCVAR_ARCHIVE 
+- number of samples to draw in the budget history window.  The lower the better as far as rendering overhead of the budget panel
+
+"budget_history_range_ms" = "66.666666667"
+FCVAR_ARCHIVE 
+- budget history range in milliseconds
+
+"budget_panel_bottom_of_history_fraction" = ".25"
+FCVAR_ARCHIVE 
+- number between 0 and 1
+
+"budget_panel_height" = "384"
+FCVAR_ARCHIVE 
+- height in pixels of the budget panel
+
+"budget_panel_width" = "512"
+FCVAR_ARCHIVE 
+- width in pixels of the budget panel
+
+"budget_panel_x" = "0"
+FCVAR_ARCHIVE 
+- number of pixels from the left side of the game screen to draw the budget panel
+
+"budget_panel_y" = "50"
+FCVAR_ARCHIVE 
+- number of pixels from the top side of the game screen to draw the budget panel
+
+"budget_peaks_window" = "30"
+FCVAR_ARCHIVE 
+- number of frames to look at when figuring out peak frametimes
+
+"budget_show_averages" = "0"
+FCVAR_ARCHIVE 
+- enable/disable averages in the budget panel
+
+"budget_show_history" = "1"
+FCVAR_ARCHIVE 
+- turn history graph off and on. . good to turn off on low end
+
+"budget_show_peaks" = "1"
+FCVAR_ARCHIVE 
+- enable/disable peaks in the budget panel
+
+"bugreporter_includebsp" = "1"
+FCVAR_NONE
+- Include .bsp for internal bug submissions.
+
+"bugreporter_uploadasync" = "0"
+FCVAR_ARCHIVE 
+- Upload attachments asynchronously
+
+"building_cubemaps" = "0"
+FCVAR_NONE
+
+"cl_allowdownload" = "1"
+FCVAR_ARCHIVE 
+- Client downloads customization files
+
+"cl_allowupload" = "1"
+FCVAR_ARCHIVE 
+- Client uploads customization files
+
+"cl_always_flush_models" = "0"
+FCVAR_SS 
+- If set, always flush models between map loads.  Useful on systems under memory pressure.
+
+"cl_backspeed" = "450"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"cl_clanid" = "0"
+FCVAR_HIDDEN FCVAR_ARCHIVE FCVAR_USERINFO 
+- Current clan ID for name decoration
+
+"cl_clock_correction" = "1"
+FCVAR_CHEAT 
+- Enable/disable clock correction on the client.
+
+"cl_clock_correction_adjustment_max_amount" = "200"
+FCVAR_CHEAT 
+- Sets the maximum number of milliseconds per second it is allowed to correct the client clock. It will only correct this amount if the difference between the client and server clock is equal to or larger than cl_clock_correction_adjustment_max_offset.
+
+"cl_clock_correction_adjustment_max_offset" = "90"
+FCVAR_CHEAT 
+- As the clock offset goes from cl_clock_correction_adjustment_min_offset to this value (in milliseconds), it moves towards applying cl_clock_correction_adjustment_max_amount of adjustment. That way, the response is small when the offset is small.
+
+"cl_clock_correction_adjustment_min_offset" = "10"
+FCVAR_CHEAT 
+- If the clock offset is less than this amount (in milliseconds), then no clock correction is applied.
+
+"cl_clock_correction_force_server_tick" = "999"
+FCVAR_CHEAT 
+- Force clock correction to match the server tick + this offset (-999 disables it).
+
+"cl_clock_showdebuginfo" = "0"
+FCVAR_CHEAT 
+- Show debugging info about the clock drift. 
+
+"cl_clockdrift_max_ms" = "150"
+FCVAR_CHEAT 
+- Maximum number of milliseconds the clock is allowed to drift before the client snaps its clock to the server's.
+
+"cl_clockdrift_max_ms_threadmode" = "0"
+FCVAR_CHEAT 
+- Maximum number of milliseconds the clock is allowed to drift before the client snaps its clock to the server's.
+
+"cl_cloud_settings" = "1"
+FCVAR_HIDDEN 
+- Cloud enabled from (from HKCU\Software\Valve\Steam\Apps\appid\Cloud)
+
+"cl_cmdrate" = "30" min. 10.000000 max. 100.000000
+FCVAR_ARCHIVE FCVAR_USERINFO 
+- Max number of command packets sent to server per second
+
+"cl_connectmethod" = ""
+FCVAR_HIDDEN FCVAR_USERINFO 
+- Method by which we connected to the current server.
+
+"cl_debug_player_perf" = "0"
+FCVAR_NONE
+
+"cl_downloadfilter" = "all"
+FCVAR_ARCHIVE 
+- Determines which files can be downloaded from the server (all, none, nosounds, mapsonly)
+
+"cl_entityreport" = "0"
+FCVAR_CHEAT 
+- For debugging, draw entity states to console
+
+"cl_entityreport_sorted" = "0"
+FCVAR_CHEAT 
+- For debugging, draw entity states to console in sorted order. [0 = disabled, 1 = average, 2 = current, 3 = peak
+
+"cl_flushentitypacket" = "0"
+FCVAR_CHEAT 
+- For debugging. Force the engine to flush an entity packet.
+
+"cl_forwardspeed" = "450"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"cl_ignorepackets" = "0"
+FCVAR_CHEAT 
+- Force client to ignore packets (for debugging).
+
+"cl_interpolate" = "1.0"
+FCVAR_DEVELOPMENTONLY FCVAR_USERINFO FCVAR_NOT_CONNECTED 
+- Interpolate entities on the client.
+
+"cl_language" = "english"
+FCVAR_USERINFO 
+- Language (from HKCU\Software\Valve\Steam\Language)
+
+"cl_localnetworkbackdoor" = "1"
+FCVAR_NONE
+- Enable network optimizations for single player games.
+
+"cl_logofile" = "materials/decals/spraylogo.vtf"
+FCVAR_ARCHIVE 
+- Spraypoint logo decal.
+
+"cl_playback_screenshots" = "0"
+FCVAR_NONE
+- Allows the client to playback screenshot and jpeg commands in demos.
+
+"cl_resend" = "6" min. 1.500000 max. 20.000000
+FCVAR_NONE
+- Delay in seconds before the client will resend the 'connect' attempt
+
+"cl_savescreenshotstosteam" = "0"
+FCVAR_HIDDEN 
+- Saves screenshots to the Steam's screenshot library
+
+"cl_screenshotlocation" = ""
+FCVAR_HIDDEN 
+- Location to tag the screenshot with
+
+"cl_screenshotname" = ""
+FCVAR_NONE
+- Custom Screenshot name
+
+"cl_screenshotusertag" = ""
+FCVAR_HIDDEN 
+- User to tag in the screenshot
+
+"cl_show_connectionless_packet_warnings" = "0"
+FCVAR_NONE
+- Show console messages about ignored connectionless packets on the client.
+
+"cl_showdemooverlay" = "0"
+FCVAR_NONE
+- How often to flash demo recording/playback overlay (0 - disable overlay, -1 - show always)
+
+"cl_showevents" = "0"
+FCVAR_CHEAT 
+- Print event firing info in the console
+
+"cl_showpluginmessages" = "1"
+FCVAR_ARCHIVE 
+- Allow plugins to display messages to you
+
+"cl_sidespeed" = "450"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"cl_simulate_no_quicktime" = "0"
+FCVAR_HIDDEN 
+
+"cl_soundfile" = "sound/player/jingle.wav"
+FCVAR_ARCHIVE 
+- Jingle sound file.
+
+"cl_timeout" = "30"
+FCVAR_ARCHIVE 
+- After this many seconds without receiving a packet from the server, the client will disconnect itself
+
+"cl_updaterate" = "20"
+FCVAR_ARCHIVE FCVAR_USERINFO FCVAR_NOT_CONNECTED 
+- Number of packets per second of updates you are requesting from the server
+
+"cl_upspeed" = "320"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"cl_voice_filter" = ""
+FCVAR_NONE
+- Filter voice by name substring
+
+"clientport" = "27005"
+FCVAR_SS_ADDED 
+- Host game client port
+
+"closecaption" = "0"
+FCVAR_ARCHIVE FCVAR_USERINFO FCVAR_ARCHIVE_GAMECONSOLE 
+- Enable close captioning.
+
+"collision_shake_amp" = "0.2"
+FCVAR_GAMEDLL 
+
+"collision_shake_freq" = "0.5"
+FCVAR_GAMEDLL 
+
+"collision_shake_time" = "0.5"
+FCVAR_GAMEDLL 
+
+"commentary" = "0"
+FCVAR_GAMEDLL 
+- Desired commentary mode state.
+
+"commentary_available" = "0"
+FCVAR_GAMEDLL 
+- Automatically set by the game when a commentary file is available for the current map.
+
+"con_drawnotify" = "1"
+FCVAR_NONE
+- Disables drawing of notification area (for taking screenshots).
+
+"con_enable" = "0"
+FCVAR_ARCHIVE 
+- Allows the console to be activated.
+
+"con_filter_enable" = "0"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+- Filters console output based on the setting of con_filter_text. 1 filters completely, 2 displays filtered text brighter than other text.
+
+"con_filter_text" = ""
+FCVAR_MATERIAL_SYSTEM_THREAD 
+- Text with which to filter console spew. Set con_filter_enable 1 or 2 to activate.
+
+"con_filter_text_out" = ""
+FCVAR_MATERIAL_SYSTEM_THREAD 
+- Text with which to filter OUT of console spew. Set con_filter_enable 1 or 2 to activate.
+
+"con_logfile" = ""
+FCVAR_NONE
+- Console output gets written to this file
+
+"con_notifytime" = "8"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+- How long to display recent console text to the upper part of the game window
+
+"con_nprint_bgalpha" = "50"
+FCVAR_NONE
+- Con_NPrint background alpha.
+
+"con_nprint_bgborder" = "5"
+FCVAR_NONE
+- Con_NPrint border size.
+
+"con_timestamp" = "0"
+FCVAR_NONE
+- Prefix console.log entries with timestamps
+
+"con_trace" = "0"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+- Print console text to low level printout.
+
+"contimes" = "8"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+- Number of console lines to overlay for debugging.
+
+"coop" = "0"
+FCVAR_NOTIFY 
+- Cooperative play.
+
+"cpu_frequency_monitoring" = "0" min. 0.000000 max. 10.000000
+FCVAR_NONE
+- Set CPU frequency monitoring interval in seconds. Zero means disabled.
+
+"datacachesize" = "256" ( def. "64" ) min. 32.000000 max. 512.000000
+FCVAR_SS 
+- Size in MB.
+
+"dbg_demofile" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_HIDDEN 
+
+"deathmatch" = "1" ( def. "0" )
+FCVAR_NOTIFY FCVAR_SS 
+- Running a deathmatch server.
+
+"debug_fur" = "0"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"debug_maa_special" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"debug_materialmodifycontrol" = "0"
+FCVAR_GAMEDLL 
+
+"debug_melee_traces" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY 
+- If set to 1, lines will be drawn for melee swing traces
+
+"debug_physimpact" = "0"
+FCVAR_GAMEDLL 
+
+"debug_player_expressions" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"debug_player_spatialspeech" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"debug_player_spatialspeech_disable" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"debug_player_spatialspeech_mourning" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"debug_player_spatialspeech_querydist" = "500.0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"debug_touchlinks" = "0"
+FCVAR_GAMEDLL 
+- Spew touch link activity
+
+"debug_trigger_jump" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"decalfrequency" = "10"
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+
+"demo_avellimit" = "2000"
+FCVAR_NONE
+- Angular velocity limit before eyes considered snapped for demo playback.
+
+"demo_debug" = "0"
+FCVAR_NONE
+- Demo debug info.
+
+"demo_fastforwardfinalspeed" = "20"
+FCVAR_NONE
+- Go this fast when starting to hold FF button.
+
+"demo_fastforwardramptime" = "5"
+FCVAR_NONE
+- How many seconds it takes to get to full FF speed.
+
+"demo_fastforwardstartspeed" = "2"
+FCVAR_NONE
+- Go this fast when starting to hold FF button.
+
+"demo_interplimit" = "4000"
+FCVAR_NONE
+- How much origin velocity before it's considered to have 'teleported' causing interpolation to reset.
+
+"demo_interpolateview" = "1"
+FCVAR_NONE
+- Do view interpolation during dem playback.
+
+"demo_legacy_rollback" = "1"
+FCVAR_NONE
+- Use legacy view interpolation rollback amount in demo playback.
+
+"demo_pauseatservertick" = "0"
+FCVAR_NONE
+- Pauses demo playback at server tick
+
+"demo_quitafterplayback" = "0"
+FCVAR_NONE
+- Quits game after demo playback.
+
+"demo_recordcommands" = "1"
+FCVAR_CHEAT 
+- Record commands typed at console into .dem files.
+
+"dev_loadtime_map_elapsed" = "0.0"
+FCVAR_HIDDEN 
+
+"dev_loadtime_map_start" = "0.902860" ( def. "0.0" )
+FCVAR_HIDDEN 
+
+"developer" = "0"
+FCVAR_SS 
+- Set developer message level
+
+"disp_dynamic" = "0"
+FCVAR_NONE
+
+"dispcoll_drawplane" = "0"
+FCVAR_GAMEDLL 
+
+"displaysoundlist" = "0"
+FCVAR_GAMEDLL 
+
+"dm_spawns_show" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT FCVAR_DONTRECORD 
+
+"download_debug" = "0"
+FCVAR_DONTRECORD 
+
+"dsp_automatic" = "0"
+FCVAR_DEMO 
+
+"dsp_db_min" = "80"
+FCVAR_DEMO 
+
+"dsp_db_mixdrop" = "0.5"
+FCVAR_DEMO 
+
+"dsp_dist_max" = "1440.0"
+FCVAR_CHEAT FCVAR_DEMO 
+
+"dsp_dist_min" = "0.0"
+FCVAR_CHEAT FCVAR_DEMO 
+
+"dsp_enhance_stereo" = "0"
+FCVAR_ARCHIVE 
+
+"dsp_facingaway" = "0"
+FCVAR_DEMO 
+
+"dsp_mix_max" = "0.8"
+FCVAR_DEMO 
+
+"dsp_mix_min" = "0.2"
+FCVAR_DEMO 
+
+"dsp_off" = "0"
+FCVAR_CHEAT FCVAR_SS_ADDED 
+
+"dsp_player" = "0"
+FCVAR_DEMO FCVAR_SERVER_CAN_EXECUTE 
+
+"dsp_room" = "0"
+FCVAR_DEMO 
+
+"dsp_slow_cpu" = "0"
+FCVAR_ARCHIVE FCVAR_DEMO 
+
+"dsp_spatial" = "40"
+FCVAR_DEMO 
+
+"dsp_speaker" = "50"
+FCVAR_DEMO 
+
+"dsp_vol_2ch" = "1.0"
+FCVAR_DEMO 
+
+"dsp_vol_4ch" = "0.5"
+FCVAR_DEMO 
+
+"dsp_vol_5ch" = "0.5"
+FCVAR_DEMO 
+
+"dsp_volume" = "1.0"
+FCVAR_ARCHIVE FCVAR_DEMO 
+
+"dsp_water" = "14"
+FCVAR_DEMO 
+
+"dt_ShowPartialChangeEnts" = "0"
+FCVAR_NONE
+- (SP only) - show entities that were copied using small optimized lists (FL_EDICT_PARTIAL_CHANGE).
+
+"dt_UsePartialChangeEnts" = "1"
+FCVAR_NONE
+- (SP only) - enable FL_EDICT_PARTIAL_CHANGE optimization.
+
+"dtwarning" = "0"
+FCVAR_NONE
+- Print data table warnings?
+
+"dtwatchclass" = ""
+FCVAR_NONE
+- Watch all fields encoded with this table.
+
+"dtwatchent" = "-1"
+FCVAR_NONE
+- Watch this entities data table encoding.
+
+"dtwatchvar" = ""
+FCVAR_NONE
+- Watch the named variable.
+
+"enable_debug_overlays" = "1"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Enable rendering of debug overlays
+
+"engine_no_focus_sleep" = "50"
+FCVAR_ARCHIVE 
+
+"ent_debugkeys" = ""
+FCVAR_GAMEDLL 
+
+"ent_messages_draw" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Visualizes all entity input/output activity.
+
+"fast_fogvolume" = "0"
+FCVAR_NONE
+
+"filesystem_buffer_size" = "0"
+FCVAR_NONE
+- Size of per file buffers. 0 for none
+
+"filesystem_max_stdio_read" = "16"
+FCVAR_NONE
+
+"filesystem_native" = "1"
+FCVAR_NONE
+- Use native FS or STDIO
+
+"filesystem_report_buffered_io" = "0"
+FCVAR_NONE
+
+"filesystem_unbuffered_io" = "1"
+FCVAR_NONE
+
+"filesystem_use_overlapped_io" = "1"
+FCVAR_NONE
+
+"fire_absorbrate" = "3"
+FCVAR_GAMEDLL 
+
+"fire_dmgbase" = "1"
+FCVAR_GAMEDLL 
+
+"fire_dmginterval" = "1.0"
+FCVAR_GAMEDLL 
+
+"fire_dmgscale" = "0.1"
+FCVAR_GAMEDLL 
+
+"fire_extabsorb" = "5"
+FCVAR_GAMEDLL 
+
+"fire_extscale" = "12"
+FCVAR_GAMEDLL 
+
+"fire_growthrate" = "1.0"
+FCVAR_GAMEDLL 
+
+"fire_heatscale" = "1.0"
+FCVAR_GAMEDLL 
+
+"fire_incomingheatscale" = "0.1"
+FCVAR_GAMEDLL 
+
+"fire_maxabsorb" = "50"
+FCVAR_GAMEDLL 
+
+"fish_dormant" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+- Turns off interactive fish behavior. Fish become immobile and unresponsive.
+
+"flex_expression" = "-"
+FCVAR_GAMEDLL 
+
+"flex_looktime" = "5"
+FCVAR_GAMEDLL 
+
+"flex_maxawaytime" = "1.0"
+FCVAR_GAMEDLL 
+
+"flex_maxplayertime" = "7"
+FCVAR_GAMEDLL 
+
+"flex_minawaytime" = "0.5"
+FCVAR_GAMEDLL 
+
+"flex_minplayertime" = "5"
+FCVAR_GAMEDLL 
+
+"flex_talk" = "0"
+FCVAR_GAMEDLL 
+
+"fog_enable_water_fog" = "1"
+FCVAR_CHEAT 
+
+"fps_max" = "300"
+FCVAR_NOT_CONNECTED 
+- Frame rate limiter, cannot be set while connected to a server.
+
+"free_pass_peek_debug" = "0"
+FCVAR_GAMEDLL 
+
+"fs_monitor_read_from_pack" = "0"
+FCVAR_NONE
+- 0:Off, 1:Any, 2:Sync only
+
+"fs_report_sync_opens" = "0"
+FCVAR_NONE
+- 0:Off, 1:Blocking only, 2:All
+
+"fs_warning_mode" = "0"
+FCVAR_NONE
+- 0:Off, 1:Warn main thread, 2:Warn other threads
+
+"func_break_max_pieces" = "15"
+FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_REPLICATED 
+
+"func_break_reduction_factor" = ".5"
+FCVAR_GAMEDLL 
+
+"func_breakdmg_bullet" = "0.5"
+FCVAR_GAMEDLL 
+
+"func_breakdmg_club" = "1.5"
+FCVAR_GAMEDLL 
+
+"func_breakdmg_explosive" = "1.25"
+FCVAR_GAMEDLL 
+
+"g_Language" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+
+"g_debug_angularsensor" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"g_debug_constraint_sounds" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Enable debug printing about constraint sounds.
+
+"g_debug_doors" = "0"
+FCVAR_GAMEDLL 
+
+"g_debug_npc_vehicle_roles" = "0"
+FCVAR_GAMEDLL 
+
+"g_debug_ragdoll_removal" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"g_debug_trackpather" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"g_debug_transitions" = "0"
+FCVAR_GAMEDLL 
+- Set to 1 and restart the map to be warned if the map has no trigger_transition volumes. Set to 2 to see a dump of all entities & associated results during a transition.
+
+"g_debug_vehiclebase" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"g_debug_vehicledriver" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"g_debug_vehicleexit" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"g_debug_vehiclesound" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"g_ragdoll_important_maxcount" = "2"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+
+"g_ragdoll_maxcount" = "8"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+
+"gameui_xbox" = "0"
+FCVAR_NONE
+
+"gl_amd_occlusion_workaround" = "1"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"hl2_episodic" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+
+"host_ShowIPCCallCount" = "0"
+FCVAR_NONE
+- Print # of IPC calls this number of times per second. If set to -1, the # of IPC calls is shown every frame.
+
+"host_competitive_ever_enabled" = "0" min. 0.000000 max. 1.000000
+FCVAR_HIDDEN 
+- Has competitive ever been enabled this run?
+
+"host_flush_threshold" = "20"
+FCVAR_NONE
+- Memory threshold below which the host should flush caches between server instances
+
+"host_framerate" = "0"
+FCVAR_NONE
+- Set to lock per-frame time elapse.
+
+"host_limitlocal" = "0"
+FCVAR_NONE
+- Apply cl_cmdrate and cl_updaterate to loopback connection
+
+"host_map" = "bt_forgotten" ( def. "" )
+FCVAR_NONE
+- Current map name.
+
+"host_profile" = "0"
+FCVAR_NONE
+
+"host_showcachemiss" = "0"
+FCVAR_NONE
+- Print a debug message when the client or server cache is missed.
+
+"host_sleep" = "0"
+FCVAR_CHEAT 
+- Force the host to sleep a certain number of milliseconds each frame.
+
+"host_speeds" = "0"
+FCVAR_NONE
+- Show general system running times.
+
+"host_thread_mode" = "0"
+FCVAR_NONE
+- Run the host in threaded mode, (0 == off, 1 == if multicore, 2 == force)
+
+"host_timer_spin_ms" = "0"
+FCVAR_NONE
+- Use CPU busy-loop for improved timer precision (dedicated only)
+
+"host_timescale" = "1.0"
+FCVAR_REPLICATED 
+- Prescale the clock by this amount.
+
+"hostip" = "-1062731518" ( def. "" )
+FCVAR_SS_ADDED 
+- Host game server ip
+
+"hostname" = "PVKII Dedicated Server" ( def. "" )
+FCVAR_NONE
+- Hostname for server.
+
+"hostport" = "27015"
+FCVAR_SS_ADDED 
+- Host game server port
+
+"ip" = "localhost"
+FCVAR_SS_ADDED 
+- Overrides IP for multihomed hosts
+
+"joy_active" = "-1"
+FCVAR_NONE
+- Which of the connected joysticks / gamepads to use (-1 means first found)
+
+"joy_axis_deadzone" = "0.2"
+FCVAR_ARCHIVE 
+- Dead zone near the zero point to not report movement.
+
+"joy_axisbutton_threshold" = "0.3"
+FCVAR_ARCHIVE 
+- Analog axis range before a button press is registered.
+
+"joy_gamecontroller_config" = ""
+FCVAR_ARCHIVE 
+- Game controller mapping (passed to SDL with SDL_HINT_GAMECONTROLLERCONFIG), can also be configured in Steam Big Picture mode.
+
+"joy_xcontroller_found" = "0" ( def. "1" )
+FCVAR_HIDDEN 
+- Automatically set to 1 if an xcontroller has been detected.
+
+"jpeg_quality" = "90"
+FCVAR_NONE
+- jpeg screenshot quality.
+
+"lan_override" = "1"
+FCVAR_GAMEDLL 
+
+"lightcache_maxmiss" = "2"
+FCVAR_CHEAT 
+
+"loader_spew_info" = "0"
+FCVAR_NONE
+- 0:Off, 1:Timing, 2:Completions, 3:Late Completions, 4:Purges, -1:All 
+
+"loader_spew_info_ex" = "0"
+FCVAR_NONE
+- (internal)
+
+"log_verbose_enable" = "0"
+FCVAR_GAMEDLL 
+- Set to 1 to enable verbose server log on the server.
+
+"log_verbose_interval" = "3.0"
+FCVAR_GAMEDLL 
+- Determines the interval (in seconds) for the verbose server log.
+
+"lservercfgfile" = "listenserver.cfg"
+FCVAR_GAMEDLL 
+
+"lzma_persistent_buffer" = "0"
+FCVAR_NONE
+- If set, attempt to keep a persistent buffer for the LZMA decoder dictionary. This avoids re-allocating a ~16-64meg buffer for each operation, at the expensive of keeping extra memory around when it is not in-use.
+
+"map_noareas" = "0"
+FCVAR_NONE
+- Disable area to area connection testing.
+
+"mapcyclefile" = "mapcycle.txt"
+FCVAR_GAMEDLL 
+- Name of the .txt file used to cycle the maps on multiplayer servers 
+
+"mat_aaquality" = "0"
+FCVAR_ARCHIVE 
+
+"mat_accelerate_adjust_exposure_down" = "3.0"
+FCVAR_CHEAT 
+
+"mat_advancedshaders" = "1"
+FCVAR_ARCHIVE FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_antialias" = "0"
+FCVAR_ARCHIVE 
+
+"mat_bufferprimitives" = "1"
+FCVAR_NONE
+
+"mat_bumpbasis" = "0"
+FCVAR_CHEAT 
+
+"mat_bumpmap" = "1"
+FCVAR_SS_ADDED 
+
+"mat_colcorrection_disableentities" = "0"
+FCVAR_NONE
+
+"mat_color_projection" = "0"
+FCVAR_ARCHIVE 
+
+"mat_colorcorrection" = "0"
+FCVAR_ARCHIVE 
+
+"mat_compressedtextures" = "1"
+FCVAR_NONE
+
+"mat_debugalttab" = "0"
+FCVAR_CHEAT 
+
+"mat_debugdepth" = "0"
+FCVAR_NONE
+
+"mat_debugdepthmode" = "0"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_debugdepthval" = "128.0f"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_debugdepthvalmax" = "256.0f"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_depthbias_decal" = "-262144"
+FCVAR_CHEAT FCVAR_SS_ADDED 
+
+"mat_depthbias_normal" = "0.0f"
+FCVAR_CHEAT FCVAR_SS_ADDED 
+
+"mat_depthbias_shadowmap" = "0.0005"
+FCVAR_CHEAT 
+
+"mat_diffuse" = "1"
+FCVAR_CHEAT 
+
+"mat_disable_fancy_blending" = "0"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_disable_lightwarp" = "0"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_drawTitleSafe" = "0"
+FCVAR_NONE
+- Enable title safe overlay
+
+"mat_drawflat" = "0"
+FCVAR_CHEAT 
+
+"mat_dxlevel" = "0"
+FCVAR_NONE
+- Current DirectX Level. Competitive play requires at least mat_dxlevel 90
+
+"mat_dynamic_tonemapping" = "1"
+FCVAR_CHEAT 
+
+"mat_envmapsize" = "128"
+FCVAR_NONE
+
+"mat_envmaptgasize" = "32.0"
+FCVAR_NONE
+
+"mat_excludetextures" = "0"
+FCVAR_CHEAT 
+
+"mat_fastnobump" = "0"
+FCVAR_CHEAT 
+
+"mat_fastspecular" = "1"
+FCVAR_NONE
+- Enable/Disable specularity for visual testing.  Will not reload materials and will not affect perf.
+
+"mat_fillrate" = "0"
+FCVAR_CHEAT 
+
+"mat_filterlightmaps" = "1"
+FCVAR_NONE
+
+"mat_filtertextures" = "1"
+FCVAR_NONE
+
+"mat_force_tonemap_scale" = "0.0"
+FCVAR_CHEAT 
+
+"mat_forceaniso" = "1"
+FCVAR_ARCHIVE 
+
+"mat_forcedynamic" = "0"
+FCVAR_CHEAT 
+
+"mat_forcehardwaresync" = "1"
+FCVAR_SS_ADDED 
+
+"mat_forcemanagedtextureintohardware" = "1"
+FCVAR_HIDDEN FCVAR_SS_ADDED 
+
+"mat_fullbright" = "0"
+FCVAR_CHEAT FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_hdr_level" = "2"
+FCVAR_ARCHIVE 
+- Set to 0 for no HDR, 1 for LDR+bloom on HDR maps, and 2 for full HDR on HDR maps.
+
+"mat_hdr_manual_tonemap_rate" = "1.0"
+FCVAR_NONE
+
+"mat_hdr_tonemapscale" = "1.0"
+FCVAR_CHEAT 
+- The HDR tonemap scale. 1 = Use autoexposure, 0 = eyes fully closed, 16 = eyes wide open.
+
+"mat_leafvis" = "0"
+FCVAR_CHEAT 
+- Draw wireframe of current leaf
+
+"mat_levelflush" = "1"
+FCVAR_NONE
+
+"mat_lightmap_pfms" = "0"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+- Outputs .pfm files containing lightmap data for each lightmap page when a level exits.
+
+"mat_loadtextures" = "1"
+FCVAR_CHEAT 
+
+"mat_lodin_hidden_pop" = "1"
+FCVAR_DEVELOPMENTONLY 
+
+"mat_lodin_time" = "5.0"
+FCVAR_DEVELOPMENTONLY 
+
+"mat_luxels" = "0"
+FCVAR_CHEAT FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_managedtextures" = "1"
+FCVAR_ARCHIVE 
+- If set, allows Direct3D to manage texture uploading at the cost of extra system memory
+
+"mat_max_worldmesh_vertices" = "65536"
+FCVAR_NONE
+
+"mat_measurefillrate" = "0"
+FCVAR_CHEAT 
+
+"mat_mipmaptextures" = "1"
+FCVAR_NONE
+
+"mat_monitorgamma" = "2.2" min. 1.600000 max. 2.599999
+FCVAR_ARCHIVE 
+- monitor gamma (typically 2.2 for CRT and 1.7 for LCD)
+
+"mat_monitorgamma_tv_enabled" = "0"
+FCVAR_ARCHIVE 
+
+"mat_monitorgamma_tv_exp" = "2.5" min. 1.000000 max. 4.000000
+FCVAR_NONE
+
+"mat_monitorgamma_tv_range_max" = "255"
+FCVAR_NONE
+
+"mat_monitorgamma_tv_range_min" = "16"
+FCVAR_NONE
+
+"mat_morphstats" = "0"
+FCVAR_CHEAT 
+
+"mat_motion_blur_enabled" = "0"
+FCVAR_ARCHIVE 
+
+"mat_motion_blur_percent_of_screen_max" = "4.0"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_norendering" = "0"
+FCVAR_CHEAT 
+
+"mat_normalmaps" = "0"
+FCVAR_CHEAT 
+
+"mat_normals" = "0"
+FCVAR_CHEAT 
+
+"mat_parallaxmap" = "1"
+FCVAR_HIDDEN FCVAR_SS_ADDED 
+
+"mat_phong" = "1"
+FCVAR_NONE
+
+"mat_picmip" = "0" min. -1.000000 max. 4.000000
+FCVAR_ARCHIVE 
+
+"mat_powersavingsmode" = "0"
+FCVAR_ARCHIVE 
+- Power Savings Mode
+
+"mat_proxy" = "0"
+FCVAR_CHEAT 
+
+"mat_queue_mode" = "-1"
+FCVAR_ARCHIVE 
+- The queue/thread mode the material system should use: -1=default, 0=synchronous single thread, 2=queued multithreaded
+
+"mat_queue_report" = "0"
+FCVAR_ARCHIVE 
+- Report thread stalls.  Positive number will filter by stalls >= time in ms.  -1 reports all locks.
+
+"mat_reducefillrate" = "0"
+FCVAR_SS_ADDED 
+
+"mat_reduceparticles" = "0"
+FCVAR_SS_ADDED 
+
+"mat_report_queue_status" = "0"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_requires_rt_alloc_first" = "1" ( def. "0" )
+FCVAR_HIDDEN 
+
+"mat_reversedepth" = "0"
+FCVAR_CHEAT 
+
+"mat_show_ab_hdr" = "0"
+FCVAR_NONE
+
+"mat_show_texture_memory_usage" = "FCVAR_NEVER_AS_STRING" ( def. "0" )
+FCVAR_NEVER_AS_STRING FCVAR_CHEAT 
+- Display the texture memory usage on the HUD.
+
+"mat_showenvmapmask" = "0"
+FCVAR_NONE
+
+"mat_showlowresimage" = "0"
+FCVAR_CHEAT 
+
+"mat_showmiplevels" = "0"
+FCVAR_CHEAT 
+- color-code miplevels 2: normalmaps, 1: everything else
+
+"mat_slopescaledepthbias_decal" = "-0.5"
+FCVAR_CHEAT 
+
+"mat_slopescaledepthbias_normal" = "0.0f"
+FCVAR_CHEAT 
+
+"mat_slopescaledepthbias_shadowmap" = "16"
+FCVAR_CHEAT 
+
+"mat_softwarelighting" = "0"
+FCVAR_SS_ADDED 
+
+"mat_softwareskin" = "0"
+FCVAR_CHEAT 
+
+"mat_specular" = "1"
+FCVAR_SS_ADDED 
+- Enable/Disable specularity for perf testing.  Will cause a material reload upon change.
+
+"mat_spew_on_texture_size" = "0"
+FCVAR_NONE
+- Print warnings about vtf content that isn't of the expected size
+
+"mat_spewalloc" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_ARCHIVE 
+
+"mat_supportflashlight" = "-1"
+FCVAR_HIDDEN 
+- 0 - do not support flashlight (don't load flashlight shader combos), 1 - flashlight is supported
+
+"mat_surfaceid" = "0"
+FCVAR_CHEAT 
+
+"mat_surfacemat" = "0"
+FCVAR_CHEAT 
+
+"mat_texture_list" = "0"
+FCVAR_CHEAT 
+- For debugging, show a list of used textures per frame
+
+"mat_texture_list_all" = "FCVAR_NEVER_AS_STRING" ( def. "0" )
+FCVAR_NEVER_AS_STRING FCVAR_CHEAT 
+- If this is nonzero, then the texture list panel will show all currently-loaded textures.
+
+"mat_texture_list_content_path" = ""
+FCVAR_ARCHIVE 
+- The content path to the materialsrc directory. If left unset, it'll assume your content directory is next to the currently running game dir.
+
+"mat_texture_list_view" = "FCVAR_NEVER_AS_STRING" ( def. "1" )
+FCVAR_NEVER_AS_STRING FCVAR_CHEAT 
+- If this is nonzero, then the texture list panel will render thumbnails of currently-loaded textures.
+
+"mat_texture_reload_frame_swap_workaround" = "0"
+FCVAR_SS 
+- Workaround certain GL drivers holding unnecessary amounts of data when loading many materials by forcing synthetic frame swaps
+
+"mat_texture_tracking" = "0"
+FCVAR_NONE
+
+"mat_tintalphablendfactordst" = "5"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_tintalphablendfactorsrc" = "4"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_tintalphablendmode" = "4"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_tonemap_algorithm" = "1"
+FCVAR_CHEAT 
+- 0 = Original Algorithm 1 = New Algorithm
+
+"mat_tonemapping_occlusion_use_stencil" = "0"
+FCVAR_NONE
+
+"mat_trilinear" = "0"
+FCVAR_SS_ADDED 
+
+"mat_use_compressed_hdr_textures" = "1"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_visualize_dof" = "0"
+FCVAR_CHEAT FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"mat_vrmode_adapter" = "-1"
+FCVAR_NONE
+
+"mat_vsync" = "0" min. 0.000000 max. 1.000000
+FCVAR_SS_ADDED 
+- Force sync to vertical retrace
+
+"mat_wireframe" = "0"
+FCVAR_CHEAT 
+
+"matchmakingport" = "27025"
+FCVAR_SS_ADDED 
+- Host Matchmaking port
+
+"maxplayers_extended" = "0"
+FCVAR_GAMEDLL 
+- Extends max player limit to 33. Please note that going over the recommended value (24) can cause significant performance issues.
+
+"mem_dumpstats" = "0"
+FCVAR_NONE
+- Dump current and max heap usage info to console at end of frame ( set to 2 for continuous output )
+
+
+"mem_force_flush" = "0"
+FCVAR_CHEAT 
+- Force cache flush of unlocked resources on every alloc
+
+"mem_max_heapsize" = "256"
+FCVAR_SS 
+- Maximum amount of memory to dedicate to engine hunk and datacache (in mb)
+
+"mem_max_heapsize_dedicated" = "64"
+FCVAR_SS 
+- Maximum amount of memory to dedicate to engine hunk and datacache, for dedicated server (in mb)
+
+"mem_min_heapsize" = "48"
+FCVAR_SS 
+- Minimum amount of memory to dedicate to engine hunk and datacache (in mb)
+
+"mem_periodicdumps" = "0"
+FCVAR_NONE
+- Write periodic memstats dumps every n seconds.
+
+"mem_test_each_frame" = "0"
+FCVAR_NONE
+- Run heap check at end of every frame
+
+
+"mem_test_every_n_seconds" = "0"
+FCVAR_NONE
+- Run heap check at a specified interval
+
+
+"metamod_version" = "1.11.0-dev+1148V" ( def. "1.11.0-dev+1148" )
+FCVAR_SPONLY FCVAR_NOTIFY 
+- Metamod:Source Version
+
+"mm_basedir" = "addons\metamod"
+FCVAR_SPONLY 
+- Metamod:Source Base Folder
+
+"mm_max_spectators" = "4"
+FCVAR_NONE
+- Max players allowed on the spectator team
+
+"mm_minplayers" = "2"
+FCVAR_NONE
+- Number of players required to start an unranked game
+
+"mm_pluginsfile" = "addons\metamod\metaplugins.ini"
+FCVAR_SPONLY 
+- Metamod:Source Plugins File
+
+"mod_dynamicloadpause" = "0"
+FCVAR_HIDDEN FCVAR_CHEAT FCVAR_DONTRECORD 
+
+"mod_dynamicloadspew" = "0"
+FCVAR_HIDDEN FCVAR_DONTRECORD 
+
+"mod_dynamicloadthrottle" = "0"
+FCVAR_HIDDEN FCVAR_CHEAT FCVAR_DONTRECORD 
+
+"mod_dynamicunloadtex" = "1"
+FCVAR_HIDDEN FCVAR_DONTRECORD 
+
+"mod_dynamicunloadtime" = "150"
+FCVAR_HIDDEN FCVAR_DONTRECORD 
+
+"mod_forcedata" = "1"
+FCVAR_NONE
+- Forces all model file data into cache on model load.
+
+"mod_forcetouchdata" = "1"
+FCVAR_NONE
+- Forces all model file data into cache on model load.
+
+"mod_load_anims_async" = "0"
+FCVAR_NONE
+
+"mod_load_fakestall" = "0"
+FCVAR_NONE
+- Forces all ANI file loading to stall for specified ms
+
+
+"mod_load_mesh_async" = "0"
+FCVAR_NONE
+
+"mod_load_showstall" = "0"
+FCVAR_NONE
+- 1 - show hitches , 2 - show stalls
+
+"mod_load_vcollide_async" = "0"
+FCVAR_NONE
+
+"mod_lock_mdls_on_load" = "0"
+FCVAR_NONE
+
+"mod_offline_hdr_switch" = "0"
+FCVAR_SS 
+- Re-order the HDR/LDR mode switch to do most of the material system reloading with the device offline. This reduces unnecessary device resource uploads and may drastically reduce load time and memory pressure on certain drivers, but may trigger bugs in som
+
+"mod_test_mesh_not_available" = "0"
+FCVAR_CHEAT 
+
+"mod_test_not_available" = "0"
+FCVAR_CHEAT 
+
+"mod_test_verts_not_available" = "0"
+FCVAR_CHEAT 
+
+"mod_touchalldata" = "1"
+FCVAR_NONE
+- Touch model data during level startup
+
+"mod_trace_load" = "0"
+FCVAR_NONE
+
+"motdfile" = "motd.txt"
+FCVAR_GAMEDLL 
+- The MOTD file to load.
+
+"motdfile_text" = "motd_text.txt"
+FCVAR_GAMEDLL 
+- The text-only MOTD file to use for clients that have disabled HTML MOTDs.
+
+"mp_afkprotector_chestdroptime" = "20"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- AFK chest carriers drop the chest after this many seconds of idling
+
+"mp_afkprotector_dealmethod" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- 0 = Do nothing, 1 = Move to spectator, 2 = Kick from the server, 3 = Move to spectator, but kick if they still AFK.
+
+"mp_afkprotector_kickadmins" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Admins lose their immunity to AFK kicks.
+
+"mp_afkprotector_kickspecs" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Always kick inactive spectators. Set to 2 to kick unassigned players as well.
+
+"mp_afkprotector_time" = "90"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Deal with AFK players after this many seconds of idling, see mp_afkprotector_dealmethod for dealing methods.
+
+"mp_afkprotector_trinketdroptime" = "20"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- AFK trinket carriers drop the trinket after this many seconds of idling
+
+"mp_allowNPCs" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+
+"mp_allow_custom_balance" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Allow custom weapon/class scripts, reload map to take effect. NOTE: This will flag your server as 'modded'!
+
+"mp_allowrespawntime" = "5.0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Time in seconds from the round start that players joining may spawn in, or players who die may respawn.
+
+"mp_allowspectators" = "1.0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- toggles whether the server allows spectator mode or not
+
+"mp_assist_dmg_threshold" = "10.000000" ( def. "10.0" )
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Minimum Damage to be considered an assister
+
+"mp_assist_lifetime" = "5.000000" ( def. "5.0" )
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- How long assist status remains on player after damage dealt, set to -1 for no lifetime
+
+"mp_attackdirindicator" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Allow the use of attack dir indicator.
+
+"mp_autocrosshair" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+
+"mp_autoteambalance" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Forced team balancing
+
+"mp_blunderbuss_bulletdrop" = "250"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+- SS flintlock bullet drop
+
+"mp_blunderbuss_bulletspeed" = "3500"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+- Blunderbuss bullet speed
+
+"mp_button_dist" = "70"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_chattime" = "10" min. 1.000000 max. 120.000000
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- amount of time players can chat after the game is over
+
+"mp_clan_ready_signal" = "ready"
+FCVAR_GAMEDLL 
+- Text that team leader from each team must speak for the match to begin
+
+"mp_clan_readyrestart" = "0"
+FCVAR_GAMEDLL 
+- If non-zero, game will restart once someone from each team gives the ready signal
+
+"mp_classlimit" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Enable class limit, use mp_classlimit_* cvars to set limits.
+
+"mp_classlimit_archer" = "-1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_classlimit_assassin" = "-1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_classlimit_berserker" = "-1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_classlimit_bondi" = "-1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_classlimit_captain" = "-1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_classlimit_gestir" = "-1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_classlimit_heavyknight" = "-1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_classlimit_huscarl" = "-1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_classlimit_manatarms" = "-1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_classlimit_sharpshooter" = "-1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_classlimit_skirmisher" = "-1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_decals" = "200"
+FCVAR_ARCHIVE 
+
+"mp_defaultteam" = "0"
+FCVAR_GAMEDLL 
+
+"mp_disable_respawn_times" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Disable respawn times
+
+"mp_disabledteam" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Team that is disabled
+
+"mp_disablepickups" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Disables item pickups.
+
+"mp_disablespecial" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Disables player specials.
+
+"mp_dm_force" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Forces deathmatch rules on all maps. Change takes effect on map reload.
+
+"mp_dm_oldrules" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Use old gamerules for (t)dm instead of the new round based rules.
+
+"mp_dm_spawnsound" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Plays a sound when player spawns.
+
+"mp_dodge_cooldown_minspeed" = "120.0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_dodge_duration" = "1.0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_dodge_easing_mode" = "4"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_dodge_speed_boost_time" = "0.9"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_dodge_speed_multiplier_min" = "0.0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_dodge_speed_multiplier_peak" = "2.0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_door_blocked_react_dist" = "350"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- How far away should we consider a door to be in blocking range
+
+"mp_door_dist" = "100"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"mp_facefronttime" = "3"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED 
+- After this amount of time of standing in place but aiming to one side, go ahead and move feet to face upper body.
+
+"mp_fadetoblack" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- fade a player's screen to black when he dies
+
+"mp_falldamage" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+
+"mp_fastchestrespawn_enabled" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Enabled/Disable fast chest respawn if chest is carried for less than 5 seconds.
+
+"mp_feetyawrate" = "720"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED 
+- How many degrees per second that we can turn our feet or upper body.
+
+"mp_ff_affects_kick_attack" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Can players kick their teammates when FF is on?
+
+"mp_ff_autokick" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Auto-kick team killers.
+
+"mp_ff_autokick_banminutes" = "30"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Ban length in minutes. Set 0 for kick only.
+
+"mp_ff_autokick_limit" = "5"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Auto-kick after this amount of TKs.
+
+"mp_ff_damagescale" = "0.5"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- FF damage gets scaled by this value.
+
+"mp_ff_message" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Shows message to a player when their teammate hurts a friend.
+
+"mp_filterdeadchat" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Should dead player's chat be visible to player's alive
+
+"mp_flashlight" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+
+"mp_flintlock_bulletdrop" = "250"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+- SS flintlock bullet drop
+
+"mp_flintlock_bulletspeed" = "4500"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+- SS flintlock bullet speed
+
+"mp_footsteps" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+
+"mp_forcecamera" = "1" ( def. "0" )
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Restricts spectator modes for dead players
+
+"mp_forcerespawn" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+
+"mp_fraglimit" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- The number of kills at which the map ends
+
+"mp_freezecam" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Enables/Disables death cam to freeze on killer when a player dies
+
+"mp_friendlyfire" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Allows team members to injure other members of their team
+
+"mp_gamemodeintro" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Show game mode intros for players at round start
+
+"mp_headicons" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Show player head icons such as voice/text chat and nemesis. Disabling this ignores client option.
+
+"mp_hittraces_per_tick" = "2"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Number of hit traces per simulation tick.
+
+"mp_ik" = "1"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Use IK on in-place turns.
+
+"mp_infinite_ammo" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+- Infinite ammo
+
+"mp_initialwait_freeze" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Should the players be frozen when the game is about to start
+
+"mp_initialwait_freeze_duration" = "4"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- How long in seconds the players are frozen on game start
+
+"mp_initialwaittime" = "30"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- How long to wait for people who are still loading before starting the real round
+
+"mp_kick_berserk_dmgmulti" = "2"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+- Kick damage gets multiplied by this value while berserking.
+
+"mp_kick_delay" = "2.0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+- Delay between kicks.
+
+"mp_kick_dmg" = "3"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+- Kick damage.
+
+"mp_kick_movementstop" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Enable/Disable kick movement stop.
+
+"mp_kick_physics_maxmass" = "200"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+- Max object mass that can be kicked.
+
+"mp_kick_physics_push" = "400"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+- Kick physics push.
+
+"mp_kick_player_push" = "300"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+- Kick player push.
+
+"mp_killdelay" = "5.0"
+FCVAR_GAMEDLL FCVAR_ARCHIVE 
+
+"mp_limitteams" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Max. allowed diference between team player counts
+
+"mp_lts_adjustroundtimer" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Should the round timer be adjusted by player count?
+
+"mp_lts_alivecheck_method" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- 0 = Check every second (classic default) 1 = Check on player death
+
+"mp_lts_allowdraws" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Allow round draws. If not, when time limit is hit during sudden death, the win goes to team with more HP
+
+"mp_lts_override_sdtime" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Always override sudden death time by the value of "mp_suddendeathtime", ignores map settings
+
+"mp_lts_roundend_delay" = "1.0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- When a team wins, how long should it take for round end screen to appear
+
+"mp_mapcycle_empty_timeout_seconds" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- If nonzero, server will cycle to the next map if it has been empty on the current map for N seconds
+
+"mp_matchbased" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Should the time/round limited games be considered as matches
+
+"mp_meleedamagecalc" = "1"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Type of melee damage calculation. 0 - default 2.2 style, 1 - first hit does most damage
+
+"mp_meleedamagemultiplier" = "1.0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Melee damage multiplier
+
+"mp_meleerangeboost" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Increases the range of all melee weapons by this amount (see also mp_meleerangescale)
+
+"mp_meleerangescale" = "1.0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Scales the range of all melee weapons by this amount (scale is applied first, then boost)
+
+"mp_meleesubsequenthitdmg" = "0.8"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- If mp_meleedamagecalc is 1, subsequent hits do the previous hit's damage multiplied by this amount
+
+"mp_meleetracehullsize" = "3"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Melee hit trace hull size (smaller value = harder to hit)
+
+"mp_moveduringsuicide" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Determines whether players can move during sucidie.
+
+"mp_nemesis" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Enable dominations and revenges.
+
+"mp_nemesis_assistscount" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Should assists count as "kills" for nemesis status?
+
+"mp_nemesis_kills" = "4"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- How many kills are required for nemesis status.
+
+"mp_overtime_dm" = "120"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- If non-zero, overtime will be used if there's a draw, in seconds.
+
+"mp_player_pushaway_max_force" = "200"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_SERVER_CAN_EXECUTE 
+
+"mp_player_pushaway_min_force" = "20"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_SERVER_CAN_EXECUTE 
+
+"mp_preventchestpickup" = "1"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- If set to 0, players are allowed to pickup chests inside their own zone
+
+"mp_projectile_use_hitboxes" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Use hitboxes for projectile hit calculation.
+
+"mp_randomizer" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Give random weapons to players on spawn.
+
+"mp_randsuddendeath" = "0.15"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Pecrent chance sudden death will occur right at the start of the round. (Time for round will still be as usual)
+
+"mp_respawntime" = "5.0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Respawn time in seconds
+
+"mp_respawntime_waves" = "10.0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Respawn time in seconds
+
+"mp_respawnwaves_minwait" = "5.0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Minimum respawn time
+
+"mp_restartgame" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- If non-zero, game will restart in the specified number of seconds
+
+"mp_restartgame_immediate" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- If non-zero, game will restart immediately
+
+"mp_restartround" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Restart round in X seconds
+
+"mp_restartround_immediate" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- If non-zero, round will restart immediately
+
+"mp_roundlimit" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Round limit in number of rounds
+
+"mp_roundlimit_clinch" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Team can clinch the match when other teams have no way to catch up in round wins.
+
+"mp_roundtime" = "3"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- round duration in minutes
+
+"mp_roundtime_dm" = "0.0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- If non-zero, this will be a round timer for DM rounds, otherwise map time limit is used.
+
+"mp_roundtimer_lastteamstanding" = "45.0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Round time for Last Team Standing gamemode
+
+"mp_ruleset" = "classic"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Which ruleset should be used.
+
+"mp_show_silver_medals" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Should team silver medals be shown in the scoreboard?
+
+"mp_show_voice_icons" = "1"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Show overhead player voice icons when players are speaking.
+
+
+"mp_ssrifle_specialmin" = "0.4"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+- Minimum throw strength fraction
+
+"mp_suddendeathtime" = "45.0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Time in seconds that Sudden Death Mode will last
+
+"mp_suicide_interval" = "5.0"
+FCVAR_GAMEDLL FCVAR_ARCHIVE 
+- Time to wait before player can suicide again
+
+"mp_teamlist" = "hgrunt;scientist"
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+
+"mp_teamoverride" = "1"
+FCVAR_GAMEDLL 
+
+"mp_teamplay" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+
+"mp_teamswitch_delay" = "5.0"
+FCVAR_GAMEDLL 
+
+"mp_territorycapdeteriorate" = "60"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Time in seconds it takes for a capture to fully deteriorate.
+
+"mp_territorywindelay" = "30"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Win delay after all territories have been captured by the same team.
+
+"mp_thirdperson" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Allow players to use thirdperson mode.
+
+"mp_timelimit" = "20"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- game time per map in minutes
+
+"mp_timelimit_waitroundend" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Wait for the end of round before changing map
+
+"mp_trinketdeath_scoregrace" = "10"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- When a trinket carrier dies that trinket when picked up cannot cause carrier death related gamemode scoring till this time has passed.
+
+"mp_trinketreset" = "20"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- How long it takes for a dropped trinket to be despawned
+
+"mp_trinketrespawn" = "30"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- How long it takes a lost trinket to respawn to a player on that team
+
+"mp_trinketwars_killmultiplier" = "1.35"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- The number of kills required to win the game is the total number of players multiplied by this value.
+
+"mp_trinketwars_maxkills" = "32"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Don't allow the number of kills required to win the game to be more than this value.
+
+"mp_trinketwars_minkills" = "4"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Don't allow the number of kills required to win the game to be less than this value.
+
+"mp_waitingforplayers_cancel" = "0"
+FCVAR_GAMEDLL 
+- Set to 1 to end the WaitingForPlayers period.
+
+"mp_waitingforplayers_restart" = "0"
+FCVAR_GAMEDLL 
+- Set to 1 to start or restart the WaitingForPlayers period.
+
+"mp_waitingforplayers_time" = "0"
+FCVAR_GAMEDLL 
+- WaitingForPlayers time length in seconds
+
+"mp_weaponstay" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+
+"mp_winlimit" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Win limit in number of rounds
+
+"name" = "unnamed"
+FCVAR_ARCHIVE FCVAR_USERINFO FCVAR_PRINTABLEONLY FCVAR_SERVER_CAN_EXECUTE 
+- Current user name
+
+"nav_area_bgcolor" = "0 0 0 30"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- RGBA color to draw as the background color for nav areas while editing.
+
+"nav_area_max_size" = "50"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Max area size created in nav generation
+
+"nav_block_select_radius" = "1000"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_coplanar_slope_limit" = "0.99"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_coplanar_slope_limit_displacement" = "0.7"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_corner_adjust_adjacent" = "18"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- radius used to raise/lower corners in nearby areas when raising/lowering corners.
+
+"nav_create_area_at_feet" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Anchor nav_begin_area Z to editing player's feet
+
+"nav_create_place_on_ground" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- If true, nav areas will be placed flush with the ground when created by hand.
+
+"nav_debug_blocked" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_displacement_test" = "10000"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Checks for nodes embedded in displacements (useful for in-development maps)
+
+"nav_drag_selection_volume_zmax_offset" = "32"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- The offset of the nav drag volume top from center
+
+"nav_drag_selection_volume_zmin_offset" = "32"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- The offset of the nav drag volume bottom from center
+
+"nav_draw_limit" = "500"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- The maximum number of areas to draw in edit mode
+
+"nav_edit" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Set to one to interactively edit the Navigation Mesh. Set to zero to leave edit mode.
+
+"nav_generate_fencetops" = "1"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Autogenerate nav areas on fence and obstacle tops
+
+"nav_generate_fixup_jump_areas" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Convert obsolete jump areas into 2-way connections
+
+"nav_generate_incremental_range" = "2000"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_generate_incremental_tolerance" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Z tolerance for adding new nav areas.
+
+"nav_max_view_distance" = "6000"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Maximum range for precomputed nav mesh visibility (0 = default 1500 units)
+
+"nav_max_vis_delta_list_length" = "64"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_potentially_visible_dot_tolerance" = "0.98"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_quicksave" = "1"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Set to one to skip the time consuming phases of the analysis.  Useful for data collection and testing.
+
+"nav_selected_set_border_color" = "100 100 0 255"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Color used to draw the selected set borders while editing.
+
+"nav_selected_set_color" = "255 255 200 96"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Color used to draw the selected set background while editing.
+
+"nav_show_approach_points" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Show Approach Points in the Navigation Mesh.
+
+"nav_show_area_info" = "0.5"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Duration in seconds to show nav area ID and attributes while editing
+
+"nav_show_compass" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_show_continguous" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Highlight non-contiguous connections
+
+"nav_show_danger" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Show current 'danger' levels.
+
+"nav_show_func_nav_avoid" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Show areas of designer-placed bot avoidance due to func_nav_avoid entities
+
+"nav_show_func_nav_prefer" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Show areas of designer-placed bot preference due to func_nav_prefer entities
+
+"nav_show_func_nav_prerequisite" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Show areas of designer-placed bot preference due to func_nav_prerequisite entities
+
+"nav_show_light_intensity" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_show_node_grid" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_show_node_id" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_show_nodes" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_show_player_counts" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Show current player counts in each area.
+
+"nav_show_potentially_visible" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Show areas that are potentially visible from the current nav area
+
+"nav_slope_limit" = "0.7"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- The ground unit normal's Z component must be greater than this for nav areas to be generated.
+
+"nav_slope_tolerance" = "0.1"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- The ground unit normal's Z component must be this close to the nav area's Z component to be generated.
+
+"nav_snap_to_grid" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Snap to the nav generation grid when creating new nav areas
+
+"nav_solid_props" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Make props solid to nav generation/editing
+
+"nav_split_place_on_ground" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- If true, nav areas will be placed flush with the ground when split.
+
+"nav_test_node" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_test_node_crouch" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_test_node_crouch_dir" = "4"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"nav_update_visibility_on_edit" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- If nonzero editing the mesh will incrementally recompue visibility
+
+"nb_last_area_update_tolerance" = "4.0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Distance a character needs to travel in order to invalidate cached area
+
+"net_blockmsg" = "none"
+FCVAR_CHEAT 
+- Discards incoming message: <0|1|name>
+
+"net_chokeloop" = "0"
+FCVAR_NONE
+- Apply bandwidth choke to loopback packets
+
+"net_compresspackets" = "1"
+FCVAR_NONE
+- Use compression on game packets.
+
+"net_compresspackets_minsize" = "1024"
+FCVAR_NONE
+- Don't bother compressing packets below this size.
+
+"net_compressvoice" = "0"
+FCVAR_NONE
+- Attempt to compress out of band voice payloads (360 only).
+
+"net_drawslider" = "0"
+FCVAR_NONE
+- Draw completion slider during signon
+
+"net_droppackets" = "0"
+FCVAR_CHEAT 
+- Drops next n packets on client
+
+"net_fakejitter" = "0"
+FCVAR_CHEAT 
+- Jitter fakelag packet time
+
+"net_fakelag" = "0"
+FCVAR_CHEAT 
+- Lag all incoming network data (including loopback) by this many milliseconds.
+
+"net_fakeloss" = "0"
+FCVAR_CHEAT 
+- Simulate packet loss as a percentage (negative means drop 1/n packets)
+
+"net_maxcleartime" = "4.0"
+FCVAR_NONE
+- Max # of seconds we can wait for next packets to be sent based on rate setting (0 == no limit).
+
+"net_maxfilesize" = "16" min. 0.000000 max. 64.000000
+FCVAR_NONE
+- Maximum allowed file size for uploading in MB
+
+"net_maxfragments" = "1260" min. 256.000000 max. 1260.000000
+FCVAR_NONE
+- Max fragment bytes per packet
+
+"net_maxpacketdrop" = "5000"
+FCVAR_NONE
+- Ignore any packets with the sequence number more than this ahead (0 == no limit)
+
+"net_maxroutable" = "1260" min. 576.000000 max. 1260.000000
+FCVAR_ARCHIVE FCVAR_USERINFO 
+- Requested max packet size before packets are 'split'.
+
+"net_queue_trace" = "0"
+FCVAR_NONE
+
+"net_queued_packet_thread" = "1"
+FCVAR_NONE
+- Use a high priority thread to send queued packets out instead of sending them each frame.
+
+"net_showdrop" = "0"
+FCVAR_NONE
+- Show dropped packets in console
+
+"net_showevents" = "0"
+FCVAR_CHEAT 
+- Dump game events to console (1=client only, 2=all).
+
+"net_showfragments" = "0"
+FCVAR_NONE
+- Show netchannel fragments
+
+"net_showmsg" = "0"
+FCVAR_NONE
+- Show incoming message: <0|1|name>
+
+"net_showpeaks" = "0"
+FCVAR_NONE
+- Show messages for large packets only: <size>
+
+"net_showsplits" = "0"
+FCVAR_NONE
+- Show info about packet splits
+
+"net_showtcp" = "0"
+FCVAR_NONE
+- Dump TCP stream summary to console
+
+"net_showudp" = "0"
+FCVAR_NONE
+- Dump UDP packets summary to console
+
+"net_showudp_wire" = "0"
+FCVAR_NONE
+- Show incoming packet information
+
+"net_splitpacket_maxrate" = "80000" min. 1000.000000 max. 1048576.000000
+FCVAR_NONE
+- Max bytes per second when queueing splitpacket chunks
+
+"net_splitrate" = "1"
+FCVAR_NONE
+- Number of fragments for a splitpacket that can be sent per frame
+
+"net_udp_rcvbuf" = "131072" min. 8192.000000 max. 131072.000000
+FCVAR_SS_ADDED 
+- Default UDP receive buffer size
+
+"net_usesocketsforloopback" = "0"
+FCVAR_NONE
+- Use network sockets layer even for listen server local player's packets (multiplayer only).
+
+"next" = "0"
+FCVAR_CHEAT 
+- Set to 1 to advance to next frame ( when singlestep == 1 )
+
+"nextlevel" = ""
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+- If set to a valid map name, will change to this map during the next changelevel
+
+"npc_ally_deathmessage" = "1"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"npc_create_equipment" = ""
+FCVAR_GAMEDLL 
+
+"npc_go_do_run" = "1"
+FCVAR_GAMEDLL 
+- Set whether should run on NPC go
+
+"npc_height_adjust" = "1"
+FCVAR_GAMEDLL FCVAR_ARCHIVE 
+- Enable test mode for ik height adjustment
+
+"npc_sentences" = "0"
+FCVAR_GAMEDLL 
+
+"npc_vphysics" = "0"
+FCVAR_GAMEDLL 
+
+"old_radiusdamage" = "0.0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+
+"opt_EnumerateLeavesFastAlgorithm" = "1"
+FCVAR_NONE
+- Use the new SIMD version of CEngineBSPTree::EnumerateLeavesInBox.
+
+"option_duck_method" = "1"
+FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_REPLICATED 
+
+"panel_test_title_safe" = "0"
+FCVAR_CHEAT 
+- Test vgui panel positioning with title safe indentation
+
+"particle_test_attach_attachment" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Attachment index for attachment mode
+
+"particle_test_attach_mode" = "follow_attachment"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Possible Values: 'start_at_attachment', 'follow_attachment', 'start_at_origin', 'follow_origin'
+
+"particle_test_file" = ""
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Name of the particle system to dynamically spawn
+
+"password" = ""
+FCVAR_ARCHIVE FCVAR_DONTRECORD FCVAR_SERVER_CANNOT_QUERY 
+- Current server access password
+
+"phys_impactforcescale" = "1.0"
+FCVAR_GAMEDLL 
+
+"phys_penetration_error_time" = "10"
+FCVAR_GAMEDLL 
+- Controls the duration of vphysics penetration error boxes.
+
+"phys_pushscale" = "1"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+
+"phys_speeds" = "0"
+FCVAR_GAMEDLL 
+
+"phys_stressbodyweights" = "5.0"
+FCVAR_GAMEDLL 
+
+"phys_timescale" = "1"
+FCVAR_GAMEDLL 
+- Scale time for physics
+
+"phys_upimpactforcescale" = "0.375"
+FCVAR_GAMEDLL 
+
+"physicsshadowupdate_render" = "0"
+FCVAR_GAMEDLL 
+
+"pipeline_static_props" = "1"
+FCVAR_NONE
+
+"player_debug_print_damage" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- When true, print amount and type of all damage received by player to console.
+
+"player_old_armor" = "0"
+FCVAR_GAMEDLL 
+
+"prop_active_gib_limit" = "999999"
+FCVAR_GAMEDLL 
+
+"prop_active_gib_max_fade_time" = "999999"
+FCVAR_GAMEDLL 
+
+"props_break_max_pieces" = "-1"
+FCVAR_GAMEDLL 
+- Maximum prop breakable piece count (-1 = model default)
+
+"props_break_max_pieces_perframe" = "-1"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Maximum prop breakable piece count per frame (-1 = model default)
+
+"pvk2_assistedsuicide_time" = "2.5"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"pvk2_captainspecial_selfdmg" = "0.9"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL 
+
+"pvk2_max_usercmd_future_ticks" = "8" min. 0.000000
+FCVAR_GAMEDLL 
+- Prevents clients from running usercmds too far in the future. Prevents speed hacks.
+
+"pvk2_version" = "0.4.3.3" ( def. "<invalid version>" )
+FCVAR_GAMEDLL 
+
+"r_AirboatViewDampenDamp" = "1.0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+
+"r_AirboatViewDampenFreq" = "7.0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+
+"r_AirboatViewZHeight" = "0.0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+
+"r_ClipAreaPortals" = "1"
+FCVAR_CHEAT 
+
+"r_DispBuildable" = "0"
+FCVAR_CHEAT 
+
+"r_DispDrawAxes" = "0"
+FCVAR_NONE
+
+"r_DispWalkable" = "0"
+FCVAR_CHEAT 
+
+"r_DrawBeams" = "1"
+FCVAR_CHEAT 
+- 0=Off, 1=Normal, 2=Wireframe
+
+"r_DrawDisp" = "1"
+FCVAR_CHEAT 
+- Toggles rendering of displacment maps
+
+"r_DrawModelLightOrigin" = "0"
+FCVAR_CHEAT 
+
+"r_DrawPortals" = "0"
+FCVAR_CHEAT 
+
+"r_DrawSpecificStaticProp" = "-1"
+FCVAR_NONE
+
+"r_JeepFOV" = "90"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"r_JeepViewDampenDamp" = "1.0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+
+"r_JeepViewDampenFreq" = "7.0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+
+"r_JeepViewZHeight" = "10.0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+
+"r_ShowViewerArea" = "0"
+FCVAR_NONE
+
+"r_VehicleViewDampen" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+
+"r_ambientboost" = "1"
+FCVAR_ARCHIVE 
+- Set to boost ambient term if it is totally swamped by local lights
+
+"r_ambientfactor" = "5"
+FCVAR_ARCHIVE 
+- Boost ambient cube by no more than this factor
+
+"r_ambientfraction" = "0.1"
+FCVAR_CHEAT 
+- Fraction of direct lighting that ambient cube must be below to trigger boosting
+
+"r_ambientlightingonly" = "0"
+FCVAR_CHEAT 
+- Set this to 1 to light models with only ambient lighting (and no static lighting).
+
+"r_ambientmin" = "0.3"
+FCVAR_ARCHIVE 
+- Threshold above which ambient cube will not boost (i.e. it's already sufficiently bright
+
+"r_aspectratio" = "0"
+FCVAR_CHEAT 
+
+"r_avglight" = "1"
+FCVAR_CHEAT 
+
+"r_avglightmap" = "0"
+FCVAR_CHEAT FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"r_bloomtintb" = "0.11"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"r_bloomtintexponent" = "2.2"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"r_bloomtintg" = "0.59"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"r_bloomtintr" = "0.3"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"r_colorstaticprops" = "0"
+FCVAR_CHEAT 
+
+"r_debugrandomstaticlighting" = "0"
+FCVAR_CHEAT 
+- Set to 1 to randomize static lighting for debugging.  Must restart for change to take affect.
+
+"r_decal_cover_count" = "4"
+FCVAR_NONE
+
+"r_decal_overlap_area" = "0.4"
+FCVAR_NONE
+
+"r_decal_overlap_count" = "3"
+FCVAR_NONE
+
+"r_decals" = "2048"
+FCVAR_NONE
+
+"r_decalstaticprops" = "1"
+FCVAR_NONE
+- Decal static props test
+
+"r_drawbatchdecals" = "1"
+FCVAR_NONE
+- Render decals batched.
+
+"r_drawbrushmodels" = "1"
+FCVAR_CHEAT 
+- Render brush models. 0=Off, 1=Normal, 2=Wireframe
+
+"r_drawclipbrushes" = "0"
+FCVAR_CHEAT 
+- Draw clip brushes (red=NPC+player, pink=player, purple=NPC)
+
+"r_drawdecals" = "1"
+FCVAR_CHEAT 
+- Render decals.
+
+"r_drawentities" = "1"
+FCVAR_CHEAT 
+
+"r_drawfuncdetail" = "1"
+FCVAR_CHEAT 
+- Render func_detail
+
+"r_drawleaf" = "-1"
+FCVAR_CHEAT 
+- Draw the specified leaf.
+
+"r_drawlightcache" = "0"
+FCVAR_CHEAT 
+- 0: off
+1: draw light cache entries
+2: draw rays
+
+
+"r_drawlightinfo" = "0"
+FCVAR_CHEAT 
+
+"r_drawlights" = "0"
+FCVAR_CHEAT 
+
+"r_drawmodeldecals" = "1"
+FCVAR_NONE
+
+"r_drawmodelstatsoverlay" = "0"
+FCVAR_CHEAT 
+
+"r_drawmodelstatsoverlaydistance" = "500"
+FCVAR_CHEAT 
+
+"r_drawmodelstatsoverlaymax" = "1.5"
+FCVAR_ARCHIVE 
+- time in milliseconds beyond which a model overlay is fully red in r_drawmodelstatsoverlay 2
+
+"r_drawmodelstatsoverlaymin" = "0.1"
+FCVAR_ARCHIVE 
+- time in milliseconds that a model must take to render before showing an overlay in r_drawmodelstatsoverlay 2
+
+"r_drawskybox" = "1"
+FCVAR_CHEAT 
+
+"r_drawstaticprops" = "1"
+FCVAR_CHEAT 
+- 0=Off, 1=Normal, 2=Wireframe
+
+"r_drawtranslucentworld" = "1"
+FCVAR_CHEAT 
+
+"r_drawvgui" = "1"
+FCVAR_CHEAT 
+- Enable the rendering of vgui panels
+
+"r_drawworld" = "1"
+FCVAR_CHEAT 
+- Render the world.
+
+"r_dscale_basefov" = "90"
+FCVAR_CHEAT 
+
+"r_dscale_fardist" = "2000"
+FCVAR_CHEAT 
+
+"r_dscale_farscale" = "4"
+FCVAR_CHEAT 
+
+"r_dscale_neardist" = "100"
+FCVAR_CHEAT 
+
+"r_dscale_nearscale" = "1"
+FCVAR_CHEAT 
+
+"r_dynamic" = "1"
+FCVAR_NONE
+
+"r_dynamiclighting" = "1"
+FCVAR_CHEAT 
+
+"r_entity" = "-1"
+FCVAR_DEVELOPMENTONLY FCVAR_CHEAT 
+
+"r_eyeglintlodpixels" = "20.0"
+FCVAR_CHEAT 
+- The number of pixels wide an eyeball has to be before rendering an eyeglint.  Is a floating point value.
+
+"r_eyemove" = "1"
+FCVAR_ARCHIVE 
+
+"r_eyes" = "1"
+FCVAR_NONE
+
+"r_eyeshift_x" = "0"
+FCVAR_ARCHIVE 
+
+"r_eyeshift_y" = "0"
+FCVAR_ARCHIVE 
+
+"r_eyeshift_z" = "0"
+FCVAR_ARCHIVE 
+
+"r_eyesize" = "0"
+FCVAR_ARCHIVE 
+
+"r_fastzreject" = "0"
+FCVAR_SS_ADDED 
+- Activate/deactivates a fast z-setting algorithm to take advantage of hardware with fast z reject. Use -1 to default to hardware settings
+
+"r_fastzrejectdisp" = "0"
+FCVAR_NONE
+- Activates/deactivates fast z rejection on displacements (360 only). Only active when r_fastzreject is on.
+
+"r_flashlight_version2" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_CHEAT FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"r_flashlightclip" = "0"
+FCVAR_CHEAT 
+
+"r_flashlightculldepth" = "1"
+FCVAR_NONE
+
+"r_flashlightdepthtexture" = "0" ( def. "1" )
+FCVAR_NONE
+
+"r_flashlightdrawclip" = "0"
+FCVAR_CHEAT 
+
+"r_flashlightdrawdepth" = "0"
+FCVAR_NONE
+
+"r_flashlightdrawfrustumbbox" = "0"
+FCVAR_NONE
+
+"r_flashlightdrawsweptbbox" = "0"
+FCVAR_NONE
+
+"r_flashlightnodraw" = "0"
+FCVAR_NONE
+
+"r_flashlightrender" = "1"
+FCVAR_NONE
+
+"r_flashlightrendermodels" = "1"
+FCVAR_NONE
+
+"r_flashlightrenderworld" = "1"
+FCVAR_NONE
+
+"r_flashlightscissor" = "1"
+FCVAR_NONE
+
+"r_flashlightupdatedepth" = "1"
+FCVAR_NONE
+
+"r_flex" = "1"
+FCVAR_NONE
+
+"r_frustumcullworld" = "1"
+FCVAR_NONE
+
+"r_glint_alwaysdraw" = "0"
+FCVAR_NONE
+
+"r_glint_procedural" = "0"
+FCVAR_NONE
+
+"r_hunkalloclightmaps" = "1"
+FCVAR_NONE
+
+"r_hwmorph" = "1"
+FCVAR_CHEAT 
+
+"r_itemblinkmax" = ".3"
+FCVAR_CHEAT 
+
+"r_itemblinkrate" = "4.5"
+FCVAR_CHEAT 
+
+"r_lightaverage" = "1"
+FCVAR_NONE
+- Activates/deactivate light averaging
+
+"r_lightcache_numambientsamples" = "162" min. 1.000000 max. 162.000000
+FCVAR_CHEAT 
+- number of random directions to fire rays when computing ambient lighting
+
+"r_lightcache_zbuffercache" = "0"
+FCVAR_SS_ADDED 
+
+"r_lightcachecenter" = "1"
+FCVAR_CHEAT 
+
+"r_lightcachemodel" = "-1"
+FCVAR_CHEAT 
+
+"r_lightinterp" = "5"
+FCVAR_CHEAT 
+- Controls the speed of light interpolation, 0 turns off interpolation
+
+"r_lightmap" = "-1"
+FCVAR_CHEAT FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"r_lightstyle" = "-1"
+FCVAR_CHEAT FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"r_lightwarpidentity" = "0"
+FCVAR_CHEAT FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"r_lockpvs" = "0"
+FCVAR_CHEAT 
+- Lock the PVS so you can fly around and inspect what is being drawn.
+
+"r_lod" = "-1"
+FCVAR_NONE
+
+"r_maxdlights" = "32"
+FCVAR_NONE
+
+"r_maxmodeldecal" = "50"
+FCVAR_NONE
+
+"r_maxnewsamples" = "6"
+FCVAR_NONE
+
+"r_maxsampledist" = "128"
+FCVAR_NONE
+
+"r_minnewsamples" = "3"
+FCVAR_NONE
+
+"r_modelwireframedecal" = "0"
+FCVAR_CHEAT 
+
+"r_nohw" = "0"
+FCVAR_CHEAT 
+
+"r_norefresh" = "0"
+FCVAR_NONE
+
+"r_nosw" = "0"
+FCVAR_CHEAT 
+
+"r_novis" = "0"
+FCVAR_CHEAT 
+- Turn off the PVS.
+
+"r_occludeemaxarea" = "0"
+FCVAR_NONE
+- Prevents occlusion testing for entities that take up more than X% of the screen. 0 means use whatever the level said to use.
+
+"r_occluderminarea" = "0"
+FCVAR_NONE
+- Prevents this occluder from being used if it takes up less than X% of the screen. 0 means use whatever the level said to use.
+
+"r_occludermincount" = "0"
+FCVAR_NONE
+- At least this many occluders will be used, no matter how big they are.
+
+"r_occlusion" = "1"
+FCVAR_NONE
+- Activate/deactivate the occlusion system.
+
+"r_occlusionspew" = "0"
+FCVAR_CHEAT 
+- Activate/deactivates spew about what the occlusion system is doing.
+
+"r_oldlightselection" = "0"
+FCVAR_CHEAT 
+- Set this to revert to HL2's method of selecting lights
+
+"r_overlayfadeenable" = "0"
+FCVAR_NONE
+
+"r_overlayfademax" = "2000.0f"
+FCVAR_NONE
+
+"r_overlayfademin" = "1750.0f"
+FCVAR_NONE
+
+"r_overlaywireframe" = "0"
+FCVAR_NONE
+
+"r_partition_level" = "-1"
+FCVAR_CHEAT 
+- Displays a particular level of the spatial partition system. Use -1 to disable it.
+
+"r_portalscloseall" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_CHEAT 
+
+"r_portalsopenall" = "0"
+FCVAR_CHEAT 
+- Open all portals
+
+"r_proplightingfromdisk" = "1"
+FCVAR_CHEAT 
+- 0=Off, 1=On, 2=Show Errors
+
+"r_proplightingpooling" = "-1.0"
+FCVAR_CHEAT 
+- 0 - off, 1 - static prop color meshes are allocated from a single shared vertex buffer (on hardware that supports stream offset)
+
+"r_queued_decals" = "0"
+FCVAR_NONE
+- Offloads a bit of decal rendering setup work to the material system queue when enabled.
+
+"r_radiosity" = "4"
+FCVAR_CHEAT 
+- 0: no radiosity
+1: radiosity with ambient cube (6 samples)
+2: radiosity with 162 samples
+3: 162 samples for static props, 6 samples for everything else
+
+"r_randomflex" = "0"
+FCVAR_CHEAT 
+
+"r_renderoverlayfragment" = "1"
+FCVAR_NONE
+
+"r_rimlight" = "1"
+FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"r_rootlod" = "0"
+FCVAR_ARCHIVE FCVAR_MATERIAL_SYSTEM_THREAD 
+- Root LOD
+
+"r_shadowids" = "0"
+FCVAR_CHEAT 
+
+"r_shadowrendertotexture" = "0"
+FCVAR_ARCHIVE 
+
+"r_shadows" = "1"
+FCVAR_NONE
+
+"r_shadows_gamecontrol" = "-1"
+FCVAR_CHEAT 
+
+"r_shadowwireframe" = "0"
+FCVAR_CHEAT 
+
+"r_showenvcubemap" = "0"
+FCVAR_CHEAT 
+
+"r_showz_power" = "1.0f"
+FCVAR_CHEAT FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"r_skin" = "0"
+FCVAR_CHEAT 
+
+"r_snapportal" = "-1"
+FCVAR_NONE
+
+"r_spray_lifetime" = "2"
+FCVAR_NONE
+- Number of rounds player sprays are visible
+
+"r_staticprop_lod" = "-1"
+FCVAR_NONE
+
+"r_staticpropinfo" = "0"
+FCVAR_NONE
+
+"r_studio_stats" = "0"
+FCVAR_CHEAT 
+
+"r_teeth" = "1"
+FCVAR_NONE
+
+"r_unloadlightmaps" = "0"
+FCVAR_CHEAT 
+
+"r_vehicleBrakeRate" = "1.5"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"r_visambient" = "0"
+FCVAR_NONE
+- Draw leaf ambient lighting samples.  Needs mat_leafvis 1 to work
+
+"r_visocclusion" = "0"
+FCVAR_CHEAT 
+- Activate/deactivate wireframe rendering of what the occlusion system is doing.
+
+"r_visualizelighttraces" = "0"
+FCVAR_CHEAT 
+
+"r_visualizelighttracesshowfulltrace" = "0"
+FCVAR_CHEAT 
+
+"r_visualizetraces" = "0"
+FCVAR_CHEAT 
+
+"r_waterforceexpensive" = "0"
+FCVAR_ARCHIVE FCVAR_MATERIAL_SYSTEM_THREAD 
+
+"r_waterforcereflectentities" = "0"
+FCVAR_SS_ADDED 
+
+"r_worldlightmin" = "0.0002"
+FCVAR_NONE
+
+"r_worldlights" = "4"
+FCVAR_NONE
+- number of world lights to use per vertex
+
+"rate" = "80000"
+FCVAR_ARCHIVE FCVAR_USERINFO 
+- Max bytes/sec the host can receive data
+
+"rcon_address" = ""
+FCVAR_DONTRECORD FCVAR_SERVER_CANNOT_QUERY 
+- Address of remote server if sending unconnected rcon commands (format x.x.x.x:p) 
+
+"rcon_password" = ""
+FCVAR_DONTRECORD FCVAR_SERVER_CANNOT_QUERY 
+- remote console password.
+
+"reload_materials" = "0"
+FCVAR_NONE
+
+"replay_debug" = "0"
+FCVAR_DONTRECORD 
+
+"replay_ignorereplayticks" = "0"
+FCVAR_NONE
+
+"room_type" = "0"
+FCVAR_DEMO 
+
+"rpt_vprof_time" = "0.25"
+FCVAR_HIDDEN FCVAR_DONTRECORD 
+
+"rr_debug_qa" = "0"
+FCVAR_GAMEDLL 
+- Set to 1 to see debug related to the Question & Answer system used to create conversations between allied NPCs.
+
+"rr_debugresponses" = "0"
+FCVAR_GAMEDLL 
+- Show verbose matching output (1 for simple, 2 for rule scoring). If set to 3, it will only show response success/failure for npc_selected NPCs.
+
+"rr_debugrule" = ""
+FCVAR_GAMEDLL 
+- If set to the name of the rule, that rule's score will be shown whenever a concept is passed into the response rules system.
+
+"rr_dumpresponses" = "0"
+FCVAR_GAMEDLL 
+- Dump all response_rules.txt and rules (requires restart)
+
+"save_async" = "1"
+FCVAR_NONE
+
+"save_asyncdelay" = "0"
+FCVAR_NONE
+- For testing, adds this many milliseconds of delay to the save operation.
+
+"save_console" = "0"
+FCVAR_NONE
+- Autosave on the PC behaves like it does on the consoles.
+
+"save_disable" = "0"
+FCVAR_NONE
+
+"save_history_count" = "1"
+FCVAR_NONE
+- Keep this many old copies in history of autosaves and quicksaves.
+
+"save_huddelayframes" = "1"
+FCVAR_NONE
+- Number of frames to defer for drawing the Saving message.
+
+"save_in_memory" = "0"
+FCVAR_NONE
+- Set to 1 to save to memory instead of disk (Xbox 360)
+
+"save_noxsave" = "0"
+FCVAR_NONE
+
+"save_screenshot" = "1"
+FCVAR_NONE
+- 0 = none, 1 = non-autosave, 2 = always
+
+"save_spew" = "0"
+FCVAR_NONE
+
+"sc_debug_sets" = "0"
+FCVAR_ARCHIVE 
+- Debugging
+
+"sc_joystick_map" = "1"
+FCVAR_ARCHIVE 
+- How to map the analog joystick deadzone and extents 0 = Scaled Cross, 1 = Concentric Mapping to Square.
+
+"scene_async_prefetch_spew" = "0"
+FCVAR_GAMEDLL 
+- Display async .ani file loading info.
+
+"scene_clamplookat" = "1"
+FCVAR_GAMEDLL 
+- Clamp head turns to a max of 20 degrees per think.
+
+"scene_clientflex" = "1"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Do client side flex animation.
+
+"scene_flatturn" = "1"
+FCVAR_GAMEDLL 
+
+"scene_forcecombined" = "0"
+FCVAR_GAMEDLL 
+- When playing back, force use of combined .wav files even in english.
+
+"scene_maxcaptionradius" = "1200"
+FCVAR_GAMEDLL 
+- Only show closed captions if recipient is within this many units of speaking actor (0==disabled).
+
+"scene_print" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- When playing back a scene, print timing and event info to console.
+
+"scene_showfaceto" = "0"
+FCVAR_GAMEDLL FCVAR_ARCHIVE 
+- When playing back, show the directions of faceto events.
+
+"scene_showlook" = "0"
+FCVAR_GAMEDLL FCVAR_ARCHIVE 
+- When playing back, show the directions of look events.
+
+"scene_showmoveto" = "0"
+FCVAR_GAMEDLL FCVAR_ARCHIVE 
+- When moving, show the end location.
+
+"scene_showunlock" = "0"
+FCVAR_GAMEDLL FCVAR_ARCHIVE 
+- Show when a vcd is playing but normal AI is running.
+
+"servercfgfile" = "server.cfg"
+FCVAR_GAMEDLL 
+
+"show_instant_triggers" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"showbudget_texture" = "0"
+FCVAR_CHEAT 
+- Enable the texture budget panel.
+
+"showbudget_texture_global_sum" = "0.0f"
+FCVAR_NONE
+
+"showhitlocation" = "0"
+FCVAR_GAMEDLL 
+
+"showtriggers" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Shows trigger brushes
+
+"singlestep" = "0"
+FCVAR_CHEAT 
+- Run engine in single step mode ( set next to 1 to advance a frame )
+
+"sk_ally_regen_time" = "0.3003"
+FCVAR_GAMEDLL 
+- Time taken for an ally to regenerate a point of health.
+
+"sk_armor" = "40"
+FCVAR_GAMEDLL 
+
+"sk_autoaim_mode" = "1"
+FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_REPLICATED 
+
+"sk_blunderbuss_gibdistance" = "128.0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL 
+
+"sk_blunderbuss_pushback" = "130.0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY 
+
+"sk_blunderbuss_pushup" = "130.0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY 
+
+"sk_blunderbuss_pushup_limit" = "250.0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY 
+
+"sk_crow_health" = "1"
+FCVAR_GAMEDLL 
+
+"sk_crow_melee_dmg" = "0"
+FCVAR_GAMEDLL 
+
+"sk_healthkit" = "40"
+FCVAR_GAMEDLL 
+
+"sk_npc_arm" = "1"
+FCVAR_GAMEDLL 
+
+"sk_npc_chest" = "1"
+FCVAR_GAMEDLL 
+
+"sk_npc_head" = "2"
+FCVAR_GAMEDLL 
+
+"sk_npc_leg" = "1"
+FCVAR_GAMEDLL 
+
+"sk_npc_stomach" = "1"
+FCVAR_GAMEDLL 
+
+"sk_player_arm" = "1"
+FCVAR_GAMEDLL 
+
+"sk_player_chest" = "1"
+FCVAR_GAMEDLL 
+
+"sk_player_chest_ranged" = "0.9"
+FCVAR_GAMEDLL 
+
+"sk_player_head" = "1"
+FCVAR_GAMEDLL 
+
+"sk_player_headshot_scalar" = "1.5"
+FCVAR_GAMEDLL 
+
+"sk_player_leg" = "1"
+FCVAR_GAMEDLL 
+
+"sk_player_stomach" = "1"
+FCVAR_GAMEDLL 
+
+"sk_plr_dmg_grenade" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+
+"skill" = "1" min. 1.000000 max. 3.000000
+FCVAR_ARCHIVE FCVAR_ARCHIVE_GAMECONSOLE 
+- Game skill level (1-3).
+
+"sm_basepath" = "addons\sourcemod"
+FCVAR_NONE
+- SourceMod base path (set via command line)
+
+"sm_beacon_radius" = "375" min. 50.000000 max. 1500.000000
+FCVAR_NONE
+- Sets the radius for beacon's light rings.
+
+"sm_burn_duration" = "20.0" min. 0.500000 max. 20.000000
+FCVAR_NONE
+- Sets the default duration of sm_burn and firebomb victims.
+
+"sm_chat_mode" = "1" min. 0.000000 max. 1.000000
+FCVAR_NONE
+- Allows player's to send messages to admin chat.
+
+"sm_corecfgfile" = "addons\sourcemod\configs\core.cfg"
+FCVAR_NONE
+- SourceMod core configuration file
+
+"sm_datetime_format" = "%m/%d/%Y - %H:%M:%S"
+FCVAR_NONE
+- Default formatting time rules
+
+"sm_deadtalk" = "0" min. 0.000000 max. 2.000000
+FCVAR_NONE
+- Controls how dead communicate. 0 - Off. 1 - Dead players ignore teams. 2 - Dead players talk to living teammates.
+
+"sm_debug_connect" = "1"
+FCVAR_NONE
+- Log Debug information about potential connection issues.
+
+"sm_firebomb_mode" = "0" min. 0.000000 max. 2.000000
+FCVAR_NONE
+- Who is targetted by the FireBomb? 0 = Target only, 1 = Target's team, 2 = Everyone
+
+"sm_firebomb_radius" = "600" min. 50.000000 max. 3000.000000
+FCVAR_NONE
+- Sets the bomb blast radius.
+
+"sm_firebomb_ticks" = "10.0" min. 5.000000 max. 120.000000
+FCVAR_NONE
+- Sets how long the FireBomb fuse is.
+
+"sm_flood_time" = "0.75"
+FCVAR_NONE
+- Amount of time allowed between chat messages
+
+"sm_freeze_duration" = "10.0" min. 1.000000 max. 120.000000
+FCVAR_NONE
+- Sets the default duration for sm_freeze and freezebomb victims
+
+"sm_freezebomb_mode" = "0" min. 0.000000 max. 2.000000
+FCVAR_NONE
+- Who is targetted by the freezebomb? 0 = Target only, 1 = Target's team, 2 = Everyone
+
+"sm_freezebomb_radius" = "600" min. 50.000000 max. 3000.000000
+FCVAR_NONE
+- Sets the freezebomb blast radius.
+
+"sm_freezebomb_ticks" = "10.0" min. 5.000000 max. 120.000000
+FCVAR_NONE
+- Sets how long the freezebomb fuse is.
+
+"sm_hide_slots" = "0" min. 0.000000 max. 1.000000
+FCVAR_NONE
+- If set to 1, reserved slots will hidden (subtracted from the max slot count)
+
+"sm_immunity_mode" = "1"
+FCVAR_SPONLY 
+- Mode for deciding immunity protection
+
+"sm_maphistory_size" = "20"
+FCVAR_NONE
+
+"sm_menu_sounds" = "1"
+FCVAR_NONE
+- Sets whether SourceMod menus play trigger sounds
+
+"sm_nextmap" = "lts_gravedanger" ( def. "" )
+FCVAR_NOTIFY 
+
+"sm_reserve_kicktype" = "0" min. 0.000000 max. 2.000000
+FCVAR_NONE
+- How to select a client to kick (if appropriate)
+
+"sm_reserve_maxadmins" = "1" min. 0.000000
+FCVAR_NONE
+- Maximum amount of admins to let in the server with reserve type 2
+
+"sm_reserve_type" = "0" min. 0.000000 max. 2.000000
+FCVAR_NONE
+- Method of reserving slots
+
+"sm_reserved_slots" = "0" min. 0.000000
+FCVAR_NONE
+- Number of reserved player slots
+
+"sm_show_activity" = "13"
+FCVAR_SPONLY 
+- Activity display setting (see sourcemod.cfg)
+
+"sm_time_adjustment" = "0"
+FCVAR_NONE
+- Adjusts the server time in seconds
+
+"sm_timebomb_mode" = "0" min. 0.000000 max. 2.000000
+FCVAR_NONE
+- Who is killed by the timebomb? 0 = Target only, 1 = Target's team, 2 = Everyone
+
+"sm_timebomb_radius" = "600" min. 50.000000 max. 3000.000000
+FCVAR_NONE
+- Sets the bomb blast radius.
+
+"sm_timebomb_ticks" = "10.0" min. 5.000000 max. 120.000000
+FCVAR_NONE
+- Sets how long the timebomb fuse is.
+
+"sm_timeleft_interval" = "0" ( def. "0.0" ) min. 0.000000 max. 1800.000000
+FCVAR_NONE
+- Display timeleft every x seconds. Default 0.
+
+"sm_trigger_show" = "0" min. 0.000000 max. 1.000000
+FCVAR_NONE
+- Display triggers message to all players? (0 off, 1 on, def. 0)
+
+"sm_vote_alltalk" = "0.60" min. 0.050000 max. 1.000000
+FCVAR_NONE
+- percent required for successful alltalk vote.
+
+"sm_vote_ban" = "0.60" min. 0.050000 max. 1.000000
+FCVAR_NONE
+- percent required for successful ban vote.
+
+"sm_vote_burn" = "0.60" min. 0.050000 max. 1.000000
+FCVAR_NONE
+- percent required for successful burn vote.
+
+"sm_vote_delay" = "30"
+FCVAR_NONE
+- Sets the recommended time in between public votes
+
+"sm_vote_ff" = "0.60" min. 0.050000 max. 1.000000
+FCVAR_NONE
+- percent required for successful friendly fire vote.
+
+"sm_vote_gravity" = "0.60" min. 0.050000 max. 1.000000
+FCVAR_NONE
+- percent required for successful gravity vote.
+
+"sm_vote_kick" = "0.60" min. 0.050000 max. 1.000000
+FCVAR_NONE
+- percent required for successful kick vote.
+
+"sm_vote_map" = "0.60" min. 0.050000 max. 1.000000
+FCVAR_NONE
+- percent required for successful map vote.
+
+"sm_vote_progress_chat" = "0" min. 0.000000 max. 1.000000
+FCVAR_NONE
+- Show current vote progress as chat messages
+
+"sm_vote_progress_client_console" = "0" min. 0.000000 max. 1.000000
+FCVAR_NONE
+- Show current vote progress as console messages to clients
+
+"sm_vote_progress_console" = "0" min. 0.000000 max. 1.000000
+FCVAR_NONE
+- Show current vote progress as console messages
+
+"sm_vote_progress_hintbox" = "0" min. 0.000000 max. 1.000000
+FCVAR_NONE
+- Show current vote progress in a hint box
+
+"sm_vote_slay" = "0.60" min. 0.050000 max. 1.000000
+FCVAR_NONE
+- percent required for successful slay vote.
+
+"sm_voteban_time" = "30" min. 0.000000
+FCVAR_NONE
+- length of ban in minutes.
+
+"smoothstairs" = "1"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Smooth player eye z coordinate when traversing stairs.
+
+"snd_ShowThreadFrameTime" = "0"
+FCVAR_NONE
+
+"snd_async_fullyasync" = "0"
+FCVAR_NONE
+- All playback is fully async (sound doesn't play until data arrives).
+
+"snd_async_minsize" = "262144"
+FCVAR_NONE
+
+"snd_async_spew" = "0"
+FCVAR_NONE
+- Spew all async sound reads, including success
+
+"snd_async_spew_blocking" = "1"
+FCVAR_NONE
+- Spew message to console any time async sound loading blocks on file i/o. ( 0=Off, 1=With -steam only, 2=Always
+
+"snd_async_stream_spew" = "0"
+FCVAR_NONE
+- Spew streaming info ( 0=Off, 1=streams, 2=buffers
+
+"snd_cull_duplicates" = "0"
+FCVAR_SS_ADDED 
+- If nonzero, aggressively cull duplicate sounds during mixing. The number specifies the number of duplicates allowed to be played.
+
+"snd_defer_trace" = "1"
+FCVAR_NONE
+
+"snd_delay_sound_shift" = "0.01"
+FCVAR_NONE
+
+"snd_disable_mixer_duck" = "0"
+FCVAR_NONE
+
+"snd_duckerattacktime" = "0.5"
+FCVAR_ARCHIVE 
+
+"snd_duckerreleasetime" = "2.5"
+FCVAR_ARCHIVE 
+
+"snd_duckerthreshold" = "0.15"
+FCVAR_ARCHIVE 
+
+"snd_ducktovolume" = "0.55"
+FCVAR_ARCHIVE 
+
+"snd_foliage_db_loss" = "4"
+FCVAR_CHEAT 
+
+"snd_gain" = "1"
+FCVAR_CHEAT 
+
+"snd_gain_max" = "1"
+FCVAR_CHEAT 
+
+"snd_gain_min" = "0.01"
+FCVAR_CHEAT 
+
+"snd_legacy_surround" = "0"
+FCVAR_ARCHIVE 
+
+"snd_lockpartial" = "1"
+FCVAR_NONE
+
+"snd_mainmenu_musicvolume" = "1.0" min. 0.000000 max. 1.000000
+FCVAR_ARCHIVE 
+- Main Menu Music Volume
+
+"snd_mix_async" = "0"
+FCVAR_NONE
+
+"snd_mixahead" = "0.1"
+FCVAR_ARCHIVE 
+
+"snd_musicvolume" = "1.0" min. 0.000000 max. 1.000000
+FCVAR_ARCHIVE FCVAR_ARCHIVE_GAMECONSOLE 
+- Music volume
+
+"snd_mute_losefocus" = "1"
+FCVAR_ARCHIVE 
+
+"snd_noextraupdate" = "0"
+FCVAR_NONE
+
+"snd_obscured_gain_dB" = "-2.70"
+FCVAR_CHEAT 
+
+"snd_pitchquality" = "1"
+FCVAR_ARCHIVE 
+
+"snd_profile" = "0"
+FCVAR_DEMO 
+
+"snd_refdb" = "60"
+FCVAR_CHEAT 
+
+"snd_refdist" = "36"
+FCVAR_CHEAT 
+
+"snd_show" = "0"
+FCVAR_CHEAT 
+- Show sounds info
+
+"snd_showclassname" = "0"
+FCVAR_NONE
+
+"snd_showmixer" = "0"
+FCVAR_NONE
+
+"snd_showstart" = "0"
+FCVAR_CHEAT 
+
+"snd_soundmixer" = "Default_Mix"
+FCVAR_NONE
+
+"snd_spatialize_roundrobin" = "0"
+FCVAR_SS_ADDED 
+- Lowend optimization: if nonzero, spatialize only a fraction of sound channels each frame. 1/2^x of channels will be spatialized per frame.
+
+"snd_surround_speakers" = "-1"
+FCVAR_SS 
+
+"snd_visualize" = "0"
+FCVAR_CHEAT 
+- Show sounds location in world
+
+"snd_vox_captiontrace" = "0"
+FCVAR_NONE
+- Shows sentence name for sentences which are set not to show captions.
+
+"snd_vox_globaltimeout" = "300"
+FCVAR_NONE
+
+"snd_vox_sectimetout" = "300"
+FCVAR_NONE
+
+"snd_vox_seqtimetout" = "300"
+FCVAR_NONE
+
+"soundpatch_captionlength" = "2.0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- How long looping soundpatch captions should display for.
+
+"soundscape_debug" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- When on, draws lines to all env_soundscape entities. Green lines show the active soundscape, red lines show soundscapes that aren't in range, and white lines show soundscapes that are in range, but not the active soundscape.
+
+"sourcemod_version" = "1.11.0.6906"
+FCVAR_SPONLY FCVAR_NOTIFY 
+- SourceMod Version
+
+"spec_freeze_delay_deathtime" = "1.0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+
+"spec_freeze_time" = "4.0"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+- Time spend frozen in observer freeze cam.
+
+"spec_freeze_traveltime" = "0.4" min. 0.009999
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+- Time taken to zoom in to frame a target in observer freeze cam.
+
+"spew_consolelog_to_debugstring" = "0"
+FCVAR_NONE
+- Send console log to PLAT_DebugString()
+
+"step_spline" = "0"
+FCVAR_GAMEDLL 
+
+"studio_queue_mode" = "1"
+FCVAR_NONE
+
+"suitvolume" = "0.25"
+FCVAR_GAMEDLL FCVAR_ARCHIVE 
+
+"sv_accelerate" = "10"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"sv_admin_groupid" = "0"
+FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_REPLICATED 
+
+"sv_admin_grouptag" = "Admin"
+FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_REPLICATED 
+
+"sv_airaccelerate" = "10"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"sv_allow_color_correction" = "1"
+FCVAR_REPLICATED 
+- Allow or disallow clients to use color correction on this server.
+
+"sv_allow_point_servercommand" = "always"
+FCVAR_GAMEDLL 
+- Allow use of point_servercommand entities in map. Potentially dangerous for untrusted maps.
+  disallow : Always disallow
+  always   : Allow for all maps
+
+"sv_allow_voice_from_file" = "1"
+FCVAR_REPLICATED 
+- Allow or disallow clients from using voice_inputfromfile on this server.
+
+"sv_allow_votes" = "1"
+FCVAR_GAMEDLL 
+- Allow voting?
+
+"sv_allow_wait_command" = "1"
+FCVAR_REPLICATED 
+- Allow or disallow the wait command on clients connected to this server.
+
+"sv_allowdownload" = "1"
+FCVAR_NONE
+- Allow clients to download files
+
+"sv_allowupload" = "1"
+FCVAR_NONE
+- Allow clients to upload customizations files
+
+"sv_alltalk" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Players can hear all other players, no team restrictions
+
+"sv_alternateticks" = "0"
+FCVAR_SPONLY 
+- If set, server only simulates entities on even numbered ticks.
+
+
+"sv_autosave" = "1"
+FCVAR_NONE
+- Set to 1 to autosave game on level transition. Does not affect autosave triggers.
+
+"sv_backspeed" = "0.6"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_REPLICATED 
+- How much to slow down backwards motion
+
+"sv_benchmark_autovprofrecord" = "0"
+FCVAR_GAMEDLL 
+- If running a benchmark and this is set, it will record a vprof file over the duration of the benchmark with filename benchmark.vprof.
+
+"sv_benchmark_numticks" = "3300"
+FCVAR_GAMEDLL 
+- If > 0, then it only runs the benchmark for this # of ticks.
+
+"sv_bonus_challenge" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Set to values other than 0 to select a bonus map challenge type.
+
+"sv_botgame" = "0"
+FCVAR_GAMEDLL FCVAR_HIDDEN FCVAR_REPLICATED 
+- Is this an offline game with bots?
+
+"sv_bounce" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Bounce multiplier for when physically simulated objects collide with other objects.
+
+"sv_cacheencodedents" = "1"
+FCVAR_NONE
+- If set to 1, does an optimization to prevent extra SendTable_Encode calls.
+
+"sv_caltrops_count" = "9"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"sv_caltrops_melee_damage_mult" = "0.7"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"sv_caltrops_respawn_time" = "20.0"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"sv_caltrops_speed_reduction_mult" = "0.4"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"sv_caltrops_speed_reduction_time" = "0.5"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"sv_caltrops_throw_delay" = "0.10"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+- Caltrops throw delay
+
+"sv_caltrops_traces" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+- If set to 1, lines will be drawn for caltrops swing traces
+
+"sv_caltrops_zpush" = "200.0"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"sv_cheats" = "1" ( def. "0" )
+FCVAR_NOTIFY FCVAR_REPLICATED 
+- Allow cheats on server
+
+"sv_client_cmdrate_difference" = "20"
+FCVAR_REPLICATED 
+- cl_cmdrate is moved to within sv_client_cmdrate_difference units of cl_updaterate before it is clamped between sv_mincmdrate and sv_maxcmdrate.
+
+"sv_client_max_interp_ratio" = "5"
+FCVAR_REPLICATED 
+- This can be used to limit the value of cl_interp_ratio for connected clients (only while they are connected). If sv_client_min_interp_ratio is -1, then this cvar has no effect.
+
+"sv_client_min_interp_ratio" = "-1" ( def. "1" )
+FCVAR_REPLICATED 
+- This can be used to limit the value of cl_interp_ratio for connected clients (only while they are connected).
+              -1 = let clients set cl_interp_ratio to anything
+ any other value = set minimum value for cl_interp_ratio
+
+"sv_client_predict" = "-1"
+FCVAR_REPLICATED 
+- This can be used to force the value of cl_predict for connected clients (only while they are connected).
+   -1 = let clients set cl_predict to anything
+    0 = force cl_predict to 0
+    1 = force cl_predict to 1
+
+"sv_clockcorrection_msecs" = "60"
+FCVAR_GAMEDLL 
+- The server tries to keep each player's m_nTickBase withing this many msecs of the server absolute tickcount
+
+"sv_community_groupid" = "2157"
+FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_REPLICATED 
+
+"sv_community_grouptag" = "Booty Lovers"
+FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_REPLICATED 
+
+"sv_competitive" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+
+"sv_compressstringtablebaselines_threshold" = "2048"
+FCVAR_NONE
+- Minimum size (in bytes) for stringtablebaseline buffer to be compressed.
+
+"sv_consistency" = "1"
+FCVAR_REPLICATED 
+- Legacy variable with no effect!  This was deleted and then added as a temporary kludge to prevent players from being banned by servers running old versions of SMAC
+
+"sv_contact" = ""
+FCVAR_NOTIFY 
+- Contact email for server sysop
+
+"sv_creationtickcheck" = "1"
+FCVAR_DEVELOPMENTONLY FCVAR_CHEAT 
+- Do extended check for encoding of timestamps against tickcount
+
+"sv_debug_player_use" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Visualizes +use logic. Green cross=trace success, Red cross=trace too far, Green box=radius success
+
+"sv_debugmanualmode" = "0"
+FCVAR_NONE
+- Make sure entities correctly report whether or not their network data has changed.
+
+"sv_debugtempentities" = "0"
+FCVAR_NONE
+- Show temp entity bandwidth usage.
+
+"sv_deltaprint" = "0"
+FCVAR_NONE
+- Print accumulated CalcDelta profiling data (only if sv_deltatime is on)
+
+"sv_deltatime" = "0"
+FCVAR_NONE
+- Enable profiling of CalcDelta calls
+
+"sv_disable_querycache" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- debug - disable trace query cache
+
+"sv_downloadurl" = ""
+FCVAR_REPLICATED 
+- Location from which clients can download missing files
+
+"sv_dumpstringtables" = "0"
+FCVAR_CHEAT 
+
+"sv_enableoldqueries" = "0"
+FCVAR_NONE
+- Enable support for old style (HL1) server queries
+
+"sv_filterban" = "1"
+FCVAR_NONE
+- Set packet filtering by IP mode
+
+"sv_footsteps" = "1"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Play footstep sound for players
+
+"sv_force_transmit_ents" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_CHEAT 
+- Will transmit all entities to client, regardless of PVS conditions (will still skip based on transmit flags, however).
+
+"sv_forced_holiday" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Enable holiday celebrations, 0 = none, 1 = xmas, 2 = halloween, 3 = birthday, 4 = april fools
+
+"sv_forcepreload" = "0"
+FCVAR_ARCHIVE 
+- Force server side preloading.
+
+"sv_friction" = "4"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- World friction.
+
+"sv_gravity" = "800"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- World gravity.
+
+"sv_hudhint_sound" = "1"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+
+"sv_instancebaselines" = "1"
+FCVAR_DEVELOPMENTONLY 
+- Enable instanced baselines. Saves network overhead.
+
+"sv_lagcompensation_teleport_dist" = "64"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_CHEAT 
+- How far a player got moved by game code before we can't lag compensate their position back
+
+"sv_lagflushbonecache" = "1"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL 
+- Flushes entity bone cache on lag compensation
+
+"sv_lan" = "0"
+FCVAR_NONE
+- Server is a lan server ( no heartbeat, no authentication, no non-class C addresses )
+
+"sv_log_onefile" = "0"
+FCVAR_ARCHIVE 
+- Log server information to only one file.
+
+"sv_logbans" = "0"
+FCVAR_ARCHIVE 
+- Log server bans in the server logs.
+
+"sv_logblocks" = "0"
+FCVAR_NONE
+- If true when log when a query is blocked (can cause very large log files)
+
+"sv_logdownloadlist" = "1"
+FCVAR_NONE
+
+"sv_logecho" = "1"
+FCVAR_ARCHIVE 
+- Echo log information to the console.
+
+"sv_logfile" = "1"
+FCVAR_ARCHIVE 
+- Log server information in the log file.
+
+"sv_logfilecompress" = "0"
+FCVAR_ARCHIVE 
+- Gzip compress logfile and rename to logfilename.log.gz on close.
+
+"sv_logfilename_format" = ""
+FCVAR_ARCHIVE 
+- Log filename format. See strftime for formatting codes.
+
+"sv_logflush" = "0"
+FCVAR_ARCHIVE 
+- Flush the log file to disk on each write (slow).
+
+"sv_logsdir" = "logs"
+FCVAR_ARCHIVE 
+- Folder in the game directory where server logs will be stored.
+
+"sv_logsecret" = "0"
+FCVAR_NONE
+- If set then include this secret when doing UDP logging (will use 0x53 as packet type, not usual 0x52)
+
+"sv_lowedict_action" = "0" min. 0.000000 max. 5.000000
+FCVAR_NONE
+- 0 - no action, 1 - warn to log file, 2 - attempt to restart the game, if applicable, 3 - restart the map, 4 - go to the next map in the map cycle, 5 - spew all edicts.
+
+"sv_lowedict_threshold" = "8" min. 0.000000 max. 2048.000000
+FCVAR_NONE
+- When only this many edicts are free, take the action specified by sv_lowedict_action.
+
+"sv_maphack" = "1"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Enable MapHack system. Maphacks are text files for adding and modifying entities in the map.
+
+"sv_maphack_allow_servercommand" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Allow $console function to execute server commands.
+
+"sv_maphack_directory" = "maps/maphacks"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- The game will search this directory for [mapname].txt files.
+
+"sv_maphack_filename" = ""
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- If not empty, load this file as maphack.
+
+"sv_massreport" = "0"
+FCVAR_GAMEDLL 
+
+"sv_master_share_game_socket" = "1"
+FCVAR_NONE
+- Use the game's socket to communicate to the master server. If this is 0, then it will create a socket on -steamport + 1 to communicate to the master server on.
+
+"sv_max_connects_sec" = "2.0"
+FCVAR_NONE
+- Maximum connections per second to respond to from a single IP address.
+
+"sv_max_connects_sec_global" = "0"
+FCVAR_NONE
+- Maximum connections per second to respond to from anywhere.
+
+"sv_max_connects_window" = "4"
+FCVAR_NONE
+- Window over which to average connections per second averages.
+
+"sv_max_queries_sec" = "3.0"
+FCVAR_NONE
+- Maximum queries per second to respond to from a single IP address.
+
+"sv_max_queries_sec_global" = "3000"
+FCVAR_NONE
+- Maximum queries per second to respond to from anywhere.
+
+"sv_max_queries_window" = "30"
+FCVAR_NONE
+- Window over which to average queries per second averages.
+
+"sv_maxcmdrate" = "66"
+FCVAR_REPLICATED 
+- (If sv_mincmdrate is > 0), this sets the maximum value for cl_cmdrate.
+
+"sv_maxrate" = "0"
+FCVAR_REPLICATED 
+- Max bandwidth rate allowed on server, 0 == unlimited
+
+"sv_maxreplay" = "0" min. 0.000000 max. 15.000000
+FCVAR_NONE
+- Maximum replay time in seconds
+
+"sv_maxroutable" = "1260" min. 576.000000 max. 1260.000000
+FCVAR_NONE
+- Server upper bound on net_maxroutable that a client can use.
+
+"sv_maxspeed" = "320"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"sv_maxunlag" = "1.0" min. 0.000000 max. 1.000000
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL 
+- Maximum lag compensation in seconds
+
+"sv_maxupdaterate" = "66"
+FCVAR_REPLICATED 
+- Maximum updates per second that the server will allow
+
+"sv_maxuptimelimit" = "0"
+FCVAR_NONE
+- If set, whenever a game ends, if the server uptime exceeds this number of hours, the server will exit.
+
+"sv_maxusrcmdprocessticks" = "24"
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+- Maximum number of client-issued usrcmd ticks that can be replayed in packet loss conditions, 0 to allow no restrictions
+
+"sv_maxusrcmdprocessticks_holdaim" = "1"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Hold client aim for multiple server sim ticks when client-issued usrcmd contains multiple actions (0: off; 1: hold this server tick; 2+: hold multiple ticks)
+
+"sv_maxusrcmdprocessticks_warning" = "-1"
+FCVAR_GAMEDLL 
+- Print a warning when user commands get dropped due to insufficient usrcmd ticks allocated, number of seconds to throttle, negative disabled
+
+"sv_maxvelocity" = "3500"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Maximum speed any ballistically moving object is allowed to attain per axis.
+
+"sv_memlimit" = "0"
+FCVAR_NONE
+- If set, whenever a game ends, if the total memory used by the server is greater than this # of megabytes, the server will exit.
+
+"sv_mincmdrate" = "10"
+FCVAR_REPLICATED 
+- This sets the minimum value for cl_cmdrate. 0 == unlimited.
+
+"sv_minrate" = "3500"
+FCVAR_REPLICATED 
+- Min bandwidth rate allowed on server, 0 == unlimited
+
+"sv_minupdaterate" = "10"
+FCVAR_REPLICATED 
+- Minimum updates per second that the server will allow
+
+"sv_minuptimelimit" = "0"
+FCVAR_NONE
+- If set, whenever a game ends, if the server uptime is less than this number of hours, the server will continue running regardless of sv_memlimit.
+
+"sv_namechange_cooldown_seconds" = "30.0"
+FCVAR_NONE
+- When a client name change is received, wait N seconds before allowing another name change
+
+"sv_netspike_on_reliable_snapshot_overflow" = "0"
+FCVAR_NONE
+- If nonzero, the server will dump a netspike trace if a client is dropped due to reliable snapshot overflow
+
+"sv_netspike_output" = "1"
+FCVAR_NONE
+- Where the netspike data be written?  Sum of the following values: 1=netspike.txt, 2=ordinary server log
+
+"sv_netspike_sendtime_ms" = "0"
+FCVAR_NONE
+- If nonzero, the server will dump a netspike trace if it takes more than N ms to prepare a snapshot to a single client.  This feature does take some CPU cycles, so it should be left off when not in use.
+
+"sv_netvisdist" = "10000"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_CHEAT 
+- Test networking visibility distance
+
+"sv_noclipaccelerate" = "5"
+FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"sv_noclipduringpause" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+- If cheats are enabled, then you can noclip with the game paused (for doing screenshots, etc.).
+
+"sv_noclipspeed" = "5"
+FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"sv_npc_talker_maxdist" = "1024"
+FCVAR_GAMEDLL 
+- NPCs over this distance from the player won't attempt to speak.
+
+"sv_optimizedmovement" = "1"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED 
+
+"sv_parallel_packentities" = "1"
+FCVAR_NONE
+
+"sv_parallel_sendsnapshot" = "0"
+FCVAR_NONE
+
+"sv_password" = ""
+FCVAR_PROTECTED FCVAR_NOTIFY FCVAR_DONTRECORD 
+- Server password for entry into multiplayer games
+
+"sv_pausable" = "0"
+FCVAR_NOTIFY 
+- Is the server pausable.
+
+"sv_player_display_usercommand_errors" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- 1 = Display warning when command values are out-of-range. 2 = Spew invalid ranges.
+
+"sv_playeralwaystransmit" = "0"
+FCVAR_GAMEDLL 
+- Tells the server to always transmit player data to clients and disregard PVS.
+
+"sv_playerdecals" = "1"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Enable/Disable player decals.
+
+"sv_playerperfhistorycount" = "60" min. 1.000000 max. 128.000000
+FCVAR_GAMEDLL 
+- Number of samples to maintain in player perf history
+
+"sv_proximitytalk" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+- Players can only hear other players if they are within the proximity distance
+
+"sv_proximitytalk_distance" = "256"
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+- Players can only hear other players within this distance when in proximity mode
+
+"sv_pure_consensus" = "5"
+FCVAR_NONE
+- Minimum number of file hashes to agree to form a consensus.
+
+"sv_pure_kick_clients" = "1"
+FCVAR_NONE
+- If set to 1, the server will kick clients with mismatching files. Otherwise, it will issue a warning to the client.
+
+"sv_pure_retiretime" = "900"
+FCVAR_NONE
+- Seconds of server idle time to flush the sv_pure file hash cache.
+
+"sv_pure_trace" = "0"
+FCVAR_NONE
+- If set to 1, the server will print a message whenever a client is verifying a CRC for a file.
+
+"sv_pushaway_clientside" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Clientside physics push away (0=off, 1=only localplayer, 1=all players)
+
+"sv_pushaway_clientside_size" = "15"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Minimum size of pushback objects
+
+"sv_pushaway_force" = "30000"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED 
+- How hard physics objects are pushed away from the players on the server.
+
+"sv_pushaway_max_force" = "1000"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Maximum amount of force applied to physics objects by players.
+
+"sv_pushaway_max_player_force" = "10000"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+- Maximum of how hard the player is pushed away from physics objects.
+
+"sv_pushaway_min_player_speed" = "75"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED 
+- If a player is moving slower than this, don't push away physics objects (enables ducking behind things).
+
+"sv_pushaway_player_force" = "200000"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+- How hard the player is pushed away from physics objects (falls off with inverse square of distance).
+
+"sv_pvsskipanimation" = "1"
+FCVAR_GAMEDLL FCVAR_ARCHIVE 
+- Skips SetupBones when npc's are outside the PVS
+
+"sv_rcon_banpenalty" = "0" min. 0.000000
+FCVAR_NONE
+- Number of minutes to ban users who fail rcon authentication
+
+"sv_rcon_log" = "1"
+FCVAR_NONE
+- Enable/disable rcon logging.
+
+"sv_rcon_maxfailures" = "10" min. 1.000000 max. 20.000000
+FCVAR_NONE
+- Max number of times a user can fail rcon authentication before being banned
+
+"sv_rcon_maxpacketbans" = "1" min. 0.000000 max. 1.000000
+FCVAR_NONE
+- Ban IPs for sending RCON packets exceeding the value specified in sv_rcon_maxpacketsize
+
+"sv_rcon_maxpacketsize" = "1024" min. 0.000000
+FCVAR_NONE
+- The maximum number of bytes to allow in a command packet
+
+"sv_rcon_minfailures" = "5" min. 1.000000 max. 20.000000
+FCVAR_NONE
+- Number of times a user can fail rcon authentication in sv_rcon_minfailuretime before being banned
+
+"sv_rcon_minfailuretime" = "30" min. 1.000000
+FCVAR_NONE
+- Number of seconds to track failed rcon authentications
+
+"sv_rcon_whitelist_address" = ""
+FCVAR_NONE
+- When set, rcon failed authentications will never ban this address, e.g. '127.0.0.1'
+
+"sv_region" = "0" ( def. "-1" )
+FCVAR_NONE
+- The region of the world to report this server in.
+
+"sv_restrict_aspect_ratio_fov" = "1" min. 0.000000 max. 2.000000
+FCVAR_REPLICATED 
+- This can be used to limit the effective FOV of users using wide-screen
+resolutions with aspect ratios wider than 1.85:1 (slightly wider than 16:9).
+    0 = do not cap effective FOV
+    1 = limit the effective FOV on windowed mode users using resolutions
+ 
+
+"sv_rollangle" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Max view roll angle
+
+"sv_rollspeed" = "200"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"sv_sendtables" = "0"
+FCVAR_DEVELOPMENTONLY 
+- Force full sendtable sending path.
+
+"sv_showanimstate" = "-1"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_CHEAT 
+- Show the (server) animation state for the specified entity (-1 for none).
+
+"sv_showanimstate_log" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_CHEAT 
+- 1 to output sv_showanimstate to Msg(). 2 to store in AnimStateServer.log. 3 for both.
+
+"sv_showimpacts" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Shows client (red) and server (blue) bullet impact point
+
+"sv_showladders" = "0"
+FCVAR_GAMEDLL 
+- Show bbox and dismount points for all ladders (must be set before level load.)
+
+
+"sv_showlagcompensation" = "0"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Show lag compensated hitboxes whenever a player is lag compensated.
+
+"sv_shutdown_timeout_minutes" = "360"
+FCVAR_REPLICATED 
+- If sv_shutdown is pending, wait at most N minutes for server to drain before forcing shutdown.
+
+"sv_simbullet_visualize" = "0"
+FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED FCVAR_CHEAT 
+- Visualize simulated bullets
+
+"sv_skyname" = "forgotten" ( def. "sky_urb01" )
+FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_REPLICATED 
+- Current name of the skybox texture
+
+"sv_skyoverride" = ""
+FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_REPLICATED 
+- Skybox texture to override with in maps. If this is empty, the original skybox will be used.
+
+"sv_soundemitter_trace" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Show all EmitSound calls including their symbolic name and the actual wave file they resolved to
+
+
+"sv_specaccelerate" = "5"
+FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"sv_specnoclip" = "1"
+FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"sv_specspeed" = "3"
+FCVAR_GAMEDLL FCVAR_ARCHIVE FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"sv_stats" = "1"
+FCVAR_NONE
+- Collect CPU usage stats
+
+"sv_steamblockingcheck" = "0"
+FCVAR_NONE
+- Check each new player for Steam blocking compatibility, 1 = message only, 2 >= drop if any member of owning clan blocks,3 >= drop if any player has blocked, 4 >= drop if player has blocked anyone on server
+
+"sv_steamgroup" = ""
+FCVAR_NOTIFY 
+- The ID of the steam group that this server belongs to. You can find your group's ID on the admin profile page in the steam community.
+
+"sv_stepsize" = "18"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"sv_stiletto_backstab_angle" = "0.5"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"sv_stiletto_backstab_angle_special" = "0.8"
+FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"sv_stopspeed" = "100"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+- Minimum stopping speed when on ground.
+
+"sv_stressbots" = "0"
+FCVAR_DEVELOPMENTONLY 
+- If set to 1, the server calculates data and fills packets to bots. Used for perf testing.
+
+"sv_strict_notarget" = "0"
+FCVAR_GAMEDLL 
+- If set, notarget will cause entities to never think they are in the pvs
+
+"sv_suppress_viewpunch" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED FCVAR_CHEAT 
+
+"sv_tags" = ""
+FCVAR_NOTIFY 
+- Server tags. Used to provide extra information to clients when they're browsing for servers. Separate tags with a comma.
+
+"sv_test_scripted_sequences" = "0"
+FCVAR_GAMEDLL 
+- Tests for scripted sequences that are embedded in the world. Run through your map with this set to check for NPCs falling through the world.
+
+"sv_teststepsimulation" = "1"
+FCVAR_GAMEDLL 
+
+"sv_thinktimecheck" = "0"
+FCVAR_GAMEDLL 
+- Check for thinktimes all on same timestamp.
+
+"sv_timeout" = "65"
+FCVAR_NONE
+- After this many seconds without a message from a client, the client is dropped
+
+"sv_turbophysics" = "0"
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Turns on turbo physics
+
+"sv_unlag" = "1"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL 
+- Enables player lag compensation
+
+"sv_unlag_debug" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL 
+
+"sv_unlag_fixstuck" = "0"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL 
+- Disallow backtracking a player for lag compensation if it will cause them to become stuck
+
+"sv_unlockedchapters" = "1"
+FCVAR_ARCHIVE FCVAR_ARCHIVE_GAMECONSOLE 
+- Highest unlocked game chapter.
+
+"sv_use_steam_voice" = "0"
+FCVAR_HIDDEN FCVAR_REPLICATED 
+- Deprecated - placeholder convar for handling old network streams that had an incomplete SVC_VoiceInit packet.  Use "sv_voicecodec steam"
+
+"sv_useexplicitdelete" = "1"
+FCVAR_DEVELOPMENTONLY 
+- Explicitly delete dormant client entities caused by AllowImmediateReuse().
+
+"sv_usercmd_custom_random_seed" = "1"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- When enabled server will populate an additional random seed independent of the client
+
+"sv_vehicle_autoaim_scale" = "8"
+FCVAR_GAMEDLL 
+
+"sv_visiblemaxplayers" = "-1"
+FCVAR_NONE
+- Overrides the max players reported to prospective clients
+
+"sv_voicecodec" = "vaudio_celt"
+FCVAR_NONE
+- Specifies which voice codec to use. Valid options are:
+vaudio_speex - Legacy Speex codec (lowest quality)
+vaudio_celt - Newer CELT codec
+steam - Use Steam voice API
+
+"sv_voiceenable" = "1"
+FCVAR_ARCHIVE FCVAR_NOTIFY 
+
+"sv_vote_allow_spectators" = "0"
+FCVAR_GAMEDLL 
+- Allow spectators to vote?
+
+"sv_vote_bot_persist" = "0"
+FCVAR_GAMEDLL 
+- Should bot vote result persist over level changes and player count?
+
+"sv_vote_changeruleset_restart" = "1"
+FCVAR_GAMEDLL 
+- Change ruleset vote restarts game?
+
+"sv_vote_command_delay" = "2" max. 4.500000
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL 
+- How long after a vote passes until the action happens
+
+"sv_vote_creation_timer" = "150"
+FCVAR_GAMEDLL 
+- How long before a player can attempt to call another vote (in seconds).
+
+"sv_vote_extendmap_time" = "10"
+FCVAR_GAMEDLL 
+- Map time limit will be incremented by this value (in minutes) if extend map vote passes
+
+"sv_vote_failure_timer" = "300"
+FCVAR_GAMEDLL 
+- A vote that fails cannot be re-submitted for this long
+
+"sv_vote_issue_autobalance_allowed" = "1"
+FCVAR_GAMEDLL 
+- Allow auto-balance vote issue
+
+"sv_vote_issue_bot_allowed" = "1"
+FCVAR_GAMEDLL 
+- Allow bot vote issue
+
+"sv_vote_issue_changelevel_allowed" = "1"
+FCVAR_GAMEDLL 
+- Allow change level vote issue
+
+"sv_vote_issue_changeruleset_allowed" = "0"
+FCVAR_GAMEDLL 
+- Allow change ruleset vote issue
+
+"sv_vote_issue_extendmap_allowed" = "1"
+FCVAR_GAMEDLL 
+- Allow extend map vote issue
+
+"sv_vote_issue_forcetdm_allowed" = "0"
+FCVAR_GAMEDLL 
+- Allow force team deathmatch vote issue
+
+"sv_vote_issue_kick_allowed" = "0"
+FCVAR_GAMEDLL 
+- Allow kick players vote issue
+
+"sv_vote_issue_restartround_allowed" = "1"
+FCVAR_GAMEDLL 
+- Allow restart round vote issue
+
+"sv_vote_issue_shuffleplayers_allowed" = "1"
+FCVAR_GAMEDLL 
+- Allow shuffle players vote issue
+
+"sv_vote_issue_timeout_allowed" = "0"
+FCVAR_GAMEDLL 
+- Allow timeout vote issue
+
+"sv_vote_kick_ban_duration" = "10"
+FCVAR_GAMEDLL 
+- Vote kick ban duration in minutes (0 = disable)
+
+"sv_vote_quorum_ratio" = "0.6" min. 0.100000 max. 1.000000
+FCVAR_GAMEDLL FCVAR_NOTIFY 
+- The minimum ratio of eligible players needed to pass a vote.  Min 0.5, Max 1.0.
+
+"sv_vote_shuffleplayers_restartround" = "1"
+FCVAR_GAMEDLL 
+- Shuffle players vote restarts round?
+
+"sv_vote_timeout_duration" = "60"
+FCVAR_GAMEDLL 
+- Timeout duration
+
+"sv_vote_timeout_limit" = "1"
+FCVAR_GAMEDLL 
+- How many timeouts can the team call
+
+"sv_vote_timer_duration" = "15"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL 
+- How long to allow voting on an issue
+
+"sv_vote_ui_hide_disabled_issues" = "1"
+FCVAR_GAMEDLL 
+- Suppress listing of disabled issues in the vote setup screen.
+
+"sv_wateraccelerate" = "10"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"sv_waterdist" = "12"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Vertical view fixup when eyes are near water plane.
+
+"sv_waterfriction" = "1"
+FCVAR_DEVELOPMENTONLY FCVAR_GAMEDLL FCVAR_NOTIFY FCVAR_REPLICATED 
+
+"sv_workshop" = "1"
+FCVAR_GAMEDLL 
+- Enable server-side Steam Workshop for maps.
+
+"sv_workshop_autoupdate" = "0"
+FCVAR_GAMEDLL 
+- Automatically update Workshop maps every level change.
+
+"sv_workshop_map_id" = "-1"
+FCVAR_GAMEDLL FCVAR_HIDDEN FCVAR_REPLICATED 
+
+"sys_minidumpexpandedspew" = "1"
+FCVAR_NONE
+
+"sys_minidumpspewlines" = "500"
+FCVAR_NONE
+- Lines of crash dump console spew to keep.
+
+"systemlinkport" = "27030"
+FCVAR_SS_ADDED 
+- System Link port
+
+"template_debug" = "0"
+FCVAR_GAMEDLL 
+
+"testscript_debug" = "0"
+FCVAR_NONE
+- Debug test scripts.
+
+"texture_budget_background_alpha" = "128"
+FCVAR_ARCHIVE 
+- how translucent the budget panel is
+
+"texture_budget_panel_bottom_of_history_fraction" = ".25"
+FCVAR_ARCHIVE 
+- number between 0 and 1
+
+"texture_budget_panel_global" = "0"
+FCVAR_NONE
+- Show global times in the texture budget panel.
+
+"texture_budget_panel_height" = "284"
+FCVAR_ARCHIVE 
+- height in pixels of the budget panel
+
+"texture_budget_panel_width" = "512"
+FCVAR_ARCHIVE 
+- width in pixels of the budget panel
+
+"texture_budget_panel_x" = "0"
+FCVAR_ARCHIVE 
+- number of pixels from the left side of the game screen to draw the budget panel
+
+"texture_budget_panel_y" = "450"
+FCVAR_ARCHIVE 
+- number of pixels from the top side of the game screen to draw the budget panel
+
+"tf_debug_tabcontainer" = "0"
+FCVAR_HIDDEN 
+- Spew TabContainer dimensions.
+
+"tf_escort_score_rate" = "1"
+FCVAR_GAMEDLL FCVAR_CHEAT 
+- Score for escorting the train, in points per second
+
+"think_limit" = "0" ( def. "10" )
+FCVAR_GAMEDLL FCVAR_REPLICATED 
+- Maximum think time in milliseconds, warning is printed if this is exceeded.
+
+"threadpool_affinity" = "1"
+FCVAR_NONE
+- Enable setting affinity
+
+"timedemo_runcount" = "0"
+FCVAR_NONE
+- Runs time demo X number of times.
+
+"trace_report" = "0"
+FCVAR_GAMEDLL 
+
+"tv_allow_camera_man" = "1"
+FCVAR_GAMEDLL 
+- Auto director allows spectators to become camera man
+
+"tv_allow_static_shots" = "1"
+FCVAR_GAMEDLL 
+- Auto director uses fixed level cameras for shots
+
+"tv_autorecord" = "0"
+FCVAR_NONE
+- Automatically records all games as SourceTV demos.
+
+"tv_autoretry" = "1"
+FCVAR_NONE
+- Relay proxies retry connection after network timeout
+
+"tv_chatgroupsize" = "0"
+FCVAR_NONE
+- Set the default chat group size
+
+"tv_chattimelimit" = "8"
+FCVAR_NONE
+- Limits spectators to chat only every n seconds
+
+"tv_debug" = "0"
+FCVAR_NONE
+- SourceTV debug info.
+
+"tv_delay" = "30" min. 0.000000 max. 120.000000
+FCVAR_GAMEDLL 
+- SourceTV broadcast delay in seconds
+
+"tv_delaymapchange" = "0"
+FCVAR_GAMEDLL 
+- Delays map change until broadcast is complete
+
+"tv_delaymapchange_protect" = "1"
+FCVAR_GAMEDLL 
+- Protect against doing a manual map change if HLTV is broadcasting and has not caught up with a major game event such as round_end
+
+"tv_deltacache" = "2"
+FCVAR_NONE
+- Enable delta entity bit stream cache
+
+"tv_dispatchmode" = "1"
+FCVAR_NONE
+- Dispatch clients to relay proxies: 0=never, 1=if appropriate, 2=always
+
+"tv_enable" = "0"
+FCVAR_NOTIFY 
+- Activates SourceTV on server.
+
+"tv_maxclients" = "128" min. 0.000000 max. 255.000000
+FCVAR_NONE
+- Maximum client number on SourceTV server.
+
+"tv_maxrate" = "8000"
+FCVAR_NONE
+- Max SourceTV spectator bandwidth rate allowed, 0 == unlimited
+
+"tv_name" = "SourceTV"
+FCVAR_NONE
+- SourceTV host name
+
+"tv_nochat" = "0"
+FCVAR_ARCHIVE FCVAR_USERINFO 
+- Don't receive chat messages from other SourceTV spectators
+
+"tv_overridemaster" = "0"
+FCVAR_NONE
+- Overrides the SourceTV master root address.
+
+"tv_password" = ""
+FCVAR_PROTECTED FCVAR_NOTIFY FCVAR_DONTRECORD 
+- SourceTV password for all clients
+
+"tv_port" = "27020"
+FCVAR_SS_ADDED 
+- Host SourceTV port
+
+"tv_relaypassword" = ""
+FCVAR_PROTECTED FCVAR_NOTIFY FCVAR_DONTRECORD 
+- SourceTV password for relay proxies
+
+"tv_relayvoice" = "1"
+FCVAR_NONE
+- Relay voice data: 0=off, 1=on
+
+"tv_snapshotrate" = "16"
+FCVAR_NONE
+- Snapshots broadcasted per second
+
+"tv_timeout" = "30"
+FCVAR_NONE
+- SourceTV connection timeout in seconds.
+
+"tv_title" = "SourceTV"
+FCVAR_NONE
+- Set title for SourceTV spectator UI
+
+"tv_transmitall" = "0"
+FCVAR_REPLICATED 
+- Transmit all entities (not only director view)
+
+"vcr_verbose" = "0"
+FCVAR_NONE
+- Write extra information into .vcr file.
+
+"vgui_cache_res_files" = "1"
+FCVAR_NONE
+
+"vgui_drawfocus" = "0"
+FCVAR_NONE
+- Report which panel is under the mouse.
+
+"vgui_drawtree" = "0"
+FCVAR_CHEAT 
+- Draws the vgui panel hiearchy to the specified depth level.
+
+"vgui_drawtree_bounds" = "0"
+FCVAR_NONE
+- Show panel bounds.
+
+"vgui_drawtree_draw_selected" = "0"
+FCVAR_NONE
+- Highlight the selected panel
+
+"vgui_drawtree_freeze" = "0"
+FCVAR_NONE
+- Set to 1 to stop updating the vgui_drawtree view.
+
+"vgui_drawtree_hidden" = "0"
+FCVAR_NONE
+- Draw the hidden panels.
+
+"vgui_drawtree_panelalpha" = "0"
+FCVAR_NONE
+- Show the panel alpha values in the vgui_drawtree view.
+
+"vgui_drawtree_panelptr" = "0"
+FCVAR_NONE
+- Show the panel pointer values in the vgui_drawtree view.
+
+"vgui_drawtree_popupsonly" = "0"
+FCVAR_NONE
+- Draws the vgui popup list in hierarchy(1) or most recently used(2) order.
+
+"vgui_drawtree_render_order" = "0"
+FCVAR_NONE
+- List the vgui_drawtree panels in render order.
+
+"vgui_drawtree_visible" = "1"
+FCVAR_NONE
+- Draw the visible panels.
+
+"vgui_nav_lock" = "0"
+FCVAR_DEVELOPMENTONLY 
+
+"vgui_nav_lock_default_button" = "0"
+FCVAR_DEVELOPMENTONLY 
+
+"violence_ablood" = "1"
+FCVAR_NONE
+- Draw alien blood
+
+"violence_agibs" = "1"
+FCVAR_NONE
+- Show alien gib entities
+
+"violence_hblood" = "1"
+FCVAR_NONE
+- Draw human blood
+
+"violence_hgibs" = "1"
+FCVAR_NONE
+- Show human gib entities
+
+"voice_avggain" = "0.5"
+FCVAR_NONE
+
+"voice_buffer_ms" = "100"
+FCVAR_SS 
+- How many milliseconds of voice to buffer to avoid dropouts due to jitter and frame time differences.
+
+"voice_debugfeedback" = "0"
+FCVAR_NONE
+
+"voice_debugfeedbackfrom" = "0"
+FCVAR_NONE
+
+"voice_enable" = "1"
+FCVAR_ARCHIVE 
+
+"voice_fadeouttime" = "0.1"
+FCVAR_NONE
+
+"voice_forcemicrecord" = "1"
+FCVAR_ARCHIVE 
+
+"voice_inputfromfile" = "0"
+FCVAR_NONE
+- Get voice input from 'voice_input.wav' rather than from the microphone.
+
+"voice_loopback" = "0"
+FCVAR_USERINFO 
+
+"voice_maxgain" = "10"
+FCVAR_NONE
+
+"voice_overdrive" = "2"
+FCVAR_NONE
+
+"voice_overdrivefadetime" = "0.4"
+FCVAR_NONE
+
+"voice_profile" = "0"
+FCVAR_NONE
+
+"voice_recordtofile" = "0"
+FCVAR_NONE
+- Record mic data and decompressed voice data into 'voice_micdata.wav' and 'voice_decompressed.wav'
+
+"voice_scale" = "1"
+FCVAR_ARCHIVE 
+
+"voice_serverdebug" = "0"
+FCVAR_GAMEDLL 
+
+"voice_showchannels" = "0"
+FCVAR_NONE
+
+"voice_showincoming" = "0"
+FCVAR_NONE
+
+"voice_steal" = "2"
+FCVAR_NONE
+
+"voice_writevoices" = "0"
+FCVAR_NONE
+- Saves each speaker's voice data into separate .wav files
+
+
+"volume" = "1.0" min. 0.000000 max. 1.000000
+FCVAR_ARCHIVE FCVAR_ARCHIVE_GAMECONSOLE 
+- Sound volume
+
+"vprof_counters" = "0"
+FCVAR_NONE
+
+"vprof_dump_oninterval" = "0"
+FCVAR_NONE
+- Interval (in seconds) at which vprof will batch up data and dump it to the console.
+
+"vprof_dump_spikes" = "0"
+FCVAR_NONE
+- Framerate at which vprof will begin to dump spikes to the console. 0 = disabled, negative to reset after dump
+
+"vprof_dump_spikes_budget_group" = ""
+FCVAR_NONE
+- Budget gtNode to start report from when doing a dump spikes
+
+"vprof_dump_spikes_node" = ""
+FCVAR_NONE
+- Node to start report from when doing a dump spikes
+
+"vprof_graph" = "0"
+FCVAR_NONE
+- Draw the vprof graph.
+
+"vprof_graphheight" = "256"
+FCVAR_ARCHIVE 
+
+"vprof_graphwidth" = "512"
+FCVAR_ARCHIVE 
+
+"vprof_report_oninterval" = "0"
+FCVAR_NONE
+- Interval (in seconds) at which vprof will batch up a full report to the console -- more detailed than vprof_dump_oninterval.
+
+"vprof_scope" = ""
+FCVAR_NONE
+- Set a specific scope to start showing vprof tree
+
+"vprof_scope_entity_gamephys" = "0"
+FCVAR_GAMEDLL 
+
+"vprof_scope_entity_thinks" = "0"
+FCVAR_GAMEDLL 
+
+"vprof_unaccounted_limit" = "0.3"
+FCVAR_ARCHIVE 
+- number of milliseconds that a node must exceed to turn red in the vprof panel
+
+"vprof_verbose" = "1"
+FCVAR_ARCHIVE 
+- Set to one to show average and peak times
+
+"vprof_warningmsec" = "10"
+FCVAR_ARCHIVE 
+- Above this many milliseconds render the label red to indicate slow code.
+
+"weapon_showproficiency" = "0"
+FCVAR_GAMEDLL 
+
+"windows_speaker_config" = "-1"
+FCVAR_ARCHIVE 
+
+"xbox_autothrottle" = "1"
+FCVAR_GAMEDLL FCVAR_ARCHIVE 
+
+"xbox_steering_deadzone" = "0.0"
+FCVAR_GAMEDLL 
+
+"xbox_throttlebias" = "100"
+FCVAR_GAMEDLL FCVAR_ARCHIVE 
+
+"xbox_throttlespoof" = "200"
+FCVAR_GAMEDLL FCVAR_ARCHIVE 
+
+"xc_crouch_debounce" = "0"
+FCVAR_GAMEDLL 
+
