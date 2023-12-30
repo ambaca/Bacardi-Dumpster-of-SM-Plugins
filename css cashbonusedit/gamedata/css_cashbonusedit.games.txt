@@ -1,0 +1,1066 @@
+
+// css_cashbonusedit.games.txt
+// Bacardi 29.12.2023
+
+"Games"
+{
+	"cstrike"
+	{
+		// 28.12.2023
+
+		"Addresses"
+		{
+
+			"NOPE"
+			{
+				"signature" "Find_Server"
+			}
+
+
+			// PLAYER KILLED
+
+			"CASHBONUSEDIT_TEAMKILL"
+			{
+				/*
+				*	Player killed teammate
+				*	- Game original value is -3300
+				*/
+			
+
+				"windows"
+				{
+					//"signature"	"CCSGameRules::PlayerKilled"
+					//"offset"	"0x1DF"	// + skip 1 byte
+					"signature"	"Find_Server"
+					"offset"	"0x26649F"	// + skip 1 byte
+				}
+				"linux"
+				{
+					"signature"	"CCSGameRules::PlayerKilled"
+					"offset"	"928"	// + skip 4 byte
+				}
+			}
+
+			"CASHBONUSEDIT_VIPKILL"
+			{
+				/*
+				*	Player killed VIP
+				*	- Game original value is 2500
+				*/
+
+
+				"windows"
+				{
+					"signature"	"Find_Server"
+					"offset"	"0x2665CA"	// + skip 1 byte					
+				}
+				"linux"
+				{
+					"signature"	"CCSGameRules::PlayerKilled"
+					"offset"	"580"	// + skip 4 byte
+				}
+			}
+
+			"CASHBONUSEDIT_ENEMYKILL"
+			{
+				/*
+				*	Player killed enemy
+				*	- Game original value is 300
+				*/
+
+				"windows"
+				{
+					"signature"	"Find_Server"
+					"offset"	"0x2665D7"	// + skip 1 byte
+				}
+				"linux"
+				{
+					"signature"	"CCSGameRules::PlayerKilled"
+					"offset"	"792"	// + skip 4 byte
+				}
+			}
+
+			"CASHBONUSEDIT_HOSTAGEHURT"
+			{
+				/*
+				*	Player hurt hostage
+				*	- Game original value is -((int)actualDamage * 20)
+				*/
+
+				"windows"
+				{
+					"signature"	"Find_Server"
+					"offset"	"0x2C17ED"
+				}
+				"linux"
+				{
+					"signature"	"CHostage::OnTakeDamage_Alive"
+					"offset"	"424"
+				}
+			}
+
+
+			"CASHBONUSEDIT_HOSTAGEKILLED"
+			{
+				/*
+				*	Player killed hostage
+				*	- Game original value is -( 500 + ((int)info.GetDamage() * 20) )
+				*/
+
+				"windows"
+				{
+					"signature"	"Find_Server"
+					"offset"	"0x2C05DD"
+				}
+				"linux"
+				{
+					"signature"	"CHostage::Event_Killed"
+					"offset"	"433"
+				}
+			}
+
+
+			"CASHBONUSEDIT_RESCUERCASHBONUS"
+			{
+				/*
+				*	Player rescued hostage
+				*	- Game original value is 1000
+				*/
+
+				"windows"
+				{
+					"signature"	"Find_Server"
+					"offset"	"0x2C0C67"// + skip 1 byte
+				}
+				"linux"
+				{
+					"signature"	"CHostage::HostageRescueZoneTouch"
+					"offset"	"229"	// + skip 4 byte
+				}
+			}
+
+
+
+
+
+
+			// BOMB ROUND END CHECK
+
+			"CASHBONUSEDIT_TARGETBOMBED"
+			{
+				/*
+				*	Bomb exploded T win
+				*	- Game original value is 3500
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x262408"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F3F0E"	// + skip 6 byte
+				}
+			}
+
+			"CASHBONUSEDIT_BOMBDEFUSED"
+			{
+				/*
+				*	Bomb defused CT win
+				*	- Game original value is 3250
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x262452"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F3F5A"	// + skip 6 byte
+				}
+			}
+
+			"CASHBONUSEDIT_BOMBDEFUSEDPLANTINGBONUS"
+			{
+				/*
+				*	Bomb defused, but bonus for planting
+				*	- Game original value is 800
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x26245C"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F3F64"	// + skip 6 byte
+				}
+			}
+
+
+
+
+
+
+
+
+			// TEAM EXTERMINATION
+
+			"CASHBONUSEDIT_CTWINBOMBMAP"
+			{
+				/*
+				*	All terrorists dead, bomb map
+				*	- Game original value is 3250
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x268426"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F443E"	// + skip 6 byte
+				}
+			}
+
+			"CASHBONUSEDIT_CTWIN"
+			{
+				/*
+				*	All terrorists dead, bomb map
+				*	- Game original value is 3000
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x268432"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F43FF"	// + skip 6 byte
+				}
+			}
+
+			"CASHBONUSEDIT_TWINBOMBMAP"
+			{
+				/*
+				*	All CTs dead, bomb map
+				*	- Game original value is 3250
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x268484"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F4379"	// + skip 6 byte
+				}
+			}
+
+			"CASHBONUSEDIT_TWIN"
+			{
+				/*
+				*	All CTs dead, bomb map
+				*	- Game original value is 3000
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x268490"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F442E"	// + skip 6 byte
+				}
+			}
+
+
+
+
+
+
+			// VIP ROUNDEND CHECK
+
+
+			"CASHBONUSEDIT_VIPESCAPED"
+			{
+				/*
+				*	- Game original value is 3500
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x269170"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F401F"	// + skip 6 byte
+				}
+			}
+
+			"CASHBONUSEDIT_VIPKILLED"
+			{
+				/*
+				*	- Game original value is 3250
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x269261"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F416B"	// + skip 6 byte
+				}
+			}
+
+
+
+
+
+
+
+
+
+			// CHECK ROUNDTIME EXPIRED
+
+
+			"CASHBONUSEDIT_TARGETSAVED"
+			{
+				/*
+				*	Bomb map and time run out, CT win
+				*	- Game original value is 3250
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x262CF5"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F3F5A"	// + skip 6 byte
+				}
+			}
+
+			"CASHBONUSEDIT_HOSTAGESNOTRESCUED"
+			{
+				/*
+				*	Hostage map and time run out, T win
+				*	- Game original value is 3250
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x262D34"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F3E7E"	// + skip 6 byte
+				}
+			}
+
+			"CASHBONUSEDIT_VIPNOTESCAPED"
+			{
+				/*
+				*	VIP map and time run out, T win
+				*	- Game original value is 3250
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x262D9E"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F3E39"	// + skip 6 byte
+				}
+			}
+
+
+
+
+
+
+			// HOSTAGE RESCUE ROUNDEND CHECK
+
+			"CASHBONUSEDIT_HOSTAGERESCUEDALL"
+			{
+				/*
+				*	All hostages rescued
+				*	- Game original value is 2500
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x265AF6"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F45FB"	// + skip 6 byte
+				}
+			}
+
+
+
+
+
+
+
+			// GIVE CT USE BONUS
+
+			"CASHBONUSEDIT_GIVECTUSEBONUS"
+			{
+				/*
+				*	CT team get bonus when talked hostage
+				*	- Game original value is 100
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x2C0B6F"	// + skip 6 byte, int8
+				}
+				"linux"
+				{
+					"offset"	"0x5AE539"	// + skip 6 byte, int8
+				}
+			}
+
+			"CASHBONUSEDIT_GIVERESCUERUSEBONUS"
+			{
+				/*
+				*	Rescuer himself get bonus when talked hostage
+				*	- Game original value is 150
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x2C0B78"	// + skip 1 byte, int32
+				}
+				"linux"
+				{
+					"offset"	"0x5AE55B"	// + skip 4 byte, int32
+				}
+			}
+
+
+
+
+
+
+
+			// Restart round
+
+
+			"CASHBONUSEDIT_HOSTAGEBONUS"
+			{
+				/*
+				*	Hostage bonus (alive, not rescued)
+				*	- Game original value is 150
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x267851"	// + skip 2 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F6431"	// + skip 2 byte
+				}
+			}
+
+			"CASHBONUSEDIT_MAXHOSTAGEBONUS"
+			{
+				/*
+				*	Maximum check value, to stop increasing Hostage bonus value (alive, not rescued)
+				*	- Game original value is 2000
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x267857"	// + skip 2 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F643C"	// + skip 2 byte
+				}
+			}
+
+			"CASHBONUSEDIT_HOSTAGESRESCUEDBONUS"
+			{
+				/*
+				*	number of hostages rescued * bonus
+				*	- Game original value is 750
+				*/
+
+				"windows"
+				{
+					"signature" "Find_Server"
+					"offset"	"0x267930"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"signature" "Find_Server"
+					"offset"	"0x2F64C0"	// + skip 6 byte
+				}
+			}
+
+
+
+
+
+
+			// LOSER BONUS
+
+
+			"CASHBONUSEDIT_DEFAULTLOSERBONUS_TWIN"
+			{
+				/*
+				*	loser bonus default value, after Terrorist break out from consecutive loss.
+				*	- Game original value 1500
+				*	- To clarify, Terrorist team have lost two rounds consecutive, next winned round by Terrorist set loser bonus to this value.
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x26787C"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F6D57"	// + skip 6 byte
+				}
+			}
+
+			"CASHBONUSEDIT_DEFAULTLOSERBONUS_CTWIN"
+			{
+				/*
+				*	loser bonus default value, after CT break out from consecutive loss.
+				*	- Game original value 1500
+				*	- Works same way as above but by team CT.
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x2678A6"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F6EA7"	// + skip 6 byte
+				}
+			}
+
+			"CASHBONUSEDIT_MAXLOSERBONUS_T"
+			{
+				/*
+				*	Maximum check value, to stop increasing loser bonus value.
+				*	- Game original value 3000
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x2678CF"	// + skip 1 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F646D"	// + skip 2 byte
+				}
+			}
+
+			"CASHBONUSEDIT_MAXLOSERBONUS_CT"
+			{
+				/*
+				*	Maximum check value, to stop increasing loser bonus value.
+				*	- Game original value 3000
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x2678E5"	// + skip 1 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F6484"	// + skip 2 byte
+				}
+			}
+
+			"CASHBONUSEDIT_LOSERBONUS"
+			{
+				/*
+				*	loser bonus addition, when consecutive losing rounds continue.
+				*	- Game original value 500
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x2678EC"	// + skip 2 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F648C"	// + skip 2 byte
+				}
+			}
+
+			"CASHBONUSEDIT_FIRSTLOSERBONUS"
+			{
+				/*
+				*	Very first loser bonus, when player lose
+				*	- On bomb map, if T survive alive after lost round, he not gain money.
+				*	- On hostage map, if CT survive alive after lost round, he not gain money.
+				*	- Game original value is 1400
+				*/
+
+				"signature" "Find_Server"
+
+				"windows"
+				{
+					"offset"	"0x2679F2"	// + skip 6 byte
+				}
+				"linux"
+				{
+					"offset"	"0x2F6550"	// + skip 6 byte
+				}
+			}
+		}
+
+
+		"Keys"
+		{
+			"OS"
+			{
+				"windows"	"windows"
+				"linux"		"linux"
+			}
+
+			"aSkip"
+			{
+				/*
+				*	I use this KeyValue section, to store numbers (Alt + Keypadnum 01 etc. etc.).
+				*	These numbers are offsets to addresses, for skip opcodes and move into value part
+				*/
+				"windows"	"S"
+				"linux"		"S"
+			}
+		}
+
+
+
+
+
+
+
+		"Offsets"
+		{
+			"m_bCompleteReset"
+			{
+				/*
+				*	At the end of round, if this is true, whole match reset on round start.
+				*/
+
+				"windows"	"0x289"
+			}
+
+			"m_iRoundWinStatus"
+			{
+				/*
+				*	Variable to check last winner
+				*	- 0=none 1=draw 2=terrorist 3=ct
+				*/
+
+				"windows"	"0x264"
+			}
+
+
+
+			// LOSER BONUS
+
+			"m_iLoserBonus"
+			{
+				/*
+				*	Loser bonus variable, which keep increasing bonus value after consecutive loss
+				*/
+
+				"windows"	"0x2AC"
+			}
+
+			"m_iNumConsecutiveCTLoses"
+			{
+				/*
+				*	Losing count variable, which keep counting consecutive loss
+				*/
+
+				"windows"	"0x298"
+			}
+
+			"m_iNumConsecutiveTerroristLoses"
+			{
+				/*
+				*	Losing count variable, which keep counting consecutive loss
+				*/
+
+				"windows"	"0x29C"
+			}
+
+		}
+
+
+
+
+
+
+
+
+
+		"Signatures"
+		{
+			"Find_Server"
+			{
+				"library"	"server"
+				"windows"	"\x4D\x5A"
+				"linux"		"\x4C\x46"
+			}
+
+			"CCSGameRules::PlayerKilled"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x48\x53\x8B\x5D\x0C"
+				"linux"		"@_ZN12CCSGameRules12PlayerKilledEP11CBasePlayerRK15CTakeDamageInfo"
+			}
+
+			"CHostage::OnTakeDamage_Alive"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x51\xD9\xEE\x8B\xC1"
+				"linux"		"@_ZN8CHostage18OnTakeDamage_AliveERK15CTakeDamageInfo"
+			}
+
+			"CHostage::Event_Killed"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x53\x56\x8B\xD9\x8B\x0D\x2A\x2A\x2A\x2A"
+				"linux"		"@_ZN8CHostage12Event_KilledERK15CTakeDamageInfo"
+			}
+
+			"CHostage::HostageRescueZoneTouch"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x51\x53\x8B\xD9\x56\x80\xBB\x34\x08\x00\x00\x00"
+				"linux"		"@_ZN8CHostage22HostageRescueZoneTouchER11inputdata_t"
+			}
+
+			"CCSGameRules::RestartRound"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x20\xA1\x2A\x2A\x2A\x2A\x56"
+				"linux"		"@_ZN12CCSGameRules12RestartRoundEv"
+			}
+
+			"CHostage::GiveCTUseBonus"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\xA1\x2A\x2A\x2A\x2A\x8B\x4D\x08\x6A\x00\x6A\x00\x83\x80\x90\x02\x00\x00"
+				"linux"		"@_ZN8CHostage14GiveCTUseBonusEP9CCSPlayer"
+			}
+
+			"CCSGameRules::HostageRescueRoundEndCheck"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x10\xA1\x2A\x2A\x2A\x2A\x53\x56"
+				"linux"		"@_ZN12CCSGameRules26HostageRescueRoundEndCheckEb"
+			}
+
+			"CCSGameRules::CheckRoundTimeExpired"
+			{
+				"library"	"server"
+				"windows"	"\xA1\x2A\x2A\x2A\x2A\x56\x8B\xF1\x83\x78\x30\x00\x75\x2A\xF3\x0F\x2A\x86\x4C\x02\x00\x00"
+				"linux"		"@_ZN12CCSGameRules21CheckRoundTimeExpiredEv"
+			}
+
+			"CCSGameRules::VIPRoundEndCheck"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x57\x8B\xF9\x83\xBF\xF8\x02\x00\x00\x01"
+				"linux"		"@_ZN12CCSGameRules16VIPRoundEndCheckEb"
+			}
+
+			"CCSGameRules::TeamExterminationCheck"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x51\x56\x8B\xF1\x57\x89\x75\xFC\x83\xBE\x7C\x02\x00\x00\x00"
+				"linux"		"@_ZN12CCSGameRules22TeamExterminationCheckEiiiib"
+			}
+
+			"CCSGameRules::BombRoundEndCheck"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x56\x8B\xF1\x80\xBE\x04\x03\x00\x00\x01"
+				"linux"		"@_ZN12CCSGameRules17BombRoundEndCheckEb"
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		"CRC"
+		{
+			"server"
+			{
+				"windows"	"D41B675F"
+				"linux"		"78354816"
+			}
+		}
+	}
+}
