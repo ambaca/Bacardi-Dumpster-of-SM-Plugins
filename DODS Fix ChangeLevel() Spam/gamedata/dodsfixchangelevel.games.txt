@@ -1,0 +1,44 @@
+
+
+
+"Games"
+{
+	"dod"
+	{
+		"CRC"
+		{
+			"server"
+			{
+				"windows"	"8BA74095"
+				"linux"		"91EBECB1"
+			}
+		}
+
+		"Addresses"
+		{
+			"ChangeLevel"
+			{
+				"signature"	"ChangeLevel_signature"
+				"offset"	"0x7F"
+			}
+		}
+		
+		"Offsets"
+		{
+			"ChangeLevelOffset"
+			{
+				"windows"	"150"
+				"linux"		"151"
+			}
+		}
+		
+		"Signatures"
+		{
+			"ChangeLevel_signature"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8B\xEC\x8B\x15\x2A\x2A\x2A\x2A\x83\xEC\x64" // 55 8B EC 8B 15 ? ? ? ? 83 EC 64 
+			}
+		}
+	}
+}
