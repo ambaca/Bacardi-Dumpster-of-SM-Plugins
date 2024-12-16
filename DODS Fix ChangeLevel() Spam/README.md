@@ -1,7 +1,6 @@
-[DOD:S] Fix ChangeLevel() Spam
+# [DOD:S] Fix ChangeLevel() Spam
 
-```
-	*update 16.12.2024 - Updated gamedata, tested on Windows and Linux.
+*update 16.12.2024 - Updated gamedata, tested on Windows and Linux.
 
 There is a bug 🪳 inside game code which execute twice ChangeLevel() function when match end (two map changes at once).
 ```
@@ -26,8 +25,6 @@ ConVarRef sk_suitcharger doesn't point to an existing ConVar
 - SM version 1.12.0.7029 and later, bug appears again. There has been update in SM core #1545
 
 This plugin gonna fix 🛠️ that DOD:S bug.
-```
-
 ```
 SourcePawn Compiler 1.12.0.7172
 Copyright (c) 1997-2006 ITB CompuPhase
